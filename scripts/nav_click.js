@@ -9,3 +9,8 @@ function myAccFunc() {
       x.previousElementSibling.className.replace(" w3-theme-d5", "");
     }
   }
+
+
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
