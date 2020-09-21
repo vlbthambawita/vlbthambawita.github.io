@@ -1,9 +1,18 @@
-<nav>
+<nav class="w3-sidebar w3-bar-block w3-theme w3-large" >
+    <a href="/" class="w3-bar-item w3-hover-text-black w3-xxlarge"><img src="/assets/images/IMG_0024.jpg" class="w3-image w3-circle"></i></a>
+
+    
     {% for item in site.data.navigation %}
 
-        <a href="{{ item.link }}" {% if page.url ==  item.link  %} class=current {% endif %}>
+        <a href="{{ item.link }}"  {% if page.url == item.link %} 
+                                        class="w3-bar-item w3-black" 
+                                    {% else %} 
+                                        class="w3-bar-item w3-hover-text-black"  
+                                    {% endif %} >
             {{ item.name }}
         </a>
 
     {% endfor %}
+   
 </nav>
+

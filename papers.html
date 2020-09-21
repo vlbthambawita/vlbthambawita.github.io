@@ -1,0 +1,11 @@
+---
+layout: default
+title: Papers
+---
+<ul>
+    {% for paper in site.papers %}
+        <li>
+            <h3> <a href="{{ paper.url }}">{{ paper.paper_title }} </a></h3>
+        </li>
+    {% endfor %}
+</ul>

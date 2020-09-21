@@ -3,10 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/assets/css/styles.css"> 
+  
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-deep-orange.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
-  <body>
-    {% include navigation.html %}
-    {{ content }}
+  <body class="w3-black">
+    <div class="w3-row">
+      
+      <div class="w3-col w3-container s6 m4 l3">
+        <p>{% include navigation.html %}</p>
+      </div>
+
+      <div class="w3-col w3-container s6 m8 l9">
+        <p>{{ content }}</p>
+      </div>
+
+    </div>
+    
   </body>
 </html>
