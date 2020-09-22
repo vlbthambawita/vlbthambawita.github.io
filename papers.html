@@ -2,10 +2,17 @@
 layout: default
 title: Papers
 ---
+<h2> Papers </h2>
+
+<div class="w3-margin-top">
 <ul>
-    {% for paper in site.papers %}
-        <li>
-            <h3> <a href="{{ paper.url }}">{{ paper.paper_title }} </a></h3>
+    {% assign sorted_papers = site.papers | sort: "published" | reverse %}
+    {% for paper in sorted_papers %}
+        <li class="w3-hover-text-theme">
+            <h3> <a href="{{ paper.url }}" >{{ paper.paper_title }} </a></h3>
+            <h5> <i>{{ paper.paper_authors }} </i></h5>
         </li>
     {% endfor %}
 </ul>
+
+</div>
