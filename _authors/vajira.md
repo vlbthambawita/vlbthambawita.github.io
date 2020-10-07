@@ -5,4 +5,4 @@ name: Vajira Thambawita
 position: Researcher
 ---
 
-I am Vajir Thambawita
+
