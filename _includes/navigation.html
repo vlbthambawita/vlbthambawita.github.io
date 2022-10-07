@@ -1,13 +1,13 @@
-<nav class="w3-sidebar w3-bar-block w3-theme w3-large" >
-    <a href="/" class="w3-bar-item w3-hover-text-black w3-xxlarge"><img src="/assets/images/IMG_0024.jpg" class="w3-image w3-circle"></i></a>
-
+<nav class="w3-sidebar w3-bar-block w3-theme w3-mobile w3-cell" style="width:10%">
+    <a href="/" class="w3-bar-item w3-hover-text-black w3-mobile"><img src="/assets/images/IMG_0024.jpg" class="w3-image w3-circle"></i></a>
+    
     
     {% for item in site.data.navigation %}
 
         <a href="{{ item.link }}"  {% if page.url == item.link %} 
-                                        class="w3-bar-item w3-black" 
+                                        class="w3-bar-item w3-black w3-mobile" 
                                     {% else %} 
-                                        class="w3-bar-item w3-hover-text-black"  
+                                        class="w3-bar-item w3-hover-text-black w3-mobile"  
                                     {% endif %} >
             {{ item.name }}
         </a>
