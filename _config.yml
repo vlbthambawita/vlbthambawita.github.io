@@ -3,3 +3,5 @@ collections:
     output: True
   papers:
     output: True
+  projects:
+    output: True
