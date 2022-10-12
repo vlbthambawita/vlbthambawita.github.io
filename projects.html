@@ -11,24 +11,27 @@ title: Projects
     <div class="w3-row-padding w3-margin-top">
 
         {% for project in sorted_projects %}
+        {% if project.show %}
         
         <div class="w3-third">
            
-            <div class="w3-card w3-deep-orange w3-hover-grayscale w3-margin-top">
-                <header class="w3-container w3-deep-orange">
-                    <h1>{{ project.project_title }}</h1>
-                </header>
-                <img src={{ project.display_image }} style="width:100%">
+            <a href="{{ project.url }}">
+                <div class="w3-card w3-deep-orange w3-hover-grayscale w3-margin-top">
+                    <header class="w3-container w3-deep-orange">
+                        <h1>{{ project.project_title }}</h1>
+                    </header>
+                    <img src={{ project.display_image }} style="width:100%">
 
-                <p> {{ project.project_title }} </p> 
+                    <p> {{ project.project_title }} </p> 
 
-                <footer class="w3-container w3-deep-orange">
-                    <h5>{{ project.project_title }} </h5>
-                </footer>
+                    <footer class="w3-container w3-deep-orange">
+                        <h5>{{ project.project_title }} </h5>
+                    </footer>
 
-            </div>
+                </div>
+            </a>
         </div>
-        
+        {% endif %}
         {% endfor %}
         
 
