@@ -8,28 +8,28 @@ title: Projects
     <p> Differnt projects which I involve actively...</p>
     {% assign sorted_projects = site.projects | sort: "display_position" %}
 
-    <div class="w3-row-padding w3-margin-top">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
 
         {% for project in sorted_projects %}
         {% if project.show %}
         
-        <div class="w3-third">
-           
-            <a href="{{ project.url }}">
-                <div class="w3-card w3-deep-orange w3-hover-grayscale w3-margin-top">
-                    <header class="w3-container w3-deep-orange">
-                        <h1>{{ project.project_title }}</h1>
-                    </header>
-                    <img src={{ project.display_image }} style="width:100%">
-
-                    <p> {{ project.project_title }} </p> 
-
-                    <footer class="w3-container w3-deep-orange">
-                        <h5>{{ project.project_title }} </h5>
-                    </footer>
-
+        <div class="col">
+            <a href="{{ project.url }}"></a>
+                <div class="card h-100" style="width: 18rem;">
+                        <img  class="bd-placeholder-img card-img-top" src={{ project.display_image }} style="width:100%">
+                        <div class="card-body">
+                            <h5 class="card-title">{{project.project_title}}</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="{{ project.url }}" class="btn btn-primary">Read more</a>
+                        </div>
+                        {% if project.status == "ongoing" %}
+                        <div class="card-footer">
+                            <small class="badge text-bg-success">{{ project.status }}</small>
+                        </div>
+                        {% endif %}
                 </div>
             </a>
+            
         </div>
         {% endif %}
         {% endfor %}

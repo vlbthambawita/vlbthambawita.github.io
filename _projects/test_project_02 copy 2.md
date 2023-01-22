@@ -1,10 +1,10 @@
 ---
 layout: project
 project_title: Project 2
-status: ongoing
+status: not ongoing
 display_position: 1
 display_image: /assets/images/ecg.png
-show: False
+show: True
 ---
 Test project
 
