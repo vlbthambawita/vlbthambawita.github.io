@@ -5,14 +5,20 @@ title: Papers
 <h2> Papers </h2>
 
 <div class="container">
-<ul class="list-group list-group-flush">
+
     {% assign sorted_papers = site.papers | sort: "published" | reverse %}
-    {% for paper in sorted_papers %}
-        <li class="w3-hover-text-theme">
-            <h3> <a href="{{ paper.url }}" class="link-success">{{ paper.paper_title }} </a></h3>
-            <h5> <i>{{ paper.paper_authors }} </i></h5>
-        </li>
+    {% assign grouped_papers = site.papers | group_by: "published" | reverse %}
+    {% for grp in grouped_papers %}
+        <h3> {{ grp.name }} </h3>
+        <ol class="list-group list-group-numbered">
+            {% for paper in grp.items %}
+                <li class="list-group-item">
+                    <h5> <a href="{{ paper.url }}" class="link-success">{{ paper.paper_title }} </a></h5>
+                    <i>{{ paper.paper_authors }} </i>
+                </li>
+            {% endfor %}
+        </ol>
     {% endfor %}
-</ul>
+
 
 </div>
