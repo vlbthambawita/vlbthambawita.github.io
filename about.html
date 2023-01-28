@@ -2,29 +2,35 @@
 layout: default
 title: about
 ---
-
-<h2>{{ site.data.myself.name }}</h2>
-
-{{ site.data.myself.about }}
-
-<h3>Employment and Experiences</h3>
 <div class="container">
+    <h2>{{ site.data.myself.name }}</h2>
 
-    {%  assign reverse_exps = site.data.my_experience.exps | reverse %}
-    <ol class="list-group"></ul>
-    {% for item in reverse_exps %}
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class="ms-2 me-auto">
-              <div class="fw-bold">{{ item.exp }}</div>
-              {{ item.location }}
-                <div>
-                    <i> {{ item.job }} </i>
-                </div>
-            </div>
-            <span class="badge bg-primary rounded-pill">{{ item.period }}</span>
-          </li>
-    {% endfor %}
-    </ol>
+    {{ site.data.myself.about }}
 
 </div>
+
+
+<div class="container">
+    <h3>Employment and Experiences</h3>
+    <div class="container">
+
+        {%  assign reverse_exps = site.data.my_experience.exps | reverse %}
+        <ol class="list-group"></ul>
+        {% for item in reverse_exps %}
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold text-info bg-dark">{{ item.exp }}</div>
+                {{ item.location }}
+                    <div>
+                        <i> {{ item.job }} </i>
+                    </div>
+                </div>
+                <span class="badge bg-primary rounded-pill">{{ item.period }}</span>
+            </li>
+        {% endfor %}
+        </ol>
+    </div>
+
+</div>
+
 
