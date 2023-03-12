@@ -13,7 +13,7 @@ title: Papers
         <ol class="list-group list-group-numbered">
             {% for paper in grp.items %}
                 <li class="list-group-item">
-                    <h5> <a href="{{ paper.url }}" class="link-info">{{ paper.paper_title }} </a></h5>
+                    <h5> <a href="{{ paper.url }}" class="paper-link">{{ paper.paper_title }} </a></h5>
                     <i>{{ paper.paper_authors }} </i>
                 </li>
             {% endfor %}

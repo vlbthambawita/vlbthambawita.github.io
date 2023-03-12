@@ -3,34 +3,40 @@ exps:
     location: Air Force Head Quaters, Sri Lanka
     period: May 2010 - November 2010
     job: Software development (Human Resources Management System)
+    present: False
 
   - exp: Instructor (Temporary)
     location: Department of Computer Engineering, University of Peradeniya, Sri Lanka
     period: September 2011 - April 2013
     job: Conducting Laboratory Classes and Preparing Handouts (Logic Networks, Computer Interfacing, Computer Architecture, Programming Language, Systems and Network Programming Lab and Project, Computer Programming, Computing, Operating Systems)
+    present: False
 
   - exp: Lecturer (Temporary)
     location: Department of Computer Science, Uva Wellasssa University, Sri Lanka
     period: April 2013 - August 2013
     job: Teaching (Distributed and Parallel Computing, Microelectronics), Temporary Computer System Analyst
+    present: False
 
   - exp: Visiting Lecturer
     location: Department of Computing and Information Systems, Sabaragamuwa University, Sri Lanka
     period: May 2017 - November 2017
     job: Teaching ( Embedded Systems )
+    present: False
 
   - exp: Lecturer
     location: Department of Computer Science, Uva Wellasssa University, Sri Lanka
     period: August 2013 - May 2018
     job: Teaching (Microcomputer Architecture and Logic Design, Advanced Database Management Systems, Artificial Intelligent Systems, Fuzzy Logic and Fuzzy Controllers, Cryptographic Systems, System Level Programming, Computer Systems Architecture), Supervision (Undergraduate Research Projects)
+    present: False
 
   - exp: Postdoctoral Fellow
     location: Department of Holistic Systems, SimulaMet, Norway
     period: July 2021 - February 2022
     job: Research studies ( DeepSynthBody, Machine learning for ECG analysis, GI tract analysis and Sperm analysis ), Supervision ( Master students' research projects )
+    present: False
 
   - exp: Research Scientist
     location: Department of Holistic Systems, SimulaMet, Norway
     period: March 2022 - PRESENT
     job: Research studies (DeepSynthBody, Machine learning for ECG analysis, GI tract analysis and Sperm analysis), Supervision (Master students' research projects)
-
+    present: True

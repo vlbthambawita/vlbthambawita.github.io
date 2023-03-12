@@ -3,8 +3,60 @@ layout: default
 title: home
 ---
 
-<h2>Will be updated soon</h2>
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>About Me</h2>
+        <div> <img src="{{ site.data.myself.photo }}" class="myimg" alt="Cinque Terre"> </div>
 
-<h3>{{ site.data.myself.name }}</h3>
+        <p>{{ site.data.myself.about }}</p>
+        
+        <h3 class="mt-4">LINKS: </h3>
+        <p>To get more informatin about me.</p>
+        {% assign sorted_links = site.data.myself.links | sort: "order" %}
+        <ul class="nav nav-pills flex-column">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                {% for item in sorted_links %}
+                <dev class="col">
+                    <a href="{{ item.link }}" target=”_blank”><i class="{{ item.fa-class }}"></i></a>
+                </dev>
+           {% endfor %} 
 
-{{ site.data.myself.about }}
+            </div>
+           
+        </ul>
+
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+        <div class="container">
+            <h3>Employments and Experiences</h3>
+            <div class="container">
+        
+                {%  assign reverse_exps = site.data.my_experience.exps | reverse %}
+                <ol class="list-group"></ul>
+                {% for item in reverse_exps %}
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                        <div class="fw-bold text-danger bg-dark">{{ item.exp }}</div>
+                        {{ item.location }}
+                            <div>
+                                <i> {{ item.job }} </i>
+                            </div>
+                        </div>
+                        {% if item.present %}
+                            <span class="badge badge-present rounded-pill">{{ item.period }}</span>
+                        {% else %}
+                            <span class="badge badge-old rounded-pill">{{ item.period }}</span>
+                        {% endif %}
+
+                    </li>
+                {% endfor %}
+                </ol>
+            </div>
+        
+        </div>
+
+      </div>
+    </div>
+  </div>

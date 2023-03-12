@@ -6,3 +6,32 @@ emails:
   -vlbthambawita@gmail.com
 about: Vajira is a resech scientist at SimulaMet, Norway. He is from the computer engineering background. A thesis with the title "Cache Optimization techniques of GPGPUs" was  completed for his master degree. He is currently working on a research project called  Generative Adversarial Network in Medicine, which is targeting better cross-domain feature transfer mechanisms.  In addition to his main research project, he has completed severla dataset papers and deep learning method papers in the domain of medicine.
 icon: /assets/images/dalle_me.png
+photo: /assets/images/IMG_0024.jpg
+
+links:
+  - name: Facebook
+    link: https://www.facebook.com/vajira.thambawita
+    fa-class: "fa-brands fa-facebook socialicon fa-4x" 
+    order: 2
+  - name: GitHub
+    link: https://github.com/vlbthambawita
+    fa-class: "fa-brands fa-github socialicon fa-4x"
+    order: 1
+  - name: Office
+    link: https://www.simula.no/people/vajira
+    fa-class: "fa-solid fa-briefcase socialicon fa-4x" 
+    order: 3
+  - name: Googlescholar
+    link: https://scholar.google.com/citations?user=hSe42z0AAAAJ&hl=en&authuser=1
+    fa-class: "fa-solid fa-graduation-cap socialicon fa-4x" 
+    order: 5
+  - name: twitter
+    link: https://twitter.com/vlbthambawita
+    fa-class: "fa-brands fa-square-twitter socialicon fa-4x"
+    order: 4
+  - name: hugging-face
+    link: https://huggingface.co/vlbthambawita
+    fa-class: "fa-solid fa-flask socialicon fa-4x" 
+    order: 6
+ 
+
