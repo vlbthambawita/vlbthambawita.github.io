@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
+#- name: About
+#  link: /about.html
 #- name: Blog
 #  link: /blog.html
 #- name: Staff
@@ -10,3 +10,5 @@
   link: /papers.html
 - name: Projects
   link: /projects.html
+- name: Students
+  link: /students.html

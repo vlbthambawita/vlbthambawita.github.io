@@ -4,7 +4,7 @@ project_title: Project 2
 status: not ongoing
 display_position: 1
 display_image: /assets/images/ecg.png
-show: True
+show: False
 ---
 Test project
 

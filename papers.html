@@ -2,17 +2,18 @@
 layout: default
 title: Papers
 ---
-<h2> Papers </h2>
+<h2> Papers : {{ site.papers | size }} </h2>
 
 <div class="container">
 
     {% assign sorted_papers = site.papers | sort: "published" | reverse %}
     {% assign grouped_papers = site.papers | group_by: "published" | reverse %}
+    
     {% for grp in grouped_papers %}
         <h3> {{ grp.name }} </h3>
-        <ol class="list-group list-group-numbered">
+        <ol> <!-- class="list-group list-group-numbered" -->
             {% for paper in grp.items %}
-                <li class="list-group-item">
+                <li> <!-- class="list-group-item"-->
                     <h5> <a href="{{ paper.url }}" class="paper-link">{{ paper.paper_title }} </a></h5>
                     <i>{{ paper.paper_authors }} </i>
                 </li>

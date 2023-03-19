@@ -59,4 +59,14 @@ title: home
 
       </div>
     </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            e-mail to: 
+            {% for email in  site.data.myself.emails %}
+            <a href = "mailto:{{ email }}">{{ email }}</a>  |
+            {% endfor %}
+            
+        </div>
+    </div>
   </div>

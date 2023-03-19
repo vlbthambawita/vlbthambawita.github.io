@@ -5,3 +5,5 @@ collections:
     output: True
   projects:
     output: True
+  students:
+    output: True
