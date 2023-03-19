@@ -2,6 +2,11 @@
   color: green;
 }
 
+.active {
+  color: #dc3545 !important;
+  font-weight: bold;
+}
+
 h2 {
   color: #dc3545;
 }
