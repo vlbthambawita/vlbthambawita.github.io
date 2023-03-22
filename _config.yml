@@ -7,3 +7,15 @@ collections:
     output: True
   students:
     output: True
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      search_exclude: true
+  -
+    scope:
+      path: "search"
+    values:
+      layout: "search"
