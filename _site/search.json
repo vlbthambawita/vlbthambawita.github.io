@@ -1,0 +1,155 @@
+[
+  
+    {
+      "title": "To use or not to use; Graphics processing units (GPUs) for pattern matching algorithms",
+      "url": "http://localhost:4000/papers/2014_12.html",
+      "authors": "DRVLB Thambawita, Roshan Ragel, Dhammika Elkaduwe",
+      "year": "2014",
+      "content": "String matching is an important part in today’s computer applications and Aho-Corasick algorithm is one of the main string matching algorithms used to accomplish this. This paper discusses that when can the GPUs be used for string matching applications using the Aho-Corasick algorithm as a benchmark We have to identify the best unit to run our string matching algorithm according to the performance of our devices and the applications. Sometimes CPU gives better performance than GPU and sometimes GPU gives better performance than CPU. Therefore, identifying this critical point is significant task for researchers who are using GPUs to improve the performance of their string matching applications based on string matching algorithms.Citation:@INPROCEEDINGS{7069585,  author={Thambawita, D. R. V. L. B. and Ragel, Roshan and Elkaduwe, Dhammika},  booktitle={7th International Conference on Information and Automation for Sustainability},   title={To use or not to use: Graphics processing units (GPUs) for pattern matching algorithms},   year={2014},  pages={1-4},  doi={10.1109/ICIAFS.2014.7069585}}"
+    } ,
+  
+    {
+      "title": "An optimized Parallel Failure-less Aho-Corasick algorithm for DNA sequence matching",
+      "url": "http://localhost:4000/papers/2016_12.html",
+      "authors": "DRVLB Thambawita, Roshan G Ragel, Dhammike Elkaduwe",
+      "year": "2016",
+      "content": "The Aho-Corasick algorithm is a multiple patterns searching algorithm running sequentially in various applications like network intrusion detection and bioinformatics for finding several input strings within a given large input string. The parallel version of the Aho-Corasick algorithm is called as Parallel Failure-less Aho-Corasick algorithm because it doesnt need failure links like in the original Aho-Corasick algorithm. In this research, we implemented an application specific parallel failureless Aho-Corasick algorithm on the general purpose graphic processing unit by applying several cache optimization techniques for matching DNA sequences. Our parallel Aho-Corasick algorithm shows better performance than the available parallel Aho-Corasick algorithm library due to its simplicity and optimized cache memory usage of graphic processing units for matching DNA sequences."
+    } ,
+  
+    {
+      "title": "To use or not to use - CPUs&#39; cache optimization techniques on GPGPUs",
+      "url": "http://localhost:4000/papers/2016_12_2.html",
+      "authors": "DRVLB Thambawita, Roshan G Ragel, Dhammike Elkaduwe",
+      "year": "2016",
+      "content": "General Purpose Graphic Processing Unit(GPGPU) is used widely for achieving high performance or high throughput in parallel programming. This capability of GPGPUs is very famous in the new era and mostly used for scientific computing which requires more processing power than normal personal computers. Therefore, most of the programmers, researchers and industry use this new concept for their work. However, achieving high-performance or high-throughput using GPGPUs are not an easy task compared with conventional programming concepts in the CPU side. In this research, the CPUs cache memory optimization techniques have been adopted to the GPGPUs cache memory to identify rare performance improvement techniques compared to GPGPU’s best practices. The cache optimization techniques of blocking, loop fusion, array merging and array transpose were tested on GPGPUs for finding suitability of these techniques. Finally, we identified that some of the CPU cache optimization techniques go well with the cache memory system of the GPGPU and shows performance improvements while some others show the opposite effect on the GPGPUs compared with the CPUs."
+    } ,
+  
+    {
+      "title": "Using Preprocessing as a Tool in Medical Image Detection",
+      "url": "http://localhost:4000/papers/2018_00.html",
+      "authors": "Mathias Kirkerød, Vajira Thambawita, Michael Riegler, Pål Halvorsen",
+      "year": "2018",
+      "content": "In this paper we describe our approach to gastrointestinal disease classification for the medico task at MediaEval 2018. We propose multiple ways to inpaint problematic areas in the test and training set to help with classification. We discuss the effect that preprocessing does to the input data with respect to removing regions with sparse information. We also discuss how preprocessing affects the training and evaluation of a dataset that is limited in size. We will also compare the different inpainting methods with transfer learning using a convolutional neural network."
+    } ,
+  
+    {
+      "title": "The medico-task 2018; Disease detection in the gastrointestinal tract using global features and deep learning",
+      "url": "http://localhost:4000/papers/2018_10.html",
+      "authors": "Vajira Thambawita, Debesh Jha, Michael Riegler, Pål Halvorsen, Hugo Lewi Hammer, Håvard D Johansen, Dag Johansen",
+      "year": "2018",
+      "content": "In this paper, we present our approach for the 2018 Medico Task classifying diseases in the gastrointestinal tract. We have proposed a system based on global features and deep neural networks. The best approach combines two neural networks, and the reproducible experimental results signify the efficiency of the proposed model with an accuracy rate of 95.80%, a precision of 95.87%, and an F1-score of 95.80%"
+    } ,
+  
+    {
+      "title": "Unsupervised preprocessing to improve generalisation for medical image classification",
+      "url": "http://localhost:4000/papers/2019_05.html",
+      "authors": "Mathias Kirkerød, Rune Johan Borgli, Vajira Thambawita, Steven Hicks, Michael Alexander Riegler, Pål Halvorsen",
+      "year": "2019",
+      "content": "Automated disease detection in videos and images from the gastrointestinal (GI) tract has received much attention in the last years. However, the quality of image data is often reduced due to overlays of text and positional data. In this paper, we present different methods of preprocessing such images and we describe our approach to GI disease classification for the Kvasir v2 dataset. We propose multiple approaches to inpaint problematic areas in the images to improve the anomaly classification, and we discuss the effect that such preprocessing does to the input data. In short, our experiments show that the proposed methods improve the Matthews correlation coefficient by approximately 7% in terms of better classification of GI anomalies."
+    } ,
+  
+    {
+      "title": "GANEx - A complete pipeline of training, inference and benchmarking GAN experiments",
+      "url": "http://localhost:4000/papers/2019_09.html",
+      "authors": "Vajira Thambawita, Hugo Lewi Hammer, Michael Riegler, Pål Halvorsen",
+      "year": "2019",
+      "content": "Deep learning (DL) is one of the standard methods in the field of multimedia research to perform data classification, detection, segmentation and generation. Within DL, generative adversarial networks (GANs) represents a new and highly popular branch of methods. GANs have the capability to generate, from random noise or conditional input, new data realizations within the dataset population. While generation is popular and highly useful in itself, GANs can also be useful to improve supervised DL. GAN-based approaches can, for example, perform segmentation or create synthetic data for training other DL models. The latter one is especially interesting in domains where not much training data exists such as medical multimedia. In this respect, performing a series of experiments involving GANs can be very time consuming due to the lack of tools that support the whole pipeline such as structured training, testing and tracking of different architectures and configurations. Moreover, the success of generative models is highly dependent on hyper-parameter optimization and statistical analysis in the design and fine-tuning stages. In this paper, we present a new tool called GANEx for making the whole pipeline of training, inference and benchmarking GANs faster, more efficient and more structured. The tool consists of a special library called FastGAN which allows designing generative models very fast. Moreover, GANEx has a graphical user interface to support structured experimenting, quick hyper-parameter configurations and output analysis. The presented tool is not limited to a specific DL framework and can be therefore even used to compare the performance of cross frameworks."
+    } ,
+  
+    {
+      "title": "Machine learning-based analysis of sperm videos and participant data for male fertility prediction",
+      "url": "http://localhost:4000/papers/2019_11.html",
+      "authors": "Steven A Hicks, Jorunn M Andersen, Oliwia Witczak, Vajira Thambawita, Pål Halvorsen, Hugo L Hammer, Trine B Haugen, Michael A Riegler",
+      "year": "2019",
+      "content": "Methods for automatic analysis of clinical data are usually targeted towards a specific modality and do not make use of all relevant data available. In the field of male human reproduction, clinical and biological data are not used to its fullest potential. Manual evaluation of a semen sample using a microscope is time-consuming and requires extensive training. Furthermore, the validity of manual semen analysis has been questioned due to limited reproducibility, and often high inter-personnel variation. The existing computer-aided sperm analyzer systems are not recommended for routine clinical use due to methodological challenges caused by the consistency of the semen sample. Thus, there is a need for an improved methodology. We use modern and classical machine learning techniques together with a dataset consisting of 85 videos of human semen samples and related participant data to automatically predict sperm motility. Used techniques include simple linear regression and more sophisticated methods using convolutional neural networks. Our results indicate that sperm motility prediction based on deep learning using sperm motility videos is rapid to perform and consistent. Adding participant data did not improve the algorithms performance. In conclusion, machine learning-based automatic analysis may become a valuable tool in male infertility investigation and research."
+    } ,
+  
+    {
+      "title": "Stacked dense optical flows and dropout layers to predict sperm motility and morphology",
+      "url": "http://localhost:4000/papers/2019_11_2.html",
+      "authors": "Vajira Thambawita, Pål Halvorsen, Hugo Hammer, Michael Riegler, Trine B Haugen",
+      "year": "2019",
+      "content": "In this paper, we analyse two deep learning methods to predict sperm motility and sperm morphology from sperm videos. We use two different inputs: stacked pure frames of videos and dense optical flows of video frames. To solve this regression task of predicting motility and morphology, stacked dense optical flows and extracted original frames from sperm videos were used with the modified state of the art convolution neural networks. For modifications of the selected models, we have introduced an additional multi-layer perceptron to overcome the problem of over-fitting. The method which had an additional multi-layer perceptron with dropout layers, shows the best results when the inputs consist of both dense optical flows and an original frame of videos."
+    } ,
+  
+    {
+      "title": "Extracting temporal features into a spatial domain using autoencoders for sperm video analysis",
+      "url": "http://localhost:4000/papers/2019_11_3.html",
+      "authors": "Vajira Thambawita, Pål Halvorsen, Hugo Hammer, Michael Riegler, Trine B Haugen",
+      "year": "2019",
+      "content": "In this paper, we present a two-step deep learning method that is used to predict sperm motility and morphology-based on video recordings of human spermatozoa. First, we use an autoencoder to extract temporal features from a given semen video and plot these into image-space, which we call feature-images. Second, these feature-images are used to perform transfer learning to predict the motility and morphology values of human sperm. The presented method shows it’s capability to extract temporal information into spatial domain feature-images which can be used with traditional convolutional neural networks. Furthermore, the accuracy of the predicted motility of a given semen sample shows that a deep learning-based model can capture the temporal information of microscopic recordings of human semen."
+    } ,
+  
+    {
+      "title": "PSYKOSE- A Motor Activity Database of Patients with Schizophrenia",
+      "url": "http://localhost:4000/papers/2020_02.html",
+      "authors": "Petter Jakobsen, Enrique Garcia Ceja, Lena Antonsen Stabell, Ketil Joachim Oedegaard, Jan Oystein Berle, Vajira Thambawita, Steven Hicks, Pål Halvorsen, Michael Riegler, Ole Bernt Fasmer",
+      "year": "2020",
+      "content": "Using sensor data from devices such as smart-watches or mobile phones is very popular in both computer science and medical research. Such movement data can predict certain health states or performance outcomes. However, in order to increase reliability and replication of the research, it is important to share data and results openly. In medicine, this is often difficult due to legal restrictions or to the fact that data collected from clinical trials is seen as very valuable and something that should be kept “in-house”. In this paper, we therefore present PSYKOSE, a publicly shared dataset consisting of motor activity data collected from body sensors. The dataset contains data collected from patients with schizophrenia. Schizophrenia is a severe mental disorder characterized by psychotic symptoms like hallucinations and delusions, as well as symptoms of cognitive dysfunction and diminished motivation. In total, we have data from 22 patients with schizophrenia and 32 healthy control persons. For each person in the dataset, we provide sensor data collected over several days in a row. In addition to the sensor data, we also provide some demographic data and medical assessments during the observation period. The patients were assessed by medical experts from Haukeland University hospital. In addition to the data, we provide a baseline analysis and possible use-cases of the dataset."
+    } ,
+  
+    {
+      "title": "Toadstool; a dataset for training emotional intelligent machines playing Super Mario Bros",
+      "url": "http://localhost:4000/papers/2020_05.html",
+      "authors": "Henrik Svoren, Vajira Thambawita, Pål Halvorsen, Petter Jakobsen, Enrique Garcia-Ceja, Farzan Majeed Noori, Hugo L Hammer, Mathias Lux, Michael Alexander Riegler, Steven Alexander Hicks",
+      "year": "2020",
+      "content": "Games are often defined as engines of experience, and they are heavily relying on emotions, they arouse in players. In this paper, we present a dataset called Toadstool as well as a reproducible methodology to extend on the dataset. The dataset consists of video, sensor, and demographic data collected from ten participants playing Super Mario Bros, an iconic and famous video game. The sensor data is collected through an Empatica E4 wristband, which provides high-quality measurements and is graded as a medical device. In addition to the dataset and the methodology for data collection, we present a set of baseline experiments which show that we can use video game frames together with the facial expressions to predict the blood volume pulse of the person playing Super Mario Bros. With the dataset and the collection methodology we aim to contribute to research on emotionally aware machine learning algorithms, focusing on reinforcement learning and multimodal data fusion. We believe that the presented dataset can be interesting for a manifold of researchers to explore exciting new interdisciplinary questions."
+    } ,
+  
+    {
+      "title": "PMData - a sports logging dataset",
+      "url": "http://localhost:4000/papers/2020_05_2.html",
+      "authors": "Vajira Thambawita, Steven Alexander Hicks, Hanna Borgli, Håkon Kvale Stensland, Debesh Jha, Martin Kristoffer Svensen, Svein-Arne Pettersen, Dag Johansen, Håvard Dagenborg Johansen, Susann Dahl Pettersen, Simon Nordvang, Sigurd Pedersen, Anders Gjerdrum, Tor-Morten Grønli, Per Morten Fredriksen, Ragnhild Eg, Kjeld Hansen, Siri Fagernes, Christine Claudi, Andreas Biørn-Hansen, Duc Tien Dang Nguyen, Tomas Kupka, Hugo Lewi Hammer, Ramesh Jain, Michael Alexander Riegler, Pål Halvorsen",
+      "year": "2020",
+      "content": "In this paper, we present PMData: a dataset that combines traditional lifelogging data with sports-activity data. Our dataset enables the development of novel data analysis and machine-learning applications where, for instance, additional sports data is used to predict and analyze everyday developments, like a person’s weight and sleep patterns; and applications where traditional lifelog data is used in a sports context to predict athletes’ performance. PMData combines input from Fitbit Versa 2 smartwatch wristbands, the PMSys sports logging smartphone application, and Google forms. Logging data has been collected from 16 persons for five months. Our initial experiments show that novel analyses are possible, but there is still room for improvement."
+    } ,
+  
+    {
+      "title": "An Extensive Study on Cross-Dataset Bias and Evaluation Metrics Interpretation for Machine Learning Applied to Gastrointestinal Tract Abnormality Classification",
+      "url": "http://localhost:4000/papers/2020_06.html",
+      "authors": "An Extensive Study on Cross-Dataset Bias and Evaluation Metrics Interpretation for Machine Learning Applied to Gastrointestinal Tract Abnormality Classification",
+      "year": "2020",
+      "content": "Precise and efficient automated identification of gastrointestinal (GI) tract diseases can help doctors treat more patients and improve the rate of disease detection and identification. Currently, automatic analysis of diseases in the GI tract is a hot topic in both computer science and medical-related journals. Nevertheless, the evaluation of such an automatic analysis is often incomplete or simply wrong. Algorithms are often only tested on small and biased datasets, and cross-dataset evaluations are rarely performed. A clear understanding of evaluation metrics and machine learning models with cross datasets is crucial to bring research in the field to a new quality level. Toward this goal, we present comprehensive evaluations of five distinct machine learning models using global features and deep neural networks that can classify 16 different key types of GI tract conditions, including pathological findings, anatomical landmarks, polyp removal conditions, and normal findings from images captured by common GI tract examination instruments. In our evaluation, we introduce performance hexagons using six performance metrics, such as recall, precision, specificity, accuracy, F1-score, and the Matthews correlation coefficient to demonstrate how to determine the real capabilities of models rather than evaluating them shallowly. Furthermore, we perform cross-dataset evaluations using different datasets for training and testing. With these cross-dataset evaluations, we demonstrate the challenge of actually building a generalizable model that could be used across different hospitals. Our experiments clearly show that more sophisticated performance metrics and evaluation methods need to be applied to get reliable models rather than depending on evaluations of the splits of the same dataset—that is, the performance metrics should always be interpreted together rather than relying on a single metric."
+    } ,
+  
+    {
+      "title": "HyperKvasir, a comprehensive multi-class image and video dataset for gastrointestinal endoscopy",
+      "url": "http://localhost:4000/papers/2020_08.html",
+      "authors": "Hanna Borgli, Vajira Thambawita, Pia H Smedsrud, Steven Hicks, Debesh Jha, Sigrun L Eskeland, Kristin Ranheim Randel, Konstantin Pogorelov, Mathias Lux, Duc Tien Dang Nguyen, Dag Johansen, Carsten Griwodz, Håkon K Stensland, Enrique Garcia-Ceja, Peter T Schmidt, Hugo L Hammer, Michael A Riegler, Pål Halvorsen, Thomas de Lange",
+      "year": "2020",
+      "content": "Artificial intelligence is currently a hot topic in medicine. However, medical data is often sparse and hard to obtain due to legal restrictions and lack of medical personnel for the cumbersome and tedious process to manually label training data. These constraints make it difficult to develop systems for automatic analysis, like detecting disease or other lesions. In this respect, this article presents HyperKvasir, the largest image and video dataset of the gastrointestinal tract available today. the data is collected during real gastro- and colonoscopy examinations at Bærum Hospital in Norway and partly labeled by experienced gastrointestinal endoscopists. The dataset contains 110,079 images and 374 videos, and represents anatomical landmarks as well as pathological and normal findings. The total number of images and video frames together is around 1 million. Initial experiments demonstrate the potential benefits of artificial intelligence-based computer-assisted diagnosis systems. The HyperKvasir dataset can play a valuable role in developing better algorithms and computer-assisted examination systems not only for gastro- and colonoscopy, but also for other fields in medicine."
+    } ,
+  
+    {
+      "title": "HTAD - A Home-Tasks Activities Dataset with Wrist-accelerometer and Audio Features",
+      "url": "http://localhost:4000/papers/2020_08_04.html",
+      "authors": "Enrique Garcia-Ceja, Vajira Thambawita, Steven Hicks, Debesh Jha, Petter Jakobsen, Hugo L Hammer, Pål Halvorsen, Michael Riegler",
+      "year": "2020",
+      "content": "In this paper, we present HTAD: A Home Tasks Activities Dataset. The dataset contains wrist-accelerometer and audio data from people performing at-home tasks such as sweeping, brushing teeth, washing hands, or watching TV. These activities represent a subset of activities that are needed to be able to live independently. Being able to detect activities with wearable devices in real-time has the potential for the realization of assistive technologies with applications in different domains such as elderly care and mental health monitoring. Preliminary results show that using machine learning with the dataset leads to promising results, but also that there is still improvement potential. By making this dataset public, researchers can test different machine learning algorithms for activity recognition, especially, sensor data fusion methods."
+    } ,
+  
+    {
+      "title": "Kvasir-Capsule, a video capsule endoscopy dataset",
+      "url": "http://localhost:4000/papers/2020_08_2.html",
+      "authors": "Pia H Smedsrud, Henrik L Gjestang, Oda O Nedrejord, Espen Næss, Vajira Thambawita, Steven Hicks, Hanna Borgli, Debesh Jha, Tor Jan Derek Berstad, Sigrun L Eskeland, Mathias Lux, Håvard Espeland, Andreas Petlund, Duc Tien Dang Nguyen, Dag Johansen, Peter T Schmidt, Hugo L Hammer, Thomas de Lange, Michael Riegler, Pål Halvorsen",
+      "year": "2020",
+      "content": "Artificial intelligence (AI) is predicted to have profound effects on the future of video capsule endoscopy (VCE) technology. The potential lies in improving anomaly detection while reducing manual labour. However, medical data is often sparse andunavailable to the research community, and qualified medical personnel rarely have time for the tedious labelling work. Inthis respect, we presentKvasir-Capsule, a large VCE dataset collected from examinations at Bærum Hospital in Norway. Kvasir-Capsuleconsists of118videos from which we can generate2, 830,089 image frames. We have labelled and medicallyverified44, 260frames with a bounding box around detected anomalies from 13 different classes of findings. In addition to theselabelled images, there are2, 785,829 unlabelled frames included in the dataset. Initial experiments demonstrate the potentialbenefits of AI-based computer-assisted diagnosis systems for VCE. However, they also show that there is great potentialfor improvements, and theKvasir-Capsuledataset can play a valuable role in developing better algorithms in order for VCEtechnology to reach its true potential"
+    } ,
+  
+    {
+      "title": "Kvasir-Instrument- Diagnostic and therapeutic tool segmentation dataset in gastrointestinal endoscopy",
+      "url": "http://localhost:4000/papers/2020_08_3.html",
+      "authors": "Debesh Jha, Sharib Ali, Krister Emanuelsen, Steven Hicks, Vajira Thambawita, Enrique Garcia-Ceja, Michael Riegler, Thomas de Lange, Peter T Schmidt, Håvard Johansen, Dag Johansen, Pål Halvorsen",
+      "year": "2020",
+      "content": "Gastrointestinal (GI) pathologies are periodically screened, biopsied, and resected using surgical tools. Usually, the procedures and the treated or resected areas are not specifically tracked or analysed during or after colonoscopies. Information regarding disease borders, development and amount and size of the resected area get lost.This can lead to poor follow-up and bothersome reassessment difficulties post-treatment. To improve the current standard and also to foster more research on the topic we have released the “Kvasir-Instrument” dataset which consists of 590 annotated frames containing GI procedure tools such as snares, balloons and biopsy forceps, etc. Beside of the images, the dataset includes ground truth masks and bounding boxes and has been verified by two expert GI endoscopists. Additionally, we provide a baseline for the segmentation of the GI tools to promote research and algorithm development. We obtained a dice coefficient score of 0.9158 and a Jaccard index of 0.8578 using a classical U-Net architecture. A similar dice coefficient score was observed for DoubleUNet. The qualitative results showed that the model did not work for the images with specularity and the frames with multiple instruments, while the best result for both methods was observed on all other types of images. Both, qualitative and quantitative results show that the model performs reasonably good, but there is a large potential for further improvements. Benchmarking using the dataset provides an opportunity for researchers to contribute to the field of automatic endoscopic diagnostic and therapeutic tool segmentation for GI endoscopy."
+    } ,
+  
+    {
+      "title": "Kvasir-instrument - Diagnostic and therapeutic tool segmentation dataset in gastrointestinal endoscopy",
+      "url": "http://localhost:4000/papers/2021_06_01.html",
+      "authors": "Debesh Jha, Sharib Ali, Krister Emanuelsen, Steven A Hicks, Vajira Thambawita, Enrique Garcia-Ceja, Michael A Riegler, Thomas de Lange, Peter T Schmidt, Håvard D Johansen, Dag Johansen, Pål Halvorsen",
+      "year": "2021",
+      "content": "Gastrointestinal (GI) pathologies are periodically screened, biopsied, and resected using surgical tools. Usually, the procedures and the treated or resected areas are not specifically tracked or analysed during or after colonoscopies. Information regarding disease borders, development, amount, and size of the resected area get lost. This can lead to poor follow-up and bothersome reassessment difficulties post-treatment. To improve the current standard and also to foster more research on the topic, we have released the “Kvasir-Instrument” dataset, which consists of 590 annotated frames containing GI procedure tools such as snares, balloons, and biopsy forceps, etc. Besides the images, the dataset includes ground truth masks and bounding boxes and has been verified by two expert GI endoscopists. Additionally, we provide a baseline for the segmentation of the GI tools to promote research and algorithm development. We obtained a dice coefficient score of 0.9158 and a Jaccard index of 0.8578 using a classical U-Net architecture. A similar dice coefficient score was observed for DoubleUNet. The qualitative results showed that the model did not work for the images with specularity and the frames with multiple tools, while the best result for both methods was observed on all other types of images. Both qualitative and quantitative results show that the model performs reasonably good, but there is potential for further improvements. Benchmarking using the dataset provides an opportunity for researchers to contribute to the field of automatic endoscopic diagnostic and therapeutic tool segmentation for GI endoscopy."
+    } 
+  
+]
