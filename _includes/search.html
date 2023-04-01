@@ -1,0 +1,40 @@
+<form id="search-form">
+    <div class="input-group">
+      <input type="text" class="form-control" id="search-input" placeholder="Search...">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+      </div>
+    </div>
+  </form>
+  <ul id="search-results" class="list-unstyled"></ul>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      const searchIndexURL = "/search.json";
+      let searchIndex;
+  
+      $.getJSON(searchIndexURL, function(data) {
+        searchIndex = data;
+      });
+  
+      $("#search-form").on("submit", function(event) {
+        event.preventDefault();
+        const query = $("#search-input").val().toLowerCase().trim();
+        const results = searchIndex.filter(paper => paper.title.toLowerCase().includes(query) || 
+                                                    paper.authors.toLowerCase().includes(query)
+                                                    );
+        console.log(results);
+
+        $("#search-results").empty();
+        if (results.length === 0) {
+          $("#search-results").append("<li>No results found</li>");
+        } else {
+          results.forEach(paper => {
+            $("#search-results").append(`<li><a href="${paper.url}" title="${paper.title}">(${paper.year})${paper.title}</a></li>`);
+          });
+        }
+      });
+    });
+  </script>
+  
