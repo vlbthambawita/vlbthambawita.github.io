@@ -41,7 +41,7 @@ exps:
     job: Research studies (DeepSynthBody, Machine learning for ECG analysis, GI tract analysis and Sperm analysis), Supervision (Master students' research projects)
     present: True
 
-   - exp: Visiting Lecturer
+  - exp: Visiting Lecturer
     location: Høgskolen Kristiania, Norway
     period: August 2022 - PRESENT
     job: Teaching (Machine Learning, Deep Learning, Data Science)
