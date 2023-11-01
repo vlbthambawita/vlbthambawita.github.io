@@ -35,14 +35,14 @@ exps:
     job: Research studies (DeepSynthBody, Machine learning for ECG analysis, GI tract analysis and Sperm analysis), Supervision (Master students' research projects)
     present: False
 
-  - exp: Research Scientist
-    location: Department of Holistic Systems, SimulaMet, Norway
-    period: March 2022 - PRESENT
-    job: Research studies (DeepSynthBody, Machine learning for ECG analysis, GI tract analysis and Sperm analysis), Supervision (Master students' research projects)
-    present: True
-
   - exp: Visiting Lecturer
     location: Høgskolen Kristiania, Norway
     period: August 2022 - PRESENT
     job: Teaching (Machine Learning, Deep Learning, Data Science)
+    present: True
+
+  - exp: Research Scientist
+    location: Department of Holistic Systems, SimulaMet, Norway
+    period: March 2022 - PRESENT
+    job: Research studies (DeepSynthBody, Machine learning for ECG analysis, GI tract analysis and Sperm analysis), Supervision (Master students' research projects)
     present: True
