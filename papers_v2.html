@@ -1,0 +1,25 @@
+---
+layout: default
+title: Papers
+---
+
+<h2> Papers : {{ site.data.my_papers | size }} </h2>
+
+
+<!-- {% assign grouped_papers = site.data.my_papers | group_by: "Year"  %} -->
+
+
+    {% assign papers = site.data.my_papers | reverse  %}
+    
+    <ol> <!-- class="list-group list-group-numbered" -->
+        {% for paper in papers %}
+            <li> <!-- class="list-group-item"-->
+                <h5> {{ paper["Title"] }}</h5>
+                <i> 
+                    {% for pair in paper %}
+                        {{ pair[1] }}
+                    {% endfor %}
+                </i>
+            </li>
+        {% endfor %}
+    </ol>
