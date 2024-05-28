@@ -35,7 +35,7 @@ title: home
                     window.addEventListener('load', function() {
                         calendar.schedulingButton.load({
                         url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3yocZr1n__l-Gubr7kuJi2xLbgRnDh_9RTz0KGqCnnYm3Gj1ZiaFvV-rqHdbLnrXwTOVwQ5-8R?gv=true',
-                        color: '#dc3545',
+                        color: '#FF9F1C',
                         label: 'Book an appointment',
                         target,
                         });
@@ -61,7 +61,7 @@ title: home
                 {% for item in reverse_exps %}
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                         <div class="ms-2 me-auto">
-                        <div class="fw-bold text-danger bg-dark">{{ item.exp }}</div>
+                        <div class="fw-bold text-job bg-dark">{{ item.exp }}</div>
                         {{ item.location }}
                             <div>
                                 <i> {{ item.job }} </i>

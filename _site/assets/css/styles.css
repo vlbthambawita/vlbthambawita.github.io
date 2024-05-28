@@ -3,20 +3,20 @@
 }
 
 .active {
-  color: #dc3545 !important;
+  color: #FF9F1C !important;
   font-weight: bold;
 }
 
 h2 {
-  color: #dc3545;
+  color: #FF9F1C;
 }
 
 h3 {
-  color: #dc3545;
+  color: #FF9F1C;
 }
 
 .footer {
-  color: #dc3545;
+  color: #FF9F1C;
 }
 
 .paper-link {
@@ -29,20 +29,24 @@ h3 {
 }
 
 .socialicon {
-  color: #dc3545;
+  color: #FF9F1C;
 }
 
 .badge-old {
-  color: #886a6d;
+  color: #FFE8D6;
 }
 
 .badge-present {
-  color: #dc3545;
+  color: #FF9F1C;
 }
 
 .active {
-  color: #dc3545 !important;
+  color: #FF9F1C !important;
   font-weight: bold;
+}
+
+.text-job {
+  color: #FF9F1C;
 }
 
 #particles-js {
