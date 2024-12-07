@@ -9,14 +9,18 @@ icon: /assets/images/dalle_me.png
 photo: /assets/images/IMG_0024.jpg
 
 links:
+  - name: Linkedin
+    link: https://no.linkedin.com/in/vlbthambawita
+    fa-class: "fa-brand fa-linkedin socialicon fa-4x"
+    order: 1
   - name: Facebook
     link: https://www.facebook.com/vajira.thambawita
     fa-class: "fa-brands fa-facebook socialicon fa-4x" 
-    order: 2
+    order: 7
   - name: GitHub
     link: https://github.com/vlbthambawita
     fa-class: "fa-brands fa-github socialicon fa-4x"
-    order: 1
+    order: 4
   - name: Office
     link: https://www.simula.no/people/vajira
     fa-class: "fa-solid fa-briefcase socialicon fa-4x" 
@@ -24,11 +28,11 @@ links:
   - name: Googlescholar
     link: https://scholar.google.com/citations?user=hSe42z0AAAAJ&hl=en&authuser=1
     fa-class: "fa-solid fa-graduation-cap socialicon fa-4x" 
-    order: 5
+    order: 2
   - name: twitter
     link: https://twitter.com/vlbthambawita
     fa-class: "fa-brands fa-square-twitter socialicon fa-4x"
-    order: 4
+    order: 5
   - name: hugging-face
     link: https://huggingface.co/vlbthambawita
     fa-class: "fa-solid fa-flask socialicon fa-4x" 
