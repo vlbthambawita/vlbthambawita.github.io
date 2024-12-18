@@ -35,6 +35,12 @@ exps:
     job: Research studies (DeepSynthBody, Machine learning for ECG analysis, GI tract analysis and Sperm analysis), Supervision (Master students' research projects)
     present: False
 
+  - exp: Associate Professor
+    location: Centre for Intelligent Musculoskeletal Health (CIM), OsloMet – Oslo Metropolitan University, Norway
+    period: November 2023 - December 2024
+    job: Research studies related to Artificial Intelligent-based interventions for musculoskeletal disorders
+    present: False
+
   - exp: Visiting Lecturer
     location: Høgskolen Kristiania, Norway
     period: August 2022 - PRESENT
@@ -47,8 +53,4 @@ exps:
     job: Research studies (DeepSynthBody, Machine learning for ECG analysis, GI tract analysis and Sperm analysis), Supervision (Master students' research projects)
     present: True
 
-  - exp: Associate Professor
-    location: Centre for Intelligent Musculoskeletal Health (CIM), OsloMet – Oslo Metropolitan University, Norway
-    period: November 2023 - December 2024
-    job: Research studies related to Artificial Intelligent-based interventions for musculoskeletal disorders
-    present: False
+  
