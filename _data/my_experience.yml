@@ -41,16 +41,22 @@ exps:
     job: Research studies related to Artificial Intelligent-based interventions for musculoskeletal disorders
     present: False
 
+  - exp: Research Scientist
+    location: Department of Holistic Systems, SimulaMet, Norway
+    period: March 2022 - December 2024
+    job: Research studies (DeepSynthBody, Machine learning for ECG analysis, GI tract analysis and Sperm analysis), Supervision (Master students' research projects)
+    present: False
+
   - exp: Visiting Lecturer
     location: Høgskolen Kristiania, Norway
     period: August 2022 - PRESENT
     job: Teaching (Machine Learning, Deep Learning, Data Science)
     present: True
 
-  - exp: Research Scientist
+  - exp: Senior Research Scientist
     location: Department of Holistic Systems, SimulaMet, Norway
-    period: March 2022 - PRESENT
-    job: Research studies (DeepSynthBody, Machine learning for ECG analysis, GI tract analysis and Sperm analysis), Supervision (Master students' research projects)
+    period: January 2025 - PRESENT
+    job: Machine Learning Research, Supervision
     present: True
 
   
