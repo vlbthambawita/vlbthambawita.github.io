@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOTA Synthetic Biomedical Data Quality Assessment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Application Structure Plan: 
+        Theme: Educational, exploratory SPA.
+        Structure: Header (Nav) -> Sections (Intro, Modalities, Models, Dimensions, Metrics, Challenges, Recommendations) -> Footer.
+        User Flow: Linear via nav or direct section jumps. Interactive elements (tabs, accordions, cards, interactive tables, chart) for exploration.
+        Why: Thematic breakdown for web-friendly exploration of dense report content, enhancing usability and understanding through chunking and interaction.
+    -->
+    <!-- Visualization & Content Choices: 
+        - Intro (Sec 1): Formatted text. Goal: Inform.
+        - Modalities (Sec 2): Tabs (Time-Series, Other). Goal: Organize/Inform. Interaction: Tab clicks.
+        - Models (Sec 3): Grid of cards. Goal: Inform/Compare. Interaction: Click to expand card.
+        - Dimensions (Sec 4): Expandable blocks (Fidelity, Utility, Privacy, Diversity). Goal: Define/Explain. Interaction: Click to expand.
+        - Metrics (Sec 5, Tables 1&2): Interactive HTML tables (filter/sort), Chart.js bar chart (metrics by aspect). Goal: Organize/Compare/Detail. Interaction: Table controls, chart view.
+        - Challenges (Sec 6): Accordion list. Goal: Highlight Problems. Interaction: Click to expand.
+        - Recommendations (Sec 7): Numbered list. Goal: Actionable Advice.
+        Justification: Methods chosen for clarity, engagement, and making dense information accessible within the designed SPA structure.
+    -->
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .section-active { display: block !important; }
+        .nav-active { background-color: #0369a1; color: white; } /* sky-700 */
+        .tab-active { border-bottom-color: #0ea5e9 !important; color: #0369a1 !important;} /* sky-500, sky-700 */
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px; /* Increased max-width for better display */
+            margin-left: auto;
+            margin-right: auto;
+            height: 400px; /* Base height */
+            max-height: 450px; /* Max height */
+            padding: 1rem;
+            background-color: #f8fafc; /* slate-50 */
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+        @media (min-width: 768px) {
+            .chart-container { height: 450px; }
+        }
+        /* Basic table styling */
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #e5e7eb; padding: 8px; text-align: left; }
+        th { background-color: #f3f4f6; }
+        .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
+        .accordion-content.open { max-height: 1000px; /* Adjust as needed */ }
+        .card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); }
+        .content-block { display: none; }
+    </style>
+</head>
+<body class="bg-amber-50 text-neutral-800">
+
+    <header class="bg-sky-800 text-white p-4 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto flex flex-wrap justify-between items-center">
+            <h1 class="text-xl md:text-2xl font-bold">Synthetic Biomedical Data Quality Assessment</h1>
+            <nav class="mt-2 md:mt-0">
+                <ul class="flex flex-wrap space-x-2 md:space-x-3 text-sm md:text-base">
+                    <li><button data-target="introduction" class="nav-button nav-active px-3 py-1 rounded-md hover:bg-sky-700">Intro</button></li>
+                    <li><button data-target="modalities" class="nav-button px-3 py-1 rounded-md hover:bg-sky-700">Modalities</button></li>
+                    <li><button data-target="models" class="nav-button px-3 py-1 rounded-md hover:bg-sky-700">Models</button></li>
+                    <li><button data-target="dimensions" class="nav-button px-3 py-1 rounded-md hover:bg-sky-700">Dimensions</button></li>
+                    <li><button data-target="metrics" class="nav-button px-3 py-1 rounded-md hover:bg-sky-700">Metrics</button></li>
+                    <li><button data-target="challenges" class="nav-button px-3 py-1 rounded-md hover:bg-sky-700">Challenges</button></li>
+                    <li><button data-target="recommendations" class="nav-button px-3 py-1 rounded-md hover:bg-sky-700">Recommendations</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-6">
+        <section id="introduction" class="content-block section-active bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h2 class="text-2xl font-semibold text-sky-700 mb-4">1. Introduction to Synthetic Biomedical Data and Quality Assessment</h2>
+            <p class="mb-3">The advancement of biomedical research is intrinsically linked to large-scale, high-quality datasets. Synthetic data, generated by computer algorithms, is a pivotal innovation for training AI models, deriving insights, and enabling collaborative research with privacy guarantees. It addresses challenges like data scarcity, privacy concerns in sharing sensitive health information, and accessibility for researchers.</p>
+            <p class="mb-3">However, synthetic data's utility depends entirely on its quality. It must accurately capture the statistical properties and patterns of real data. Generative models can unintentionally memorize training samples, risking sensitive information leakage. Thus, robust quality assessment is critical, evaluating fidelity (resemblance to real data), utility (usefulness for tasks), and privacy. Current evaluation methodologies lack standardization, highlighting a need for further development.</p>
+             <p class="mb-3">A key tension exists: high fidelity can increase privacy risks if models memorize data. Many advanced generative models are "black boxes," making it hard to diagnose deficiencies or subtle privacy leaks without comprehensive input-output analysis. This calls for more interpretable models and evaluation techniques.</p>
+             <p class="mt-6 text-sky-700">
+                For the full reference list and supplementary material, see the 
+                <a href="https://docs.google.com/document/d/13xSlZej_VaWTHO5nWoztbwUxf2RvtSu3ujmKMrXzXfk/edit?tab=t.0" target="_blank" class="underline">Google Doc</a>.
+            </p>
+            </section>
+
+        <section id="modalities" class="content-block bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h2 class="text-2xl font-semibold text-sky-700 mb-4">2. Biomedical Data Modalities Amenable to Synthetic Generation</h2>
+            <p class="mb-4">Synthetic data generation spans various biomedical data types. This section explores the major categories and their complexities. Understanding these modalities is crucial for tailoring generation and assessment techniques appropriately.</p>
+            <div class="border-b border-slate-300 mb-4">
+                <nav class="-mb-px flex space-x-8" aria-label="Tabs">
+                    <button data-tab="time-series-signals" class="tab-button whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm text-slate-600 hover:text-sky-600 hover:border-sky-400 tab-active">Time-Series Signals</button>
+                    <button data-tab="other-formats" class="tab-button whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm text-slate-600 hover:text-sky-600 hover:border-sky-400">Other Formats</button>
+                </nav>
+            </div>
+
+            <div id="time-series-signals" class="tab-content ">
+                <h3 class="text-xl font-semibold text-slate-700 mb-3">Time-Series Biomedical Signals</h3>
+                <p class="mb-3">These signals represent dynamic physiological processes over time. Key examples include:</p>
+                <ul class="list-disc list-inside space-y-2 mb-3 pl-4">
+                    <li><strong>Electrocardiograms (ECG):</strong> Record heart's electrical activity. Synthetic ECGs help overcome data scarcity and privacy issues for AI diagnostic tools. Methods range from mathematical models to GANs, VAEs, and Diffusion Models.</li>
+                    <li><strong>Electroencephalograms (EEG):</strong> Measure brain's electrical activity. Synthetic EEGs aid in data augmentation, BCI calibration, and modeling brain dynamics (e.g., sleep, emotions). EEG data is often noisy, requiring robust models.</li>
+                    <li><strong>Other Physiological Signals:</strong> Including Photoplethysmography (PPG), Electromyography (EMG), Electrooculography (EOG), Blood Pressure (BP), Heart Rate Variability (HRV), and mechano-acoustic signals. Each has unique characteristics and clinical applications.</li>
+                </ul>
+                <p class="mb-3"><strong>Data Formats and Characteristics:</strong> Typically sequences of numerical values, stored in formats like <code>.mat</code>. Key characteristics for synthesis include sampling rates, amplitude ranges, noise profiles (e.g., baseline wander, $1/f$ noise), and non-stationarity.</p>
+                 <div class="mt-4 p-4 bg-sky-50 rounded-md">
+                    <h4 class="font-semibold text-sky-700">Complexity Insight:</h4>
+                    <p class="text-sm text-neutral-700">Simpler signals like a clean ECG beat are easier to synthesize than complex, artifact-prone EEG signals representing intricate brain states. Evaluation must be tailored to this complexity.</p>
+                </div>
+            </div>
+
+            <div id="other-formats" class="tab-content" style="display: none;">
+                <h3 class="text-xl font-semibold text-slate-700 mb-3">Other Relevant Data Formats</h3>
+                <ul class="list-disc list-inside space-y-2 mb-3 pl-4">
+                    <li><strong>Electronic Health Records (EHRs):</strong> Multidimensional datasets with patient demographics, diagnoses, medications, labs, etc. Synthetic EHRs are crucial for research, software testing, and education due to real EHR sensitivity. Can be tabular, sequential, or graph-based.</li>
+                    <li><strong>Omics Data:</strong> Genomics, transcriptomics, etc., generate massive, complex datasets. Synthetic omics data can address sharing, privacy, and high-dimensionality challenges.</li>
+                    <li><strong>Imaging Data:</strong> MRI, CT, X-ray. Synthetic medical image generation is a significant field, often integrated with other data types in multimodal AI.</li>
+                </ul>
+                <p class="mb-3"><strong>Hierarchy of Complexity:</strong> Data complexity ranges from simple 1D signals to high-dimensional omics and multimodal datasets. Assessment methodologies must adapt to this hierarchy. Domain-specific knowledge is crucial for signal evaluation (e.g., ECG waveform morphology), while EHRs may focus on statistical distributions and correlations.</p>
+                <div class="mt-4 p-4 bg-sky-50 rounded-md">
+                    <h4 class="font-semibold text-sky-700">Evaluation Distinction:</h4>
+                    <p class="text-sm text-neutral-700">Signal assessment needs deep physiological understanding (e.g., P-QRS-T waves in ECGs). Other formats like EHRs prioritize statistical properties, correlations, or graph structures. A universal metric set is unlikely; a modular approach is needed.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="models" class="content-block bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h2 class="text-2xl font-semibold text-sky-700 mb-4">3. State-of-the-Art Generative Models</h2>
+            <p class="mb-4">Various model architectures are used for biomedical data synthesis. This section provides an overview of dominant architectures and noteworthy applications. The choice of model often depends on the data type and desired output characteristics.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                </div>
+             <div class="mt-6 p-4 bg-sky-50 rounded-md">
+                <h4 class="font-semibold text-sky-700">Key Trend: Conditional Generation</h4>
+                <p class="text-sm text-neutral-700">There's a shift towards models that generate data based on specific attributes or conditions (e.g., SSSD-ECG generating ECGs for specific clinical statements). This enhances utility but adds complexity to quality assessment, requiring validation of both realism and conditional accuracy.</p>
+            </div>
+        </section>
+
+        <section id="dimensions" class="content-block bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h2 class="text-2xl font-semibold text-sky-700 mb-4">4. Fundamental Dimensions for Assessing Synthetic Data Quality</h2>
+            <p class="mb-4">Assessing synthetic data is multi-faceted. Key dimensions include fidelity, utility, privacy, and diversity. These are interconnected and often involve trade-offs. For example, very high fidelity might increase privacy risks if the model memorizes real data.</p>
+            <div id="dimensions-container" class="space-y-4">
+                </div>
+            <div class="mt-6 p-4 bg-sky-50 rounded-md">
+                <h4 class="font-semibold text-sky-700">Contextual Utility:</h4>
+                <p class="text-sm text-neutral-700">"Utility" is task-dependent. Data useful for one task (e.g., binary classification) might be inadequate for another (e.g., detecting rare anomalies). Define target tasks before evaluating utility.</p>
+            </div>
+        </section>
+
+        <section id="metrics" class="content-block bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h2 class="text-2xl font-semibold text-sky-700 mb-4">5. SOTA Quality Assessment Methodologies and Metrics</h2>
+            <p class="mb-4">Evaluation requires metrics tailored to specific data types. This section explores metrics for biomedical signals (ECG, EEG) and other formats like EHRs. The "Train on Synthetic, Test on Real" (TSTR) paradigm is a key theme for utility assessment.</p>
+            
+            <div class="my-6">
+                <h3 class="text-xl font-semibold text-slate-700 mb-3">Metrics Summary by Aspect</h3>
+                <div class="chart-container">
+                    <canvas id="metricsSummaryChart"></canvas>
+                </div>
+                <p class="text-sm text-center mt-2 text-slate-600">Distribution of unique metrics from Table 1 & 2 by primary assessment aspect.</p>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold text-slate-700 mb-3">Metrics for Synthetic Biomedical Signals (ECG, EEG, etc.)</h3>
+                <input type="text" id="table1Search" placeholder="Search Signal Metrics..." class="w-full p-2 border border-slate-300 rounded-md mb-3">
+                <div class="overflow-x-auto">
+                    <table id="table1" class="min-w-full divide-y divide-slate-200">
+                        <thead class="bg-slate-100">
+                            <tr>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-slate-600 uppercase tracking-wider cursor-pointer" data-sort="MetricName">Metric Name</th>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-slate-600 uppercase tracking-wider">Description/Purpose</th>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-slate-600 uppercase tracking-wider cursor-pointer" data-sort="DataType">Data Type(s)</th>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-slate-600 uppercase tracking-wider cursor-pointer" data-sort="AspectAssessed">Aspect Assessed</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-slate-200">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-semibold text-slate-700 mb-3">Metrics for Synthetic EHRs and Other Formats</h3>
+                <input type="text" id="table2Search" placeholder="Search EHR/Other Metrics..." class="w-full p-2 border border-slate-300 rounded-md mb-3">
+                 <div class="overflow-x-auto">
+                    <table id="table2" class="min-w-full divide-y divide-slate-200">
+                        <thead class="bg-slate-100">
+                            <tr>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-slate-600 uppercase tracking-wider cursor-pointer" data-sort="MetricName">Metric Name</th>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-slate-600 uppercase tracking-wider">Description/Purpose</th>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-slate-600 uppercase tracking-wider cursor-pointer" data-sort="EHRStructure">EHR Structure</th>
+                                <th class="px-4 py-2 text-left text-xs font-medium text-slate-600 uppercase tracking-wider cursor-pointer" data-sort="AspectAssessed">Aspect Assessed</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-slate-200">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+             <div class="mt-6 p-4 bg-sky-50 rounded-md">
+                <h4 class="font-semibold text-sky-700">Beyond Known Metrics:</h4>
+                <p class="text-sm text-neutral-700">Current metrics compare against known characteristics. Challenges remain in detecting unforeseen artifacts or uncaptured complex interactions ("unknown unknowns"). Qualitative expert review is vital alongside quantitative measures.</p>
+            </div>
+        </section>
+
+        <section id="challenges" class="content-block bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h2 class="text-2xl font-semibold text-sky-700 mb-4">6. Current Challenges and Future Research Avenues</h2>
+            <p class="mb-4">Despite progress, several challenges persist in synthetic biomedical data generation and assessment. Addressing these is crucial for advancing the field.</p>
+            <div id="challenges-container" class="space-y-3">
+                </div>
+             <div class="mt-6 p-4 bg-sky-50 rounded-md">
+                <h4 class="font-semibold text-sky-700">Dynamic Landscape:</h4>
+                <p class="text-sm text-neutral-700">Generative AI is rapidly evolving (e.g., GANs to diffusion models, rise of multimodal AI). Evaluation methodologies must also evolve to remain state-of-the-art and address new challenges posed by these advancements.</p>
+            </div>
+        </section>
+
+        <section id="recommendations" class="content-block bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h2 class="text-2xl font-semibold text-sky-700 mb-4">7. Conclusion and Strategic Recommendations</h2>
+            <p class="mb-3">Synthetic biomedical data is transformative but requires rigorous, multi-dimensional quality assessment. This includes evaluating fidelity, utility, privacy, and diversity, tailored to the data modality and application. The ultimate goal is "fitness for purpose," balancing benefits against risks and costs.</p>
+            <h3 class="text-lg font-semibold text-slate-700 mb-2">Actionable Recommendations:</h3>
+            <ol id="recommendations-list" class="list-decimal list-inside space-y-2 pl-4">
+                 </ol>
+            <p class="mt-4 italic">A comprehensive, context-aware evaluation strategy is fundamental for building trust and enabling responsible deployment of synthetic biomedical data in healthcare.</p>
+        </section>
+    </main>
+
+    <footer class="bg-sky-800 text-white text-center p-4 mt-8">
+        <p class="text-sm">&copy; 2025 Interactive SPA for Synthetic Data Quality. Based on SOTA Review.</p>
+    </footer>
+
+<script>
+    const sections = document.querySelectorAll('.content-block');
+    const navButtons = document.querySelectorAll('.nav-button');
+    const tabButtons = document.querySelectorAll('.tab-button');
+
+    function setActiveSection(targetId) {
+        sections.forEach(section => {
+            if (section.id === targetId) {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        });
+        navButtons.forEach(button => {
+            if (button.dataset.target === targetId) {
+                button.classList.add('nav-active');
+            } else {
+                button.classList.remove('nav-active');
+            }
+        });
+        window.scrollTo(0, 0); // Scroll to top on section change
+    }
+
+    navButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            setActiveSection(button.dataset.target);
+        });
+    });
+
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const targetTab = button.dataset.tab;
+            const tabContainer = button.closest('.content-block'); // Corrected: The container is the closest .content-block
+
+            if (tabContainer) {
+                tabContainer.querySelectorAll('.tab-content').forEach(content => {
+                    content.style.display = content.id === targetTab ? 'block' : 'none';
+                });
+                
+                tabContainer.querySelectorAll('.tab-button').forEach(btn => {
+                     if (btn.dataset.tab === targetTab) {
+                        btn.classList.add('tab-active');
+                        // Tailwind classes for active state (matching .tab-active CSS)
+                        btn.classList.remove('text-slate-600', 'hover:text-sky-600', 'hover:border-sky-400');
+                        btn.classList.add('text-sky-700'); 
+                    } else {
+                        btn.classList.remove('tab-active');
+                        // Tailwind classes for inactive state
+                        btn.classList.remove('text-sky-700');
+                        btn.classList.add('text-slate-600', 'hover:text-sky-600', 'hover:border-sky-400');
+                    }
+                });
+            } else {
+                console.error("Tab container not found for button:", button);
+            }
+        });
+    });
+    
+    // Initial active section
+    setActiveSection('introduction');
+
+
+    // Data for Models Section
+    const modelsData = [
+        { name: 'Early Mathematical Models', description: 'Initial attempts, e.g., for ECGs, using equations for physiological processes. Often lacked diversity and produced outputs very similar to training data.', pros: ['Simple concept'], cons: ['Lack of diversity', 'Limited novelty'], applications: ['Basic ECG beat simulation'] },
+        { name: 'Generative Adversarial Networks (GANs)', description: 'Generator and discriminator networks trained adversarially. Variants like CGANs (Conditional GANs), medGAN. Used for images, time-series, EHRs.', pros: ['Can produce realistic samples', 'Widely studied'], cons: ['Training instability', 'Mode collapse', 'Hard for discrete data'], applications: ['ECG synthesis (WaveGAN*, Pulse2Pulse)', 'EHR generation (medGAN)', 'EEG generation (CWGAN-GP)'] },
+        { name: 'Variational Autoencoders (VAEs)', description: 'Encoder maps data to latent space, decoder reconstructs. Good for structured data like graph-based EHRs.', pros: ['Stable training', 'Good at capturing overall distribution'], cons: ['Can produce blurrier samples than GANs'], applications: ['ECG generation', 'Graph-based EHRs (clinical trajectories)'] },
+        { name: 'Diffusion Models', description: 'Newer paradigm. Forward process adds noise, reverse process learns to denoise, generating data. State-of-the-art in image/time-series.', pros: ['High sample realism and diversity'], cons: ['Computationally intensive generation'], applications: ['ECG (SSSD-ECG)', 'EEG signals'] },
+        { name: 'Structured State Space Models (SSSMs)', description: 'Adept at capturing long-term dependencies in sequential data. Often combined with other models like diffusion models.', pros: ['Good for long sequences'], cons: ['Often part of a larger architecture'], applications: ['Conditional ECG generation (SSSD-ECG)'] },
+        { name: 'Other Models', description: 'Hopf Oscillators (EEG), LSTMs (EEG reconstruction/forecasting), Spiking Neural Networks (EEG for motor imagery).', pros: ['Specialized for certain dynamics'], cons: ['Less general purpose'], applications: ['Specific EEG modeling tasks'] }
+    ];
+
+    const modelsContainer = document.querySelector('#models .grid');
+    modelsData.forEach(model => {
+        const card = document.createElement('div');
+        card.className = 'card bg-sky-50 p-4 rounded-lg shadow hover:shadow-xl cursor-pointer';
+        card.innerHTML = `
+            <h3 class="text-lg font-semibold text-sky-700 mb-2">${model.name}</h3>
+            <p class="text-sm text-neutral-600 model-description hidden">${model.description}</p>
+            <div class="model-details hidden mt-2">
+                <p class="text-xs"><strong class="text-slate-600">Pros:</strong> ${model.pros.join(', ')}</p>
+                <p class="text-xs"><strong class="text-slate-600">Cons:</strong> ${model.cons.join(', ')}</p>
+                <p class="text-xs"><strong class="text-slate-600">Applications:</strong> ${model.applications.join(', ')}</p>
+            </div>
+        `;
+        // Simple toggle for details on click
+        const heading = card.querySelector('h3');
+        heading.insertAdjacentHTML('afterend', `<p class="text-sm text-neutral-700">${model.description.substring(0,100)}...</p>`);
+        
+        card.addEventListener('click', () => {
+            card.querySelector('.model-description')?.classList.toggle('hidden');
+            card.querySelectorAll('.model-details').forEach(el => el.classList.toggle('hidden'));
+            card.querySelector('h3 + p').classList.toggle('hidden'); // Toggle summary
+        });
+        modelsContainer.appendChild(card);
+    });
+
+    // Data for Dimensions Section
+    const dimensionsData = [
+        { title: 'Fidelity and Realism', content: 'Refers to how well synthetic data captures true characteristics, patterns, and statistical properties of real data. Assessed via statistical/distributional similarity (e.g., MMD, correlation matrices), preservation of domain-specific features (e.g., ECG morphology), and qualitative expert evaluations like Clinical Turing Tests or t-SNE plots.', icon: '🎯' },
+        { title: 'Utility and Applicability', content: 'Focuses on ensuring synthetic data is useful for intended downstream tasks. Evaluated by "Train on Synthetic, Test on Real" (TSTR) paradigm and effectiveness in data augmentation (improving model performance when added to real training sets).', icon: '🛠️' },
+        { title: 'Privacy Preservation', content: 'Critical requirement that synthetic data protects sensitive information. Vulnerabilities include unintended memorization, Membership Inference Attacks (MIAs), Attribute Inference Attacks (AIAs), and re-identification. Metrics: PII Replay, Exact Match Counts, Distance to Closest Record (DCR), Nearest Neighbor Distance Ratio (NNDR), Differential Privacy (DP). Involves a privacy-utility trade-off.', icon: '🛡️' },
+        { title: 'Diversity and Novelty', content: 'Synthetic data should generate novel, plausible instances covering the underlying data distribution, not just replicate training samples. Important for both privacy (preventing re-identification of unique trajectories) and utility (richer dataset). Assessed by proportion of generated samples different from training set.', icon: '✨' }
+    ];
+
+    const dimensionsContainer = document.getElementById('dimensions-container');
+    dimensionsData.forEach(dim => {
+        const accordionItem = document.createElement('div');
+        accordionItem.className = 'border border-slate-300 rounded-md';
+        accordionItem.innerHTML = `
+            <button class="accordion-button w-full flex justify-between items-center p-4 text-left font-medium text-slate-700 hover:bg-sky-100 focus:outline-none">
+                <span>${dim.icon} ${dim.title}</span>
+                <span class="transform transition-transform duration-200">&#9662;</span> </button>
+            <div class="accordion-content px-4 pb-4 text-sm text-neutral-600">
+                <p>${dim.content}</p>
+            </div>
+        `;
+        dimensionsContainer.appendChild(accordionItem);
+    });
+    
+    document.querySelectorAll('.accordion-button').forEach(button => {
+        button.addEventListener('click', () => {
+            const content = button.nextElementSibling;
+            content.classList.toggle('open');
+            const arrow = button.querySelector('span:last-child');
+            arrow.classList.toggle('rotate-180'); // Visual cue for open/close
+            if (content.classList.contains('open')) {
+                content.style.maxHeight = content.scrollHeight + "px";
+            } else {
+                content.style.maxHeight = "0";
+            }
+        });
+    });
+
+    // Data for Metrics Tables
+    const signalMetricsData = [
+        { MetricName: "Mean Absolute Error (MAE)", Description: "Measures average magnitude of errors between paired observations (e.g., real vs. reconstructed/predicted signal).", DataType: "EEG, other", AspectAssessed: "Fidelity (Reconstruction/Prediction)" },
+        { MetricName: "Power Spectral Similarity", Description: "Compares power distribution across frequency bands between real and synthetic signals.", DataType: "EEG, ECG, other", AspectAssessed: "Fidelity (Spectral Characteristics)" },
+        { MetricName: "Shannon Entropy", Description: "Quantifies the complexity or unpredictability of a signal.", DataType: "EEG, other", AspectAssessed: "Fidelity (Dynamic Complexity)" },
+        { MetricName: "t-SNE Visualization", Description: "Visualizes high-dimensional data in low dimensions to assess overlap/similarity of real and generated clusters.", DataType: "ECG, EEG", AspectAssessed: "Fidelity (Qualitative)" },
+        { MetricName: "Classification Accuracy", Description: "Performance of a classifier trained on synthetic data and tested on real data for a specific task.", DataType: "ECG, EEG", AspectAssessed: "Utility" },
+        { MetricName: "Sensitivity / Specificity", Description: "Measures of a classifier's ability to correctly identify positive/negative cases, respectively.", DataType: "ECG, EEG", AspectAssessed: "Utility" },
+        { MetricName: "Clinical Turing Test", Description: "Domain experts attempt to distinguish between real and synthetic samples.", DataType: "ECG, other", AspectAssessed: "Fidelity (Realism)" },
+        { MetricName: "Euclidean Distance", Description: "Measures direct spatial difference between real and generated feature vectors (e.g., EEG band values).", DataType: "EEG", AspectAssessed: "Fidelity (Feature Similarity)" },
+        { MetricName: "Wasserstein Distance", Description: "Measures the 'effort' to transform the distribution of synthetic data into the distribution of real data.", DataType: "EEG", AspectAssessed: "Fidelity (Distributional Similarity)" },
+        { MetricName: "KL Divergence", Description: "Quantifies the difference between the probability distributions of real and synthetic data.", DataType: "EEG", AspectAssessed: "Fidelity (Distributional Similarity)" },
+        { MetricName: "T-Test Analysis", Description: "Statistical test to assess significant differences between real and generated data characteristics (e.g., EEG bands).", DataType: "EEG", AspectAssessed: "Fidelity (Statistical Similarity)" },
+        { MetricName: "Precision / Recall / AUC-ROC", Description: "Standard classification metrics for evaluating downstream task performance.", DataType: "EEG", AspectAssessed: "Utility" },
+        { MetricName: "Calibration Improvement Score (CIS)", Description: "Measures percentage decrease in BCI calibration time/steps due to synthetic data.", DataType: "EEG", AspectAssessed: "Utility (Efficiency)" },
+        { MetricName: "Dynamic Time Warping (DTW)", Description: "Measures similarity between two temporal sequences that may vary in time or speed.", DataType: "ECG, EEG, other", AspectAssessed: "Fidelity (Waveform Similarity)" }
+    ];
+
+    const ehrMetricsData = [
+        { MetricName: "Marginal Distribution Similarity", Description: "Compares distributions of individual features (e.g., using histograms, KS-test).", EHRStructure: "Tabular", AspectAssessed: "Fidelity (Statistical)" },
+        { MetricName: "Correlation Matrix Comparison", Description: "Compares pairwise correlations between features in real vs. synthetic data.", EHRStructure: "Tabular", AspectAssessed: "Fidelity (Relationships)" },
+        { MetricName: "Dimension-wise MMD", Description: "Measures distributional similarity for each feature.", EHRStructure: "Tabular", AspectAssessed: "Fidelity (Statistical)" },
+        { MetricName: "Downstream Task Performance", Description: "Accuracy/AUC of predictive models (e.g., disease prediction) trained on synthetic data.", EHRStructure: "Tabular, Seq, Graph", AspectAssessed: "Utility" },
+        { MetricName: "Membership Inference Attack (MIA)", Description: "Assesses risk of identifying training set members.", EHRStructure: "Tabular, Seq, Graph", AspectAssessed: "Privacy" },
+        { MetricName: "Distance to Closest Record (DCR)", Description: "Measures distance from synthetic records to closest real records; small distances may indicate memorization.", EHRStructure: "Tabular, Seq, Graph", AspectAssessed: "Privacy, Fidelity (Memorization)" },
+        { MetricName: "Nearest Neighbor Distance Ratio (NNDR)", Description: "Compares intra-synthetic distances to synthetic-real distances.", EHRStructure: "Tabular, Seq, Graph", AspectAssessed: "Privacy, Fidelity (Memorization)" },
+        { MetricName: "Graph Kernels (WL, SP)", Description: "Measure structural similarity between real and synthetic graphs (patient trajectories).", EHRStructure: "Graph, Sequential", AspectAssessed: "Fidelity (Structural), Novelty (Replicas)" },
+        { MetricName: "Graph Kernel-MMD (GK-MMD)", Description: "Assesses distributional similarity of entire graph sets.", EHRStructure: "Graph, Sequential", AspectAssessed: "Fidelity (Distributional)" },
+        { MetricName: "Path Frequency Pearson’s r", Description: "Correlation of frequencies of n-paths (event sequences) in real vs. synthetic data.", EHRStructure: "Graph, Sequential", AspectAssessed: "Fidelity (Temporal Dynamics)" },
+        { MetricName: "Visit Length MMD/Distribution", Description: "Compares distribution of patient visit lengths (number of encounters).", EHRStructure: "Graph, Sequential", AspectAssessed: "Fidelity (Temporal Characteristics)" },
+        { MetricName: "Comorbidity Replication", Description: "Assesses if synthetic data replicates comorbidity trends from real data.", EHRStructure: "Graph, Sequential", AspectAssessed: "Fidelity (Clinical Plausibility)" },
+        { MetricName: "Replica Detection Rate", Description: "Proportion of generated samples that are (near) identical to training samples.", EHRStructure: "Graph, Sequential", AspectAssessed: "Novelty, Privacy" },
+        { MetricName: "Outlier Detection (One-Class SVM)", Description: "Assesses if synthetic samples are classified as inliers when compared to real data.", EHRStructure: "Graph, Sequential", AspectAssessed: "Fidelity (Realism), Utility" }
+    ];
+
+    function populateTable(tableId, data, columns) {
+        const tableBody = document.querySelector(`#${tableId} tbody`);
+        tableBody.innerHTML = ''; // Clear existing rows
+        data.forEach(item => {
+            const row = tableBody.insertRow();
+            columns.forEach(col => {
+                const cell = row.insertCell();
+                cell.textContent = item[col.key];
+                cell.className = 'px-4 py-2 text-sm text-neutral-700 whitespace-normal';
+            });
+        });
+    }
+    
+    const table1Cols = [ {key: 'MetricName'}, {key: 'Description'}, {key: 'DataType'}, {key: 'AspectAssessed'}];
+    const table2Cols = [ {key: 'MetricName'}, {key: 'Description'}, {key: 'EHRStructure'}, {key: 'AspectAssessed'}];
+
+    let currentSortCol1 = null; let currentSortDir1 = 'asc';
+    let currentSortCol2 = null; let currentSortDir2 = 'asc';
+
+    function sortData(data, columnKey, direction) {
+        return [...data].sort((a, b) => {
+            let valA = a[columnKey] ? a[columnKey].toUpperCase() : '';
+            let valB = b[columnKey] ? b[columnKey].toUpperCase() : '';
+            if (valA < valB) return direction === 'asc' ? -1 : 1;
+            if (valA > valB) return direction === 'asc' ? 1 : -1;
+            return 0;
+        });
+    }
+    
+    function filterAndSortTable(tableId, originalData, columns, searchTerm, sortCol, sortDir) {
+        let filteredData = originalData;
+        if (searchTerm) {
+            const lowerSearchTerm = searchTerm.toLowerCase();
+            filteredData = originalData.filter(item => 
+                columns.some(col => item[col.key] && item[col.key].toString().toLowerCase().includes(lowerSearchTerm))
+            );
+        }
+        if (sortCol) {
+            filteredData = sortData(filteredData, sortCol, sortDir);
+        }
+        populateTable(tableId, filteredData, columns);
+    }
+
+    document.getElementById('table1Search').addEventListener('input', (e) => {
+        filterAndSortTable('table1', signalMetricsData, table1Cols, e.target.value, currentSortCol1, currentSortDir1);
+    });
+    document.getElementById('table2Search').addEventListener('input', (e) => {
+        filterAndSortTable('table2', ehrMetricsData, table2Cols, e.target.value, currentSortCol2, currentSortDir2);
+    });
+    
+    document.querySelectorAll('#table1 th[data-sort]').forEach(th => {
+        th.addEventListener('click', () => {
+            const sortKey = th.dataset.sort;
+            if (currentSortCol1 === sortKey) {
+                currentSortDir1 = currentSortDir1 === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSortCol1 = sortKey;
+                currentSortDir1 = 'asc';
+            }
+            filterAndSortTable('table1', signalMetricsData, table1Cols, document.getElementById('table1Search').value, currentSortCol1, currentSortDir1);
+        });
+    });
+    document.querySelectorAll('#table2 th[data-sort]').forEach(th => {
+        th.addEventListener('click', () => {
+            const sortKey = th.dataset.sort;
+            if (currentSortCol2 === sortKey) {
+                currentSortDir2 = currentSortDir2 === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSortCol2 = sortKey;
+                currentSortDir2 = 'asc';
+            }
+            filterAndSortTable('table2', ehrMetricsData, table2Cols, document.getElementById('table2Search').value, currentSortCol2, currentSortDir2);
+        });
+    });
+
+
+    populateTable('table1', signalMetricsData, table1Cols);
+    populateTable('table2', ehrMetricsData, table2Cols);
+
+    // Metrics Summary Chart
+    const allMetrics = [...signalMetricsData, ...ehrMetricsData];
+    const aspectCounts = allMetrics.reduce((acc, metric) => {
+        const aspects = metric.AspectAssessed.split(',').map(a => a.trim().split('(')[0].trim());
+        aspects.forEach(aspect => {
+            acc[aspect] = (acc[aspect] || 0) + 1;
+        });
+        return acc;
+    }, {});
+    
+    const uniqueAspects = [...new Set(Object.keys(aspectCounts))].sort();
+    const summaryChartData = {
+        labels: uniqueAspects,
+        datasets: [{
+            label: 'Number of Metrics',
+            data: uniqueAspects.map(aspect => aspectCounts[aspect]),
+            backgroundColor: [
+                'rgba(54, 162, 235, 0.6)', 
+                'rgba(255, 206, 86, 0.6)', 
+                'rgba(75, 192, 192, 0.6)', 
+                'rgba(153, 102, 255, 0.6)',
+                'rgba(255, 159, 64, 0.6)', 
+                'rgba(255, 99, 132, 0.6)' 
+            ],
+            borderColor: [
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+                'rgba(255, 99, 132, 1)'
+            ],
+            borderWidth: 1
+        }]
+    };
+
+    const metricsSummaryCtx = document.getElementById('metricsSummaryChart').getContext('2d');
+    new Chart(metricsSummaryCtx, {
+        type: 'bar',
+        data: summaryChartData,
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: { beginAtZero: true, title: { display: true, text: 'Number of Metrics' } }
+            },
+            plugins: {
+                legend: { display: false },
+                title: { display: true, text: 'Distribution of QA Metrics by Assessment Aspect', font: {size: 16}}
+            },
+            animation: {
+                duration: 1000,
+                easing: 'easeInOutQuart'
+            }
+        }
+    });
+    
+    // Data for Challenges Section
+    const challengesData = [
+        { title: 'Lack of Standardization in Evaluation Protocols', content: 'Absence of universally agreed-upon standards makes comparing models and datasets difficult. Need for benchmarks and consensus on core evaluation techniques.' },
+        { title: 'Evaluating Complex and Multimodal Datasets', content: 'Assessing fidelity of individual modalities is complex; ensuring realistic inter-modal relationships (e.g., image and text report consistency) is even harder.' },
+        { title: 'Ensuring Clinical Relevance, Safety, and Ethical Considerations', content: 'Beyond technical metrics, data must be clinically relevant and safe. Risk of perpetuating biases or leading to incorrect clinical decisions if limitations aren\'t understood.' },
+        { title: 'Developing More Interpretable and Holistic Quality Scores', content: 'Current evaluations yield disparate metrics. Need for holistic scores or frameworks to summarize overall quality interpretably.' },
+        { title: 'Quantifying Specific Aspects of Signal Quality', content: 'For signals like ECG, assessment often lacks quantitative measures like SNR or specific artifact quantification.' },
+        { title: 'Bridging Technical Metrics and Clinical Utility', content: 'Ensuring improvements in technical metrics translate to tangible clinical benefits is an ongoing challenge.' },
+        { title: 'Privacy in the Age of Advanced Attacks', content: 'Powerful generative models may increase risks of sophisticated privacy attacks, requiring continuous development of robust privacy metrics and PETs.' }
+    ];
+    const challengesContainer = document.getElementById('challenges-container');
+    challengesData.forEach(challenge => {
+        const accordionItem = document.createElement('div');
+        accordionItem.className = 'border border-slate-300 rounded-md';
+        accordionItem.innerHTML = `
+            <button class="accordion-button w-full flex justify-between items-center p-3 text-left font-medium text-slate-700 hover:bg-sky-100 focus:outline-none">
+                <span>${challenge.title}</span>
+                <span class="transform transition-transform duration-200 text-sky-600">&#10133;</span> </button>
+            <div class="accordion-content px-3 pb-3 text-sm text-neutral-600">
+                <p>${challenge.content}</p>
+            </div>
+        `;
+        challengesContainer.appendChild(accordionItem);
+        accordionItem.querySelector('.accordion-button').addEventListener('click', function() {
+            const content = this.nextElementSibling;
+            const icon = this.querySelector('span:last-child');
+            content.classList.toggle('open');
+            if (content.classList.contains('open')) {
+                content.style.maxHeight = content.scrollHeight + "px";
+                icon.innerHTML = '&#10134;'; 
+            } else {
+                content.style.maxHeight = "0";
+                icon.innerHTML = '&#10133;'; 
+            }
+        });
+    });
+
+    // Data for Recommendations Section
+    const recommendationsData = [
+        "Adopt a Multi-Metric Approach: Use a comprehensive suite covering fidelity, utility, privacy, and diversity.",
+        "Prioritize Task-Specific Utility: Define downstream tasks and evaluate utility accordingly (e.g., TSTR paradigm).",
+        "Incorporate Domain Expertise: Engage clinicians/experts for qualitative assessments (e.g., Clinical Turing Tests).",
+        "Be Vigilant About Privacy: Implement and report robust privacy evaluations, considering attack vectors and metrics like DCR, NNDR.",
+        "Strive for Transparency and Reproducibility: Document models, training data, preprocessing, and evaluation methods.",
+        "Consider Benchmarking: Compare against established benchmarks, baseline models, or public synthetic datasets."
+    ];
+    const recommendationsList = document.getElementById('recommendations-list');
+    recommendationsData.forEach(rec => {
+        const listItem = document.createElement('li');
+        listItem.textContent = rec;
+        recommendationsList.appendChild(listItem);
+    });
+</script>
+</body>
+</html>
