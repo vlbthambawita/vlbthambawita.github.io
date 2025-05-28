@@ -1,0 +1,32 @@
+# Jekyll output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using npm)
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Bundler config
+.bundle/
+vendor/
+
+# Ruby environment
+*.gem
+Gemfile.lock
+
+# dotenv environment variables
+.env
