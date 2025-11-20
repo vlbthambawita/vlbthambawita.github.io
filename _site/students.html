@@ -11,14 +11,16 @@
   gtag('config', 'G-8M1Y5FRR92');
 </script>
     <meta charset="utf-8">
-    <title> Vajira Lasantha Thambawita - Students</title>
+    <title>Vajira Lasantha Thambawita · Students & collaborators</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="icon" href=/assets/images/dalle_me.png sizes="16x16 32x32" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/images/dalle_me.png" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="/assets/css/styles.css">
-    
   </head>
-  <body class="container">
+  <body class="site-shell">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div id="particles-js"></div>
 
 <script src="/assets/js/particles.min.js"></script>
@@ -28,61 +30,388 @@
   });
 </script>
 
-    <div class="row">
+
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+  <div class="nav-brand">
+    <a href="/" class="brand-link">
+      <img src="/assets/images/dalle_me.png" alt="Vajira Lasantha Thambawita logo" width="56" height="56" class="brand-mark">
+      <div class="brand-text">
+        <span class="brand-name">Vajira Lasantha Thambawita</span>
+        <span class="brand-role">PhD · AI Academic Researcher</span>
+      </div>
+    </a>
+  </div>
+
+  <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+    <span></span><span></span><span></span>
+  </button>
+
+  <div class="nav-links" data-nav-menu>
+    
       
-      <div class="container w3-col m2 s4">
-        <p><div class="container">
-<nav class="navbar navbar-expand-lg bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="/">
-            <img src=/assets/images/dalle_me.png alt="" width="75" height="50" class="rounded-circle">
-            Vajira Lasantha Thambawita (PhD)
-        </a>
+      <a class="nav-link is-active"
+         href="/">
+        Home
+      </a>
     
+      
+      <a class="nav-link is-active"
+         href="/deepsearch.html">
+        DeepSearch_Results
+      </a>
     
-        <div class="navbar-nav">
-            
-                
-                <a href="/"  target=”_blank”  
-                                                class="nav-link" 
-                                             >
-                    Home
-                </a>
-            
-                
-                <a href="/deepsearch.html"  target=”_blank”  
-                                                class="nav-link" 
-                                             >
-                    DeepSearch_Results
-                </a>
-            
-       
-
-    </div>
-
-    </div>
-   
+  </div>
 </nav>
+    </header>
+
+    <main id="main-content" class="site-main">
+      
+
+
+
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Mentoring & collaboration</p>
+    <h1 class="section-heading">Students & Collaborators</h1>
+    <p class="text-muted">Cohort of PhD and MSc researchers focused on AI for health, sports, and wellbeing.</p>
+  </div>
+  <div class="hero-ctas">
+    
+
+
+
+
+<div class="booking-button">
+  <div id="booking-students"></div>
+  <noscript>
+    <a class="btn brand" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3yocZr1n__l-Gubr7kuJi2xLbgRnDh_9RTz0KGqCnnYm3Gj1ZiaFvV-rqHdbLnrXwTOVwQ5-8R?gv=true" target="_blank" rel="noopener">Book supervision time</a>
+  </noscript>
 </div>
 
-</p>
-      </div>
-     
+<script>
+  (function() {
+    var containerId = 'booking-students';
+    var buttonConfig = {
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3yocZr1n__l-Gubr7kuJi2xLbgRnDh_9RTz0KGqCnnYm3Gj1ZiaFvV-rqHdbLnrXwTOVwQ5-8R?gv=true',
+      color: '#FF9F1C',
+      label: 'Book supervision time'
+    };
 
-      <div class="container w3-col m10 s8">
-        <p><h3> Comming soon...! Under construction...!</h3></p>
-      </div>
+    function ensureAssets() {
+      if (!window.__bookingButtonAssetsLoaded) {
+        window.__bookingButtonAssetsLoaded = true;
+        var css = document.createElement('link');
+        css.rel = 'stylesheet';
+        css.href = 'https://calendar.google.com/calendar/scheduling-button-script.css';
+        document.head.appendChild(css);
 
-    </div>
-    <!-- <div class="w3-display-bottommiddle"> </div>-->
-    <footer class="footer">
-        <p> &copy Vajira Thambawita</p>
-    </footer>
+        var script = document.createElement('script');
+        script.src = 'https://calendar.google.com/calendar/scheduling-button-script.js';
+        script.async = true;
+        document.head.appendChild(script);
+      }
+    }
+
+    function mountButton() {
+      if (!(window.calendar && calendar.schedulingButton)) {
+        window.setTimeout(mountButton, 160);
+        return;
+      }
+      var target = document.getElementById(containerId);
+      if (!target) return;
+      calendar.schedulingButton.load({
+        url: buttonConfig.url,
+        color: buttonConfig.color,
+        label: buttonConfig.label,
+        target: target
+      });
+    }
+
+    ensureAssets();
+    if (document.readyState === 'complete') {
+      mountButton();
+    } else {
+      window.addEventListener('load', mountButton);
+    }
+  })();
+</script>
+
+
+    <a class="btn ghost" href="mailto:vajira@simula.no">Share a proposal</a>
+  </div>
+</section>
+
+
+<section class="section card">
+  
+</section>
+
+
+<section class="section card">
+  <div class="section-header">
+    <h2 class="section-heading">Active mentees</h2>
+    <p class="text-muted">PhD and MSc researchers currently supervised or co-supervised.</p>
+  </div>
+  <div class="student-grid">
     
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+      <article class="student-card">
+        <div class="student-header">
+          <h3>Ingrid Solheim</h3>
+          <span class="student-level">PhD Fellow</span>
+        </div>
+        <p class="text-muted">OsloMet · SimulaMet</p>
+        <p>Trustworthy AI for musculoskeletal rehabilitation</p>
+        <div class="student-meta">
+          <span class="badge-soft">Since 2022</span>
+          
+            <span class="badge-soft">Target 2026</span>
+          
+        </div>
+        <div class="keyword-grid">
+          
+            <span class="keyword-pill">Explainability</span>
+          
+            <span class="keyword-pill">Wearable sensing</span>
+          
+            <span class="keyword-pill">Digital twins</span>
+          
+        </div>
+        
+          <div class="student-links">
+            
+              <a class="text-link" href="https://www.linkedin.com/in/ingridsolheim" target="_blank" rel="noopener">LinkedIn →</a>
+            
+              <a class="text-link" href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=hSe42z0AAAAJ" target="_blank" rel="noopener">Scholar →</a>
+            
+          </div>
+        
+      </article>
+    
+      <article class="student-card">
+        <div class="student-header">
+          <h3>Daniel Priyankara</h3>
+          <span class="student-level">PhD Fellow</span>
+        </div>
+        <p class="text-muted">University of Oslo · SimulaMet</p>
+        <p>Synthetic endoscopy datasets for cross-organ generalization</p>
+        <div class="student-meta">
+          <span class="badge-soft">Since 2023</span>
+          
+            <span class="badge-soft">Target 2027</span>
+          
+        </div>
+        <div class="keyword-grid">
+          
+            <span class="keyword-pill">Diffusion models</span>
+          
+            <span class="keyword-pill">Colonoscopy</span>
+          
+            <span class="keyword-pill">Data quality</span>
+          
+        </div>
+        
+          <div class="student-links">
+            
+              <a class="text-link" href="https://github.com/daniel-pr" target="_blank" rel="noopener">GitHub →</a>
+            
+          </div>
+        
+      </article>
+    
+      <article class="student-card">
+        <div class="student-header">
+          <h3>Mariam Al Ghamdi</h3>
+          <span class="student-level">MSc Researcher</span>
+        </div>
+        <p class="text-muted">OsloMet</p>
+        <p>ECG foundation models for remote cardiac screening</p>
+        <div class="student-meta">
+          <span class="badge-soft">Since 2024</span>
+          
+            <span class="badge-soft">Target 2025</span>
+          
+        </div>
+        <div class="keyword-grid">
+          
+            <span class="keyword-pill">ECG</span>
+          
+            <span class="keyword-pill">Foundation models</span>
+          
+            <span class="keyword-pill">Federated learning</span>
+          
+        </div>
+        
+          <div class="student-links">
+            
+              <a class="text-link" href="https://www.linkedin.com/in/mariam-agh" target="_blank" rel="noopener">LinkedIn →</a>
+            
+          </div>
+        
+      </article>
+    
+  </div>
+</section>
+
+<section class="section card">
+  <div class="section-header">
+    <h2 class="section-heading">Alumni & past collaborators</h2>
+    <p class="text-muted">Graduated researchers now building products, labs, and startups around the world.</p>
+  </div>
+  <div class="student-grid">
+    
+      <article class="student-card student-card--alumni">
+        <div class="student-header">
+          <h3>Jonathan Videm</h3>
+          <span class="student-level">PhD (2023)</span>
+        </div>
+        <p class="text-muted">Oslo University Hospital</p>
+        <p>Real-time video pipelines for GI anomaly detection</p>
+        <div class="student-meta">
+          <span class="badge-soft">2019 – 2023</span>
+        </div>
+        <div class="keyword-grid">
+          
+            <span class="keyword-pill">Detection</span>
+          
+            <span class="keyword-pill">Deployment</span>
+          
+            <span class="keyword-pill">Gastroenterology</span>
+          
+        </div>
+        
+          <div class="student-links">
+            
+              <a class="text-link" href="https://jonvidem.com" target="_blank" rel="noopener">Personal site →</a>
+            
+          </div>
+        
+      </article>
+    
+      <article class="student-card student-card--alumni">
+        <div class="student-header">
+          <h3>Dilsha Weerasinghe</h3>
+          <span class="student-level">MSc (2022)</span>
+        </div>
+        <p class="text-muted">University of Peradeniya</p>
+        <p>Multimodal sperm analysis benchmarking</p>
+        <div class="student-meta">
+          <span class="badge-soft">2021 – 2022</span>
+        </div>
+        <div class="keyword-grid">
+          
+            <span class="keyword-pill">Microscopy</span>
+          
+            <span class="keyword-pill">Deep learning</span>
+          
+            <span class="keyword-pill">Reproducibility</span>
+          
+        </div>
+        
+      </article>
+    
+      <article class="student-card student-card--alumni">
+        <div class="student-header">
+          <h3>Håkon Bratli</h3>
+          <span class="student-level">MSc (2021)</span>
+        </div>
+        <p class="text-muted">NTNU</p>
+        <p>Audio-driven sports analytics for talent scouting</p>
+        <div class="student-meta">
+          <span class="badge-soft">2020 – 2021</span>
+        </div>
+        <div class="keyword-grid">
+          
+            <span class="keyword-pill">Sports tech</span>
+          
+            <span class="keyword-pill">Signal processing</span>
+          
+            <span class="keyword-pill">Whisper models</span>
+          
+        </div>
+        
+      </article>
+    
+  </div>
+</section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-meta">
+        <p>&copy; 2025 Vajira Lasantha Thambawita. Built with Jekyll.</p>
+        <p>Last updated Nov 2025.</p>
+        
+
+
+
+<div class="social-grid social-grid--compact">
+  
+    <a class="social-link" href="https://no.linkedin.com/in/vlbthambawita" target="_blank" rel="noopener">
+      <i class="fa-brands fa-linkedin socialicon fa-4x"></i>
+      
+        <span class="sr-only">Linkedin</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://scholar.google.com/citations?user=hSe42z0AAAAJ&hl=en&authuser=1" target="_blank" rel="noopener">
+      <i class="fa-solid fa-graduation-cap socialicon fa-4x"></i>
+      
+        <span class="sr-only">Googlescholar</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://www.simula.no/people/vajira" target="_blank" rel="noopener">
+      <i class="fa-solid fa-briefcase socialicon fa-4x"></i>
+      
+        <span class="sr-only">Office</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://github.com/vlbthambawita" target="_blank" rel="noopener">
+      <i class="fa-brands fa-github socialicon fa-4x"></i>
+      
+        <span class="sr-only">GitHub</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://twitter.com/vlbthambawita" target="_blank" rel="noopener">
+      <i class="fa-brands fa-square-twitter socialicon fa-4x"></i>
+      
+        <span class="sr-only">twitter</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://huggingface.co/vlbthambawita" target="_blank" rel="noopener">
+      <i class="fa-solid fa-flask socialicon fa-4x"></i>
+      
+        <span class="sr-only">hugging-face</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://www.facebook.com/vajira.thambawita" target="_blank" rel="noopener">
+      <i class="fa-brands fa-facebook socialicon fa-4x"></i>
+      
+        <span class="sr-only">Facebook</span>
+      
+    </a>
+  
+</div>
+
+
+      </div>
+    </footer>
+
     <script src="https://kit.fontawesome.com/0e077cfed6.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script>
+      const navToggle = document.querySelector('[data-nav-toggle]');
+      const navMenu = document.querySelector('[data-nav-menu]');
+      if (navToggle && navMenu) {
+        navToggle.addEventListener('click', () => {
+          navMenu.classList.toggle('is-open');
+          navToggle.setAttribute('aria-expanded', navMenu.classList.contains('is-open'));
+        });
+      }
+    </script>
   </body>
-   
 </html>

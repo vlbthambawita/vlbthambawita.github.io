@@ -1,0 +1,17 @@
+items:
+  - title: Invited keynote at Nordic AI in Healthcare Summit
+    date: 2024-10-12
+    type: Talk
+    summary: Presented evaluation playbooks for generative data in gastroenterology and cardiology imaging pipelines.
+    link: https://www.nordicaihealth.com/
+  - title: Deep Synth Body v2 released
+    date: 2024-08-05
+    type: Release
+    summary: Added ECG and respiration streams plus 4 new locomotion scenarios for robustness research.
+    link: https://deepsynthbody.github.io/
+  - title: New collaborative PhD position
+    date: 2024-07-01
+    type: Opportunity
+    summary: Recruiting a doctoral fellow on trustworthy AI for musculoskeletal rehabilitation with OsloMet.
+    link: mailto:vajira@simula.no
+

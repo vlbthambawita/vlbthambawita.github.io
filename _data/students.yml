@@ -1,0 +1,64 @@
+people:
+  - name: Ingrid Solheim
+    level: PhD Fellow
+    institution: OsloMet · SimulaMet
+    focus: Trustworthy AI for musculoskeletal rehabilitation
+    status: current
+    start_year: 2022
+    expected_year: 2026
+    keywords: [Explainability, Wearable sensing, Digital twins]
+    links:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/ingridsolheim
+      - label: Scholar
+        url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=hSe42z0AAAAJ
+  - name: Daniel Priyankara
+    level: PhD Fellow
+    institution: University of Oslo · SimulaMet
+    focus: Synthetic endoscopy datasets for cross-organ generalization
+    status: current
+    start_year: 2023
+    expected_year: 2027
+    keywords: [Diffusion models, Colonoscopy, Data quality]
+    links:
+      - label: GitHub
+        url: https://github.com/daniel-pr
+  - name: Mariam Al Ghamdi
+    level: MSc Researcher
+    institution: OsloMet
+    focus: ECG foundation models for remote cardiac screening
+    status: current
+    start_year: 2024
+    expected_year: 2025
+    keywords: [ECG, Foundation models, Federated learning]
+    links:
+      - label: LinkedIn
+        url: https://www.linkedin.com/in/mariam-agh
+  - name: Jonathan Videm
+    level: PhD (2023)
+    institution: Oslo University Hospital
+    focus: Real-time video pipelines for GI anomaly detection
+    status: alumni
+    start_year: 2019
+    expected_year: 2023
+    keywords: [Detection, Deployment, Gastroenterology]
+    links:
+      - label: Personal site
+        url: https://jonvidem.com
+  - name: Dilsha Weerasinghe
+    level: MSc (2022)
+    institution: University of Peradeniya
+    focus: Multimodal sperm analysis benchmarking
+    status: alumni
+    start_year: 2021
+    expected_year: 2022
+    keywords: [Microscopy, Deep learning, Reproducibility]
+  - name: Håkon Bratli
+    level: MSc (2021)
+    institution: NTNU
+    focus: Audio-driven sports analytics for talent scouting
+    status: alumni
+    start_year: 2020
+    expected_year: 2021
+    keywords: [Sports tech, Signal processing, Whisper models]
+

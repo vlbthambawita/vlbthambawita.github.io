@@ -1,25 +1,42 @@
----
 layout: default
 title: Papers
 ---
-<h2> Papers : {{ site.papers | size }} </h2>
+{% assign total_papers = site.papers | size %}
+{% assign grouped_papers = site.papers | group_by: "published" | sort: "name" | reverse %}
 
-<div class="container">
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Publications</p>
+    <h1 class="section-heading">Peer-reviewed papers & datasets</h1>
+    <p class="text-muted">Browse {{ total_papers }} papers across gastroenterology, cardiology, sports analytics, and generative healthcare AI.</p>
+  </div>
+</section>
 
-    {% assign sorted_papers = site.papers | sort: "published" | reverse %}
-    {% assign grouped_papers = site.papers | group_by: "published" | reverse %}
-    
-    {% for grp in grouped_papers %}
-        <h3> {{ grp.name }} </h3>
-        <ol> <!-- class="list-group list-group-numbered" -->
-            {% for paper in grp.items %}
-                <li> <!-- class="list-group-item"-->
-                    <h5> <a href="{{ paper.url }}" class="paper-link">{{ paper.paper_title }} </a></h5>
-                    <i>{{ paper.paper_authors }} </i>
-                </li>
-            {% endfor %}
+<section class="section card">
+  <div class="papers-grid">
+    {% for group in grouped_papers %}
+      <div class="paper-year">
+        <div class="paper-year-header">
+          <h2>{{ group.name }}</h2>
+          <span class="badge-soft">{{ group.items | size }} publications</span>
+        </div>
+        <ol class="paper-list">
+          {% for paper in group.items %}
+            <li class="paper-item">
+              <div>
+                <h3><a class="paper-link" href="{{ paper.url | relative_url }}">{{ paper.paper_title }}</a></h3>
+                <p class="text-muted">{{ paper.paper_authors }}</p>
+              </div>
+              <div class="paper-actions">
+                {% if paper.pdf_link %}
+                  <a class="text-link" href="{{ paper.pdf_link }}" target="_blank" rel="noopener">PDF</a>
+                {% endif %}
+                <a class="text-link" href="{{ paper.url | relative_url }}">Details</a>
+              </div>
+            </li>
+          {% endfor %}
         </ol>
+      </div>
     {% endfor %}
-
-
-</div>
+  </div>
+</section>

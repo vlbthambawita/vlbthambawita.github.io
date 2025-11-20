@@ -1,5 +1,95 @@
 ---
 layout: default
 ---
+{% assign students = site.data.students.people %}
+{% assign current_students = students | where: "status", "current" %}
+{% assign alumni_students = students | where: "status", "alumni" %}
 
-<h3> Under construction, Coming soon...!</h3>
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Mentoring & collaboration</p>
+    <h1 class="section-heading">{{ page.title | default: "Students & collaborators" }}</h1>
+    <p class="text-muted">{{ page.description | default: "I co-create research programs with motivated students, clinicians, and engineers. We focus on reproducible breakthroughs, open datasets, and deployable prototypes." }}</p>
+  </div>
+  <div class="hero-ctas">
+    {% include booking-button.html id="booking-students" label="Book supervision time" %}
+    <a class="btn ghost" href="mailto:{{ site.data.myself.emails | first }}">Share a proposal</a>
+  </div>
+</section>
+
+{% if content %}
+<section class="section card">
+  {{ content }}
+</section>
+{% endif %}
+
+<section class="section card">
+  <div class="section-header">
+    <h2 class="section-heading">Active mentees</h2>
+    <p class="text-muted">PhD and MSc researchers currently supervised or co-supervised.</p>
+  </div>
+  <div class="student-grid">
+    {% for student in current_students %}
+      <article class="student-card">
+        <div class="student-header">
+          <h3>{{ student.name }}</h3>
+          <span class="student-level">{{ student.level }}</span>
+        </div>
+        <p class="text-muted">{{ student.institution }}</p>
+        <p>{{ student.focus }}</p>
+        <div class="student-meta">
+          <span class="badge-soft">Since {{ student.start_year }}</span>
+          {% if student.expected_year %}
+            <span class="badge-soft">Target {{ student.expected_year }}</span>
+          {% endif %}
+        </div>
+        <div class="keyword-grid">
+          {% for keyword in student.keywords %}
+            <span class="keyword-pill">{{ keyword }}</span>
+          {% endfor %}
+        </div>
+        {% if student.links %}
+          <div class="student-links">
+            {% for link in student.links %}
+              <a class="text-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }} →</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section card">
+  <div class="section-header">
+    <h2 class="section-heading">Alumni & past collaborators</h2>
+    <p class="text-muted">Graduated researchers now building products, labs, and startups around the world.</p>
+  </div>
+  <div class="student-grid">
+    {% for student in alumni_students %}
+      <article class="student-card student-card--alumni">
+        <div class="student-header">
+          <h3>{{ student.name }}</h3>
+          <span class="student-level">{{ student.level }}</span>
+        </div>
+        <p class="text-muted">{{ student.institution }}</p>
+        <p>{{ student.focus }}</p>
+        <div class="student-meta">
+          <span class="badge-soft">{{ student.start_year }} – {{ student.expected_year }}</span>
+        </div>
+        <div class="keyword-grid">
+          {% for keyword in student.keywords %}
+            <span class="keyword-pill">{{ keyword }}</span>
+          {% endfor %}
+        </div>
+        {% if student.links %}
+          <div class="student-links">
+            {% for link in student.links %}
+              <a class="text-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }} →</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</section>

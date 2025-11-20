@@ -7,6 +7,56 @@ emails:
 about: Vajira Thambawita is a research scientist at Simula Metropolitan, specializing in machine learning and deep learning with a focus on medical imaging and multimedia data analysis. He has contributed to advancements in medical diagnostics, including polyp detection, segmentation, and synthetic dataset generation using GANs and diffusion models. Vajira is also recognized for his work on the generalizability of AI models. With a strong focus on impactful, interdisciplinary research, he aims to develop AI-driven solutions that improve healthcare outcomes and address real-world problems.
 icon: /assets/images/dalle_me.png
 photo: /assets/images/IMG_0024.jpg
+tagline: Human-centric AI research for trustworthy diagnostics
+tagline_detail: Senior Research Scientist at SimulaMet and Associate Professor at OsloMet creating reliable, data-efficient AI for gastroenterology, cardiology, and musculoskeletal health.
+location: Oslo, Norway · CET/CEST
+availability: Open to keynote talks, clinical collaborations, and student supervision.
+cta_primary_label: Book a meeting
+cta_secondary_label: View publications
+cta_secondary_url: /papers.html
+stats:
+  - label: Peer-reviewed papers
+    value: "45+"
+    helper: Medical imaging, sports & healthcare AI
+  - label: Citations
+    value: "1.7K+"
+    helper: Google Scholar
+  - label: Students mentored
+    value: "18"
+    helper: PhD, MSc & industry collaborators
+  - label: Research funding
+    value: "€4.2M"
+    helper: Secured as PI/co-PI
+focus_areas:
+  - title: Generative medical imaging
+    summary: Building high-fidelity synthetic datasets (GANs, diffusion, text-to-image) that address data scarcity and privacy in clinical workflows.
+    keywords: [Synthetic endoscopy, DeepSynthBody, Quality assurance]
+  - title: Trustworthy clinical AI
+    summary: Designing explainable, auditable decision systems for ECG analysis, GI tract screening, and musculoskeletal health interventions.
+    keywords: [Explainability, Robustness, Regulatory readiness]
+  - title: Real-world deployments
+    summary: Translating lab breakthroughs into hospital pilots through multi-institutional collaborations and agile research engineering.
+    keywords: [Clinical trials, Translational AI, Cross-disciplinary teams]
+affiliations:
+  - name: Simula Metropolitan Center for Digital Engineering
+    role: Senior Research Scientist, Holistic Systems Department
+    years: 2022–Present
+  - name: Oslo Metropolitan University (OsloMet)
+    role: Associate Professor, Centre for Intelligent Musculoskeletal Health
+    years: 2023–2024
+  - name: Kristiania University College
+    role: Visiting Lecturer, Machine Learning
+    years: 2022–Present
+highlights:
+  - title: DeepSynthBody
+    snippet: Released the first large-scale synthetic full-body physiological dataset for benchmarking privacy-preserving AI.
+    link: https://deepsynthbody.github.io/
+  - title: Gastrointestinal AI Suite
+    snippet: Led cross-organ polyp detection & segmentation models deployed in live colonoscopy screenings.
+    link: https://simula.no/research/projects/gastrointestinal-ai
+  - title: Sports analytics datasets
+    snippet: Co-created multi-modal resources such as SoccerNet-Echoes enabling richer event understanding from broadcast audio.
+    link: https://www.soccer-net.org/
 
 links:
   - name: Linkedin

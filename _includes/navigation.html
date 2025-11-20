@@ -1,29 +1,25 @@
-<div class="container">
-<nav class="navbar navbar-expand-lg bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="/">
-            <img src={{ site.data.myself.icon }} alt="" width="75" height="50" class="rounded-circle">
-            {{ site.data.myself.name }} ({{ site.data.myself.degree }})
-        </a>
-    
-    
-        <div class="navbar-nav">
-            {% for item in site.data.navigation %}
-                
-                <a href="{{ item.link }}"  target=”_blank” {% if page.url == item.link %} 
-                                                class="nav-link active"
-                                            {% else %} 
-                                                class="nav-link" 
-                                            {% endif %} >
-                    {{ item.name }}
-                </a>
-            {% endfor %}
-       
+<nav class="site-nav" aria-label="Primary navigation">
+  <div class="nav-brand">
+    <a href="{{ '/' | relative_url }}" class="brand-link">
+      <img src="{{ site.data.myself.icon }}" alt="{{ site.data.myself.name }} logo" width="56" height="56" class="brand-mark">
+      <div class="brand-text">
+        <span class="brand-name">{{ site.data.myself.name }}</span>
+        <span class="brand-role">{{ site.data.myself.degree }} · AI Academic Researcher</span>
+      </div>
+    </a>
+  </div>
 
-    </div>
+  <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+    <span></span><span></span><span></span>
+  </button>
 
-    </div>
-   
+  <div class="nav-links" data-nav-menu>
+    {% for item in site.data.navigation %}
+      {% assign is_active = page.url == item.link %}
+      <a class="nav-link {% if is_active %}is-active{% endif %}"
+         href="{{ item.link | relative_url }}">
+        {{ item.name }}
+      </a>
+    {% endfor %}
+  </div>
 </nav>
-</div>
-
