@@ -19,14 +19,11 @@ stats:
     value: "45+"
     helper: Medical imaging, sports & healthcare AI
   - label: Citations
-    value: "1.7K+"
-    helper: Google Scholar
+    value: "4.2K+"
+    helper: Google Scholar · Nov 2025
   - label: Students mentored
     value: "18"
     helper: PhD, MSc & industry collaborators
-  - label: Research funding
-    value: "€4.2M"
-    helper: Secured as PI/co-PI
 focus_areas:
   - title: Generative medical imaging
     summary: Building high-fidelity synthetic datasets (GANs, diffusion, text-to-image) that address data scarcity and privacy in clinical workflows.
