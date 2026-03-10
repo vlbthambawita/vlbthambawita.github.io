@@ -3,93 +3,52 @@ layout: default
 title: home
 ---
 
-<div class="container mt-5">
-    <div class="row">
-      <div class="col-sm-4">
-        <h2>About Me</h2>
-        <div> <img src="{{ site.data.myself.photo }}" class="myimg" alt="Cinque Terre"> </div>
+{% assign all_exps = site.data.my_experience.exps | reverse %}
 
+<div class="home-grid">
+
+  <aside class="home-sidebar">
+    <section class="card">
+      <div class="hero-photo">
+        <img src="{{ site.data.myself.photo }}" alt="{{ site.data.myself.name }}" class="myimg">
+      </div>
+      <div class="profile-meta">
+        <h2>{{ site.data.myself.name }}</h2>
+        <p class="text-muted">{{ site.data.myself.tagline }}</p>
         <p>{{ site.data.myself.about }}</p>
-        
-        <h3 class="mt-4">LINKS: </h3>
-        <p>To get more informatin about me.</p>
-        {% assign sorted_links = site.data.myself.links | sort: "order" %}
-        <ul class="nav nav-pills flex-column">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                {% for item in sorted_links %}
-                <dev class="col">
-                    <a href="{{ item.link }}" target=”_blank”><i class="{{ item.fa-class }}"></i></a>
-                </dev>
-                {% endfor %} 
-
-            </div>
-
-            <div class="row row-cols-1 row-cols-md-3 g-4 p-3">
-                
-                                    <!-- Google Calendar Appointment Scheduling begin -->
-                    <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-                    <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-                    <script>
-                    (function() {
-                    var target = document.currentScript;
-                    window.addEventListener('load', function() {
-                        calendar.schedulingButton.load({
-                        url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3yocZr1n__l-Gubr7kuJi2xLbgRnDh_9RTz0KGqCnnYm3Gj1ZiaFvV-rqHdbLnrXwTOVwQ5-8R?gv=true',
-                        color: '#FF9F1C',
-                        label: 'Book an appointment',
-                        target,
-                        });
-                    });
-                    })();
-                    </script>
-                    <!-- end Google Calendar Appointment Scheduling --> 
-                
-
-            </div>
-           
-        </ul>
-
-        <hr class="d-sm-none">
       </div>
-      <div class="col-sm-8">
-        <div class="container">
-            <h3>Employments and Experiences</h3>
-            <div class="container">
-        
-                {%  assign reverse_exps = site.data.my_experience.exps | reverse %}
-                <ol class="list-group"></ul>
-                {% for item in reverse_exps %}
-                    <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                        <div class="fw-bold text-job bg-dark">{{ item.exp }}</div>
-                        {{ item.location }}
-                            <div>
-                                <i> {{ item.job }} </i>
-                            </div>
-                        </div>
-                        {% if item.present %}
-                            <span class="badge badge-present rounded-pill">{{ item.period }}</span>
-                        {% else %}
-                            <span class="badge badge-old rounded-pill">{{ item.period }}</span>
-                        {% endif %}
+    </section>
 
-                    </li>
-                {% endfor %}
-                </ol>
-            </div>
-        
+    <section class="section cta card" id="book-appointment">
+      <div class="cta-content">
+        <h2 class="section-heading">Book a meeting</h2>
+        <div class="hero-ctas">
+          {% include booking-button.html id="booking-cta" label="Book via Google Calendar" %}
+          <a class="btn ghost" href="mailto:{{ site.data.myself.emails | first }}">Email me</a>
         </div>
-
       </div>
-    </div>
+    </section>
+  </aside>
 
-    <div class="row">
-        <div class="col-sm-12">
-            e-mail to: 
-            {% for email in  site.data.myself.emails %}
-            <a href = "mailto:{{ email }}">{{ email }}</a>  |
-            {% endfor %}
-            
-        </div>
-    </div>
-  </div>
+  <main class="home-main">
+    <section class="section card">
+      <div class="section-header">
+        <h2 class="section-heading">Employment & Experience</h2>
+      </div>
+      <ol class="timeline">
+        {% for item in all_exps %}
+          <li class="timeline-item{% if item.present %} timeline-item--present{% endif %}">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p class="timeline-period">{{ item.period }}{% if item.present %} <span class="badge-present">Present</span>{% endif %}</p>
+              <h3>{{ item.exp }}</h3>
+              <p class="text-muted">{{ item.location }}</p>
+              <p>{{ item.job }}</p>
+            </div>
+          </li>
+        {% endfor %}
+      </ol>
+    </section>
+  </main>
+
+</div>

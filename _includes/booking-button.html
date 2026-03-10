@@ -1,0 +1,64 @@
+{% assign label = include.label | default: site.data.myself.cta_primary_label | default: "Book a meeting" %}
+{% assign color = include.color | default: "#FF9F1C" %}
+{% assign schedule_url = include.url | default: "https://calendar.google.com/calendar/appointments/schedules/AcZssZ3yocZr1n__l-Gubr7kuJi2xLbgRnDh_9RTz0KGqCnnYm3Gj1ZiaFvV-rqHdbLnrXwTOVwQ5-8R?gv=true" %}
+{% if include.id %}
+  {% assign button_id = include.id %}
+{% else %}
+  {% assign button_id = "booking-button-" | append: label | slugify %}
+{% endif %}
+
+<div class="booking-button">
+  <div id="{{ button_id }}"></div>
+  <noscript>
+    <a class="btn brand" href="{{ schedule_url }}" target="_blank" rel="noopener">{{ label }}</a>
+  </noscript>
+</div>
+
+<script>
+  (function() {
+    var containerId = '{{ button_id }}';
+    var buttonConfig = {
+      url: '{{ schedule_url }}',
+      color: '{{ color }}',
+      label: '{{ label }}'
+    };
+
+    function ensureAssets() {
+      if (!window.__bookingButtonAssetsLoaded) {
+        window.__bookingButtonAssetsLoaded = true;
+        var css = document.createElement('link');
+        css.rel = 'stylesheet';
+        css.href = 'https://calendar.google.com/calendar/scheduling-button-script.css';
+        document.head.appendChild(css);
+
+        var script = document.createElement('script');
+        script.src = 'https://calendar.google.com/calendar/scheduling-button-script.js';
+        script.async = true;
+        document.head.appendChild(script);
+      }
+    }
+
+    function mountButton() {
+      if (!(window.calendar && calendar.schedulingButton)) {
+        window.setTimeout(mountButton, 160);
+        return;
+      }
+      var target = document.getElementById(containerId);
+      if (!target) return;
+      calendar.schedulingButton.load({
+        url: buttonConfig.url,
+        color: buttonConfig.color,
+        label: buttonConfig.label,
+        target: target
+      });
+    }
+
+    ensureAssets();
+    if (document.readyState === 'complete') {
+      mountButton();
+    } else {
+      window.addEventListener('load', mountButton);
+    }
+  })();
+</script>
+

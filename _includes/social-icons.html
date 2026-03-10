@@ -1,0 +1,17 @@
+{% assign source_links = include.links | default: site.data.myself.links %}
+{% assign sorted_links = source_links | sort: "order" %}
+{% assign variant = include.variant %}
+{% assign hide_labels = include.hide_labels | default: false %}
+<div class="social-grid{% if variant %} social-grid--{{ variant }}{% endif %}">
+  {% for item in sorted_links %}
+    <a class="social-link" href="{{ item.link }}" target="_blank" rel="noopener">
+      <i class="{{ item.fa-class }}"></i>
+      {% if hide_labels %}
+        <span class="sr-only">{{ item.name }}</span>
+      {% else %}
+        <span>{{ item.name }}</span>
+      {% endif %}
+    </a>
+  {% endfor %}
+</div>
+

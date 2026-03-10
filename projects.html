@@ -1,43 +1,37 @@
----
 layout: default
 title: Projects
 ---
+{% assign sorted_projects = site.projects | sort: "display_position" %}
+{% assign showcase_projects = sorted_projects | where_exp: "item", "item.show" %}
 
-<div class="container">
-    <h2> Projects </h2>
-    <p> Differnt projects which I involve actively...</p>
-    {% assign sorted_projects = site.projects | sort: "display_position" %}
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Projects</p>
+    <h1 class="section-heading">Living labs & deployments</h1>
+    <p class="text-muted">A snapshot of multi-institutional efforts spanning synthetic data, clinical AI trials, and human performance analytics.</p>
+  </div>
+</section>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-
-        {% for project in sorted_projects %}
-        {% if project.show %}
-        
-        <div class="col">
-            <a href="{{ project.url }}"></a>
-                <div class="card h-100" style="width: 18rem;">
-                        <img  class="bd-placeholder-img card-img-top" src={{ project.display_image }} style="width:100%">
-                        <div class="card-body">
-                            <h5 class="card-title">{{project.project_title}}</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="{{ project.url }}" class="btn btn-primary">Read more</a>
-                        </div>
-                        {% if project.status == "ongoing" %}
-                        <div class="card-footer">
-                            <small class="badge text-bg-success">{{ project.status }}</small>
-                        </div>
-                        {% endif %}
-                </div>
-            </a>
-            
-        </div>
+<section class="section card">
+  <div class="project-grid">
+    {% for project in showcase_projects %}
+      {% assign project_title = project.project_title | default: project.title %}
+      {% assign project_summary = project.description | default: project.content | strip_html | truncate: 180 %}
+      <article class="project-showcase">
+        {% if project.display_image %}
+          <div class="project-thumb" style="background-image: url('{{ project.display_image }}');"></div>
         {% endif %}
-        {% endfor %}
-        
-
-    </div>
-        
-    
-    
-    
-</div>
+        <div class="project-body">
+          <div class="project-meta">
+            {% if project.status %}
+              <span class="badge-soft">{{ project.status | capitalize }}</span>
+            {% endif %}
+          </div>
+          <h2>{{ project_title }}</h2>
+          <p>{{ project_summary }}</p>
+          <a class="text-link" href="{{ project.url | relative_url }}">Deep dive →</a>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
