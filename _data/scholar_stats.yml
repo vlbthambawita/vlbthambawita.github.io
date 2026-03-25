@@ -1,0 +1,108 @@
+# Google Scholar statistics for Vajira Lasantha Thambawita
+# Scholar profile: https://scholar.google.com/citations?user=hSe42z0AAAAJ
+# This file is automatically updated by the GitHub Actions workflow (.github/workflows/update_scholar.yml)
+# Last updated: 2025-03-25 (placeholder — run the workflow to sync live data)
+
+scholar_id: hSe42z0AAAAJ
+last_updated: "2025-03-25"
+auto_updated: false
+
+# Overall citation metrics (synced from Google Scholar)
+stats:
+  total_citations: 0
+  citations_since_2020: 0
+  h_index: 0
+  h_index_since_2020: 0
+  i10_index: 0
+  i10_index_since_2020: 0
+
+# Top cited publications (title + citation count synced from Google Scholar)
+# Ordered by citation count descending
+top_cited:
+  - title: "HyperKvasir, a comprehensive multi-class image and video dataset for gastrointestinal endoscopy"
+    authors: "Hanna Borgli, Vajira Thambawita, Pia H Smedsrud, Steven Hicks, Debesh Jha, et al."
+    venue: "Scientific Data"
+    year: 2020
+    citations: 0
+    scholar_url: "https://scholar.google.com/scholar?q=HyperKvasir+comprehensive+multi-class+image+video+dataset+gastrointestinal"
+
+  - title: "DeepFake electrocardiograms using generative adversarial networks are the beginning of the end for privacy issues in medicine"
+    authors: "Vajira Thambawita, Jonas L Isaksen, Steven A Hicks, Jonas Ghouse, Gustav Ahlberg, et al."
+    venue: "Scientific Reports"
+    year: 2021
+    citations: 0
+    scholar_url: "https://scholar.google.com/scholar?q=DeepFake+electrocardiograms+generative+adversarial+networks+privacy+medicine"
+
+  - title: "Kvasir-Capsule, a video capsule endoscopy dataset"
+    authors: "Pia H Smedsrud, Vajira Thambawita, Steven A Hicks, Henrik Gjestang, Oda Olsen Nedrejord, et al."
+    venue: "Scientific Data"
+    year: 2021
+    citations: 0
+    scholar_url: "https://scholar.google.com/scholar?q=Kvasir-Capsule+video+capsule+endoscopy+dataset"
+
+  - title: "SinGAN-Seg: Synthetic training data generation for medical image segmentation"
+    authors: "Vajira Thambawita, Pegah Salehi, Sajad Amouei Sheshkal, Steven A Hicks, et al."
+    venue: "PLoS ONE"
+    year: 2022
+    citations: 0
+    scholar_url: "https://scholar.google.com/scholar?q=SinGAN-Seg+Synthetic+training+data+medical+image+segmentation"
+
+  - title: "An extensive study on cross-dataset bias and evaluation metrics interpretation for machine learning applied to gastrointestinal tract abnormality classification"
+    authors: "Vajira Thambawita, Debesh Jha, Hugo Lewi Hammer, Håvard D Johansen, Dag Johansen, Pål Halvorsen, Michael A Riegler"
+    venue: "ACM Transactions on Computing for Healthcare"
+    year: 2020
+    citations: 0
+    scholar_url: "https://scholar.google.com/scholar?q=cross-dataset+bias+evaluation+metrics+gastrointestinal+abnormality+classification"
+
+  - title: "Machine learning-based analysis of sperm videos and participant data for male fertility prediction"
+    authors: "Steven A Hicks, Jorunn M Andersen, Oliwia Witczak, Vajira Thambawita, Pål Halvorsen, et al."
+    venue: "Scientific Reports"
+    year: 2019
+    citations: 0
+    scholar_url: "https://scholar.google.com/scholar?q=machine+learning+sperm+videos+male+fertility+prediction"
+
+  - title: "On evaluation metrics for medical applications of artificial intelligence"
+    authors: "Steven A Hicks, Inga Strümke, Vajira Thambawita, Malek Hammou, Michael A Riegler, Pål Halvorsen, Sravanthi Parasa"
+    venue: "Scientific Reports"
+    year: 2022
+    citations: 0
+    scholar_url: "https://scholar.google.com/scholar?q=evaluation+metrics+medical+applications+artificial+intelligence"
+
+  - title: "Impact of image resolution on deep learning performance in endoscopy image classification"
+    authors: "Vajira Thambawita, Inga Strümke, Steven A Hicks, Pål Halvorsen, Sravanthi Parasa, Michael A Riegler"
+    venue: "Diagnostics"
+    year: 2021
+    citations: 0
+    scholar_url: "https://scholar.google.com/scholar?q=image+resolution+deep+learning+endoscopy+image+classification"
+
+  - title: "VISEM-Tracking, a human spermatozoa tracking dataset"
+    authors: "Vajira Thambawita, Steven A Hicks, Andrea M Storås, Thu Nguyen, Jorunn M Andersen, et al."
+    venue: "Scientific Data"
+    year: 2023
+    citations: 0
+    scholar_url: "https://scholar.google.com/scholar?q=VISEM-Tracking+human+spermatozoa+tracking+dataset"
+
+  - title: "Explaining deep neural networks for knowledge discovery in electrocardiogram analysis"
+    authors: "Steven A Hicks, Jonas L Isaksen, Vajira Thambawita, Jonas Ghouse, Gustav Ahlberg, et al."
+    venue: "Scientific Reports"
+    year: 2021
+    citations: 0
+    scholar_url: "https://scholar.google.com/scholar?q=Explaining+deep+neural+networks+knowledge+discovery+electrocardiogram"
+
+# Research highlights / notable achievements
+highlights:
+  - icon: "fa-solid fa-database"
+    title: "Large-Scale Datasets"
+    description: "Created and co-created multiple widely-used benchmark datasets for gastrointestinal endoscopy, sperm analysis, and cardiac imaging."
+
+  - icon: "fa-solid fa-robot"
+    title: "Generative AI for Medicine"
+    description: "Pioneered use of GANs and diffusion models to generate synthetic medical data, addressing data scarcity in healthcare AI."
+
+  - icon: "fa-solid fa-heart-pulse"
+    title: "Cardiac AI"
+    description: "Developed DeepFake ECG technology using GANs to address privacy in cardiac data sharing, with broad impact on medical privacy research."
+
+  - icon: "fa-solid fa-microscope"
+    title: "Reproductive Medicine AI"
+    description: "Advanced AI methods for sperm analysis and fertility prediction, including tracking, morphology assessment, and ICSI procedure automation."
