@@ -1,0 +1,304 @@
+---
+layout: default
+title: Publications
+---
+
+{% assign scholar = site.data.scholar_stats %}
+{% assign all_papers = site.data.my_papers %}
+{% assign total_papers = all_papers | size %}
+
+{%- comment -%} Determine current year and recent year threshold {%- endcomment -%}
+{% assign current_year = site.time | date: "%Y" | plus: 0 %}
+{% assign recent_year = current_year | minus: 0 %}
+
+<!-- ═══════════════════════════════════════════════
+     HEADER
+═══════════════════════════════════════════════ -->
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Research Output</p>
+    <h1 class="section-heading">Publications</h1>
+    <p class="text-muted">
+      Full publication record for
+      <a class="text-link" href="https://scholar.google.com/citations?user={{ scholar.scholar_id }}&hl=en" target="_blank" rel="noopener">
+        {{ site.data.myself.name }} on Google Scholar
+        <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.75em; margin-left:0.3em;"></i>
+      </a>
+      &mdash; covering medical imaging, cardiac AI, reproductive medicine, sports analytics, and generative AI.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     CITATION METRICS
+═══════════════════════════════════════════════ -->
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Scholar Metrics</p>
+    <h2 class="section-heading">Citation Statistics</h2>
+    {% if scholar.auto_updated %}
+      <p class="text-muted scholar-sync-note">
+        <i class="fa-solid fa-rotate" style="color:var(--brand);"></i>
+        Last synced from Google Scholar: <strong>{{ scholar.last_updated }}</strong>
+      </p>
+    {% else %}
+      <p class="text-muted scholar-sync-note">
+        <i class="fa-solid fa-clock" style="color:var(--brand);"></i>
+        Statistics sync weekly via GitHub Actions.
+        {% if scholar.last_updated %}Last updated: {{ scholar.last_updated }}.{% endif %}
+        <a class="text-link" href="https://scholar.google.com/citations?user={{ scholar.scholar_id }}&hl=en" target="_blank" rel="noopener">View live on Google Scholar →</a>
+      </p>
+    {% endif %}
+  </div>
+
+  <div class="scholar-stats-grid">
+    <div class="scholar-stat-card">
+      <span class="scholar-stat-value">
+        {% if scholar.stats.total_citations > 0 %}{{ scholar.stats.total_citations | divided_by: 1 }}{% else %}<span class="stat-pending">—</span>{% endif %}
+      </span>
+      <span class="scholar-stat-label">Total Citations</span>
+      {% if scholar.stats.citations_since_2020 > 0 %}
+        <span class="scholar-stat-sub">{{ scholar.stats.citations_since_2020 }} since 2020</span>
+      {% endif %}
+    </div>
+
+    <div class="scholar-stat-card">
+      <span class="scholar-stat-value">
+        {% if scholar.stats.h_index > 0 %}{{ scholar.stats.h_index }}{% else %}<span class="stat-pending">—</span>{% endif %}
+      </span>
+      <span class="scholar-stat-label">h-index</span>
+      {% if scholar.stats.h_index_since_2020 > 0 %}
+        <span class="scholar-stat-sub">{{ scholar.stats.h_index_since_2020 }} since 2020</span>
+      {% endif %}
+    </div>
+
+    <div class="scholar-stat-card">
+      <span class="scholar-stat-value">
+        {% if scholar.stats.i10_index > 0 %}{{ scholar.stats.i10_index }}{% else %}<span class="stat-pending">—</span>{% endif %}
+      </span>
+      <span class="scholar-stat-label">i10-index</span>
+      {% if scholar.stats.i10_index_since_2020 > 0 %}
+        <span class="scholar-stat-sub">{{ scholar.stats.i10_index_since_2020 }} since 2020</span>
+      {% endif %}
+    </div>
+
+    <div class="scholar-stat-card scholar-stat-card--highlight">
+      <span class="scholar-stat-value">{{ total_papers }}</span>
+      <span class="scholar-stat-label">Total Papers</span>
+      <span class="scholar-stat-sub">in this database</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     RESEARCH HIGHLIGHTS
+═══════════════════════════════════════════════ -->
+{% if scholar.highlights %}
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Impact Areas</p>
+    <h2 class="section-heading">Research Highlights</h2>
+  </div>
+  <div class="pub-highlights-grid">
+    {% for hl in scholar.highlights %}
+    <div class="pub-highlight-card">
+      <div class="pub-highlight-icon">
+        <i class="{{ hl.icon }}"></i>
+      </div>
+      <div>
+        <h3 class="pub-highlight-title">{{ hl.title }}</h3>
+        <p class="text-muted" style="margin:0; font-size:0.9rem;">{{ hl.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- ═══════════════════════════════════════════════
+     TOP CITED PAPERS
+═══════════════════════════════════════════════ -->
+{% if scholar.top_cited %}
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Most Cited</p>
+    <h2 class="section-heading">Top Cited Publications</h2>
+    <p class="text-muted">Ordered by citation count, synced weekly from Google Scholar.</p>
+  </div>
+  <ol class="top-cited-list">
+    {% for pub in scholar.top_cited %}
+    <li class="top-cited-item">
+      <div class="top-cited-rank">{{ forloop.index }}</div>
+      <div class="top-cited-body">
+        <a class="top-cited-title" href="{{ pub.scholar_url }}" target="_blank" rel="noopener">
+          {{ pub.title }}
+        </a>
+        <p class="top-cited-authors text-muted">{{ pub.authors }}</p>
+        <div class="top-cited-meta">
+          <span class="pub-venue-badge">{{ pub.venue }}</span>
+          <span class="pub-year-badge">{{ pub.year }}</span>
+          {% if pub.citations > 0 %}
+            <span class="pub-citations-badge">
+              <i class="fa-solid fa-quote-left" style="font-size:0.7em;"></i>
+              {{ pub.citations }} citations
+            </span>
+          {% else %}
+            <span class="pub-citations-badge pub-citations-pending">
+              <i class="fa-solid fa-rotate" style="font-size:0.7em;"></i>
+              syncing…
+            </span>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
+<!-- ═══════════════════════════════════════════════
+     NEW IN 2025 / RECENT PUBLICATIONS
+═══════════════════════════════════════════════ -->
+{% assign recent_papers = all_papers | where: "Year", "2025" %}
+{% assign papers_2024 = all_papers | where: "Year", "2024" %}
+
+{% if recent_papers.size > 0 or papers_2024.size > 0 %}
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Latest Work</p>
+    <h2 class="section-heading">New in 2025</h2>
+    {% if recent_papers.size > 0 %}
+      <p class="text-muted">{{ recent_papers.size }} publication{% if recent_papers.size != 1 %}s{% endif %} in 2025.</p>
+    {% else %}
+      <p class="text-muted">No 2025 publications recorded yet. Showing 2024 papers below.</p>
+    {% endif %}
+  </div>
+
+  {% if recent_papers.size > 0 %}
+    <ol class="recent-papers-list">
+      {% for paper in recent_papers %}
+      <li class="recent-paper-item">
+        <div class="recent-paper-badge">2025</div>
+        <div class="recent-paper-body">
+          <h3 class="recent-paper-title">{{ paper.Title }}</h3>
+          <p class="text-muted recent-paper-authors">{{ paper.Authors | split: ";" | first | strip }}{% assign author_count = paper.Authors | split: ";" | size %}{% if author_count > 1 %} et al.{% endif %}</p>
+          {% if paper.Publication and paper.Publication != "" %}
+            <span class="pub-venue-badge">{{ paper.Publication }}</span>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  {% endif %}
+
+  {% if papers_2024.size > 0 %}
+    {% if recent_papers.size > 0 %}
+      <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--text-muted); font-size: 1rem; text-transform: uppercase; letter-spacing: 0.12em;">Also from 2024</h3>
+    {% endif %}
+    <ol class="recent-papers-list">
+      {% for paper in papers_2024 %}
+      <li class="recent-paper-item">
+        <div class="recent-paper-badge recent-paper-badge--muted">2024</div>
+        <div class="recent-paper-body">
+          <h3 class="recent-paper-title">{{ paper.Title }}</h3>
+          <p class="text-muted recent-paper-authors">{{ paper.Authors | split: ";" | first | strip }}{% assign author_count = paper.Authors | split: ";" | size %}{% if author_count > 1 %} et al.{% endif %}</p>
+          {% if paper.Publication and paper.Publication != "" %}
+            <span class="pub-venue-badge">{{ paper.Publication }}</span>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  {% endif %}
+</section>
+{% endif %}
+
+<!-- ═══════════════════════════════════════════════
+     FULL LIST BY YEAR
+═══════════════════════════════════════════════ -->
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Complete Record</p>
+    <h2 class="section-heading">All Publications</h2>
+    <p class="text-muted">{{ total_papers }} papers grouped by year. Includes journal articles, conference papers, datasets, and preprints.</p>
+  </div>
+
+  <!-- Year filter buttons -->
+  <div class="pub-year-filter" id="pubYearFilter">
+    <button class="pub-year-btn is-active" data-year="all">All years</button>
+    {% assign years_seen = "" %}
+    {% for paper in all_papers %}
+      {% unless years_seen contains paper.Year %}
+        {% assign years_seen = years_seen | append: paper.Year | append: "," %}
+      {% endunless %}
+    {% endfor %}
+    {% assign year_list = years_seen | split: "," | compact | sort | reverse %}
+    {% for yr in year_list %}
+      {% if yr != "" %}
+        <button class="pub-year-btn" data-year="{{ yr }}">{{ yr }}</button>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="pub-full-list" id="pubFullList">
+    {% assign grouped_by_year = all_papers | group_by: "Year" | sort: "name" | reverse %}
+    {% for group in grouped_by_year %}
+      {% if group.name != "" %}
+      <div class="pub-year-group" data-year-group="{{ group.name }}">
+        <div class="pub-year-header">
+          <h3 class="pub-year-title">{{ group.name }}</h3>
+          <span class="badge-soft">{{ group.items | size }} publication{% if group.items.size != 1 %}s{% endif %}</span>
+        </div>
+        <ol class="pub-items-list">
+          {% for paper in group.items %}
+          <li class="pub-item">
+            <div class="pub-item-body">
+              <h4 class="pub-item-title">{{ paper.Title }}</h4>
+              <p class="pub-item-authors text-muted">
+                {{ paper.Authors | split: ";" | join: " · " | strip }}
+              </p>
+              <div class="pub-item-meta">
+                {% if paper.Publication and paper.Publication != "" %}
+                  <span class="pub-venue-badge">{{ paper.Publication }}</span>
+                {% endif %}
+                {% if paper.Publisher and paper.Publisher != "" %}
+                  <span class="pub-publisher-text text-muted">{{ paper.Publisher }}</span>
+                {% endif %}
+              </div>
+            </div>
+          </li>
+          {% endfor %}
+        </ol>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<script>
+(function () {
+  var filterBar = document.getElementById('pubYearFilter');
+  var fullList  = document.getElementById('pubFullList');
+  if (!filterBar || !fullList) return;
+
+  filterBar.addEventListener('click', function (e) {
+    var btn = e.target.closest('.pub-year-btn');
+    if (!btn) return;
+
+    // toggle active state
+    filterBar.querySelectorAll('.pub-year-btn').forEach(function (b) {
+      b.classList.remove('is-active');
+    });
+    btn.classList.add('is-active');
+
+    var year = btn.getAttribute('data-year');
+    fullList.querySelectorAll('.pub-year-group').forEach(function (group) {
+      if (year === 'all' || group.getAttribute('data-year-group') === year) {
+        group.style.display = '';
+      } else {
+        group.style.display = 'none';
+      }
+    });
+  });
+})();
+</script>

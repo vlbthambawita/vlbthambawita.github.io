@@ -1,0 +1,71 @@
+name: Update Scholar Statistics
+
+# Run every Sunday at 03:00 UTC, or manually from the Actions tab
+on:
+  schedule:
+    - cron: "0 3 * * 0"   # weekly — every Sunday 03:00 UTC
+  workflow_dispatch:        # allow manual trigger
+
+permissions:
+  contents: write           # needed to commit the updated YAML back
+
+jobs:
+  fetch-and-commit:
+    name: Fetch Google Scholar data and commit
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Check out the repository ──────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # ── 2. Set up Python ─────────────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # ── 3. Install dependencies ───────────────────────────────────────────
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          # scholarly scrapes Google Scholar (may need proxy for rate limits)
+          pip install scholarly pyyaml requests
+        # If scholarly fails due to Google blocking, the script falls back to
+        # the Semantic Scholar API automatically (no extra packages needed).
+
+      # ── 4. Run the fetch script ───────────────────────────────────────────
+      - name: Fetch Scholar statistics
+        id: fetch
+        run: python scripts/fetch_scholar.py
+        # Continue even if the script exits with a non-zero code
+        # (e.g., Google Scholar blocked); we'll skip the commit step.
+        continue-on-error: true
+
+      # ── 5. Commit updated YAML if changed ────────────────────────────────
+      - name: Commit updated scholar_stats.yml
+        if: steps.fetch.outcome == 'success'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/scholar_stats.yml
+          # Only commit if there is actually something to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update scholar statistics [skip ci]"
+            git push
+          fi
+
+      # ── 6. Report outcome ────────────────────────────────────────────────
+      - name: Report result
+        if: always()
+        run: |
+          if [ "${{ steps.fetch.outcome }}" == "success" ]; then
+            echo "Scholar statistics updated successfully."
+          else
+            echo "::warning::Scholar fetch failed (Google may have blocked the request). Stats were NOT updated."
+            echo "You can trigger this workflow manually once rate limits reset."
+          fi
