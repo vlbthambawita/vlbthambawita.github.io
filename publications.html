@@ -7,9 +7,6 @@ title: Publications
 {% assign all_papers = site.data.my_papers %}
 {% assign total_papers = all_papers | size %}
 
-{%- comment -%} Determine current year and recent year threshold {%- endcomment -%}
-{% assign current_year = site.time | date: "%Y" | plus: 0 %}
-{% assign recent_year = current_year | minus: 0 %}
 
 <!-- ═══════════════════════════════════════════════
      HEADER
@@ -157,20 +154,22 @@ title: Publications
 {% endif %}
 
 <!-- ═══════════════════════════════════════════════
-     NEW IN 2025 / RECENT PUBLICATIONS
+     NEW THIS YEAR / RECENT PUBLICATIONS
 ═══════════════════════════════════════════════ -->
-{% assign recent_papers = all_papers | where: "Year", "2025" %}
-{% assign papers_2024 = all_papers | where: "Year", "2024" %}
+{% assign this_year   = site.time | date: "%Y" %}
+{% assign prev_year   = site.time | date: "%Y" | minus: 1 | prepend: "" %}
+{% assign recent_papers   = all_papers | where: "Year", this_year %}
+{% assign prev_yr_papers  = all_papers | where: "Year", prev_year %}
 
-{% if recent_papers.size > 0 or papers_2024.size > 0 %}
+{% if recent_papers.size > 0 or prev_yr_papers.size > 0 %}
 <section class="section card">
   <div class="section-header">
     <p class="eyebrow">Latest Work</p>
-    <h2 class="section-heading">New in 2025</h2>
+    <h2 class="section-heading">New in {{ this_year }}</h2>
     {% if recent_papers.size > 0 %}
-      <p class="text-muted">{{ recent_papers.size }} publication{% if recent_papers.size != 1 %}s{% endif %} in 2025.</p>
+      <p class="text-muted">{{ recent_papers.size }} publication{% if recent_papers.size != 1 %}s{% endif %} in {{ this_year }}.</p>
     {% else %}
-      <p class="text-muted">No 2025 publications recorded yet. Showing 2024 papers below.</p>
+      <p class="text-muted">No {{ this_year }} publications recorded yet. Showing {{ prev_year }} papers below.</p>
     {% endif %}
   </div>
 
@@ -178,7 +177,7 @@ title: Publications
     <ol class="recent-papers-list">
       {% for paper in recent_papers %}
       <li class="recent-paper-item">
-        <div class="recent-paper-badge">2025</div>
+        <div class="recent-paper-badge">{{ this_year }}</div>
         <div class="recent-paper-body">
           <h3 class="recent-paper-title">{{ paper.Title }}</h3>
           <p class="text-muted recent-paper-authors">{{ paper.Authors | split: ";" | first | strip }}{% assign author_count = paper.Authors | split: ";" | size %}{% if author_count > 1 %} et al.{% endif %}</p>
@@ -191,14 +190,14 @@ title: Publications
     </ol>
   {% endif %}
 
-  {% if papers_2024.size > 0 %}
+  {% if prev_yr_papers.size > 0 %}
     {% if recent_papers.size > 0 %}
-      <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--text-muted); font-size: 1rem; text-transform: uppercase; letter-spacing: 0.12em;">Also from 2024</h3>
+      <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--text-muted); font-size: 1rem; text-transform: uppercase; letter-spacing: 0.12em;">Also from {{ prev_year }}</h3>
     {% endif %}
     <ol class="recent-papers-list">
-      {% for paper in papers_2024 %}
+      {% for paper in prev_yr_papers %}
       <li class="recent-paper-item">
-        <div class="recent-paper-badge recent-paper-badge--muted">2024</div>
+        <div class="recent-paper-badge recent-paper-badge--muted">{{ prev_year }}</div>
         <div class="recent-paper-body">
           <h3 class="recent-paper-title">{{ paper.Title }}</h3>
           <p class="text-muted recent-paper-authors">{{ paper.Authors | split: ";" | first | strip }}{% assign author_count = paper.Authors | split: ";" | size %}{% if author_count > 1 %} et al.{% endif %}</p>
