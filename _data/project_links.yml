@@ -1,0 +1,63 @@
+# Project links — add new projects here.
+# Each entry supports:
+#   title       : Project name (required)
+#   link        : URL to the project page or repo (required)
+#   icon        : FontAwesome class, e.g. "fa-solid fa-brain" (required)
+#   abstract    : Short description / abstract (required)
+#   status      : "active" | "completed" | "ongoing" | "archived" (optional)
+#   tags        : list of keyword tags (optional)
+
+- title: "HyperKvasir: A Comprehensive Multi-Class Image and Video Dataset"
+  link: "https://datasets.simula.no/hyper-kvasir/"
+  icon: "fa-solid fa-microscope"
+  abstract: >
+    HyperKvasir is the largest image and video dataset from the gastrointestinal (GI) tract.
+    It contains 110,079 images and 374 videos with 23 different classes of findings, including
+    pathological and normal mucosa categories. The dataset supports research in automated
+    detection, segmentation, and classification of GI diseases.
+  status: "completed"
+  tags: ["medical imaging", "dataset", "GI tract", "deep learning"]
+
+- title: "Kvasir-SEG: Segmented Polyp Dataset"
+  link: "https://datasets.simula.no/kvasir-seg/"
+  icon: "fa-solid fa-shapes"
+  abstract: >
+    Kvasir-SEG is an open-access dataset of gastrointestinal polyp images and their
+    corresponding segmentation masks. It contains 1,000 polyp images with pixel-wise
+    ground truth annotations, designed to advance automatic polyp segmentation research
+    and benchmark new algorithms.
+  status: "completed"
+  tags: ["segmentation", "polyp", "medical imaging", "benchmark"]
+
+- title: "SynthAIR: Synthetic Airway Data Generation"
+  link: "https://github.com/vlbthambawita"
+  icon: "fa-solid fa-wind"
+  abstract: >
+    SynthAIR explores generative models for producing realistic synthetic airway images,
+    aiming to augment scarce clinical training data for bronchoscopy AI systems. The project
+    investigates conditional GANs and diffusion-based approaches to preserve anatomical
+    fidelity while enabling privacy-preserving data sharing.
+  status: "active"
+  tags: ["synthetic data", "generative AI", "airway", "bronchoscopy"]
+
+- title: "DeepFake ECG: Synthetic Electrocardiogram Generation"
+  link: "https://github.com/vlbthambawita/deepfake-ecg"
+  icon: "fa-solid fa-heart-pulse"
+  abstract: >
+    DeepFake ECG introduces a GAN-based framework for generating realistic synthetic
+    electrocardiogram signals. The project demonstrates that synthetic ECGs can augment
+    training data for arrhythmia classifiers while preserving patient privacy, achieving
+    performance on par with models trained on real clinical ECGs.
+  status: "completed"
+  tags: ["ECG", "synthetic data", "GAN", "cardiology"]
+
+- title: "MedVideoQA: Medical Video Question Answering"
+  link: "https://github.com/vlbthambawita"
+  icon: "fa-solid fa-video"
+  abstract: >
+    MedVideoQA investigates multimodal large language models for answering clinical
+    questions grounded in endoscopy procedure videos. The benchmark evaluates temporal
+    reasoning, anatomical understanding, and finding localisation across state-of-the-art
+    vision-language models.
+  status: "ongoing"
+  tags: ["LLM", "video QA", "multimodal", "endoscopy"]
