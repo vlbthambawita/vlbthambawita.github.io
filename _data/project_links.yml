@@ -7,38 +7,6 @@
 #   status      : "active" | "completed" | "ongoing" | "archived" (optional)
 #   tags        : list of keyword tags (optional)
 
-- title: "HyperKvasir: A Comprehensive Multi-Class Image and Video Dataset"
-  link: "https://datasets.simula.no/hyper-kvasir/"
-  icon: "fa-solid fa-microscope"
-  abstract: >
-    HyperKvasir is the largest image and video dataset from the gastrointestinal (GI) tract.
-    It contains 110,079 images and 374 videos with 23 different classes of findings, including
-    pathological and normal mucosa categories. The dataset supports research in automated
-    detection, segmentation, and classification of GI diseases.
-  status: "completed"
-  tags: ["medical imaging", "dataset", "GI tract", "deep learning"]
-
-- title: "Kvasir-SEG: Segmented Polyp Dataset"
-  link: "https://datasets.simula.no/kvasir-seg/"
-  icon: "fa-solid fa-shapes"
-  abstract: >
-    Kvasir-SEG is an open-access dataset of gastrointestinal polyp images and their
-    corresponding segmentation masks. It contains 1,000 polyp images with pixel-wise
-    ground truth annotations, designed to advance automatic polyp segmentation research
-    and benchmark new algorithms.
-  status: "completed"
-  tags: ["segmentation", "polyp", "medical imaging", "benchmark"]
-
-- title: "SynthAIR: Synthetic Airway Data Generation"
-  link: "https://github.com/vlbthambawita"
-  icon: "fa-solid fa-wind"
-  abstract: >
-    SynthAIR explores generative models for producing realistic synthetic airway images,
-    aiming to augment scarce clinical training data for bronchoscopy AI systems. The project
-    investigates conditional GANs and diffusion-based approaches to preserve anatomical
-    fidelity while enabling privacy-preserving data sharing.
-  status: "active"
-  tags: ["synthetic data", "generative AI", "airway", "bronchoscopy"]
 
 - title: "DeepFake ECG: Synthetic Electrocardiogram Generation"
   link: "https://github.com/vlbthambawita/deepfake-ecg"
@@ -51,13 +19,41 @@
   status: "completed"
   tags: ["ECG", "synthetic data", "GAN", "cardiology"]
 
-- title: "MedVideoQA: Medical Video Question Answering"
-  link: "https://github.com/vlbthambawita"
-  icon: "fa-solid fa-video"
+
+- title: "SEARCH: Synthetic hEalthcare dAta goveRnanCe Hub"
+  link: "https://ihi-search.eu/"
+  logo: "https://ihi-search.eu/wp-content/themes/wr/search_files/logo.png"
+  icon: "fa-solid fa-shield-halved"
   abstract: >
-    MedVideoQA investigates multimodal large language models for answering clinical
-    questions grounded in endoscopy procedure videos. The benchmark evaluates temporal
-    reasoning, anatomical understanding, and finding localisation across state-of-the-art
-    vision-language models.
-  status: "ongoing"
-  tags: ["LLM", "video QA", "multimodal", "endoscopy"]
+    SEARCH pioneers healthcare innovation by combining synthetic data generation with
+    federated learning to create a secure, privacy-preserving ecosystem for healthcare
+    data sharing. The project addresses GDPR compliance and enables AI-driven clinical
+    decision support across cardiovascular, gastrointestinal, and gynecological diseases,
+    contributing to the European Health Data Space.
+  status: "active"
+  tags: ["synthetic data", "federated learning", "healthcare", "privacy", "GDPR", "EU project"]
+
+- title: "DADAP: Digitizing and Automating the Diagnostic Psychiatric Assessment Process"
+  link: "https://dadap-project.eu/"
+  logo: "https://dadap-project.eu/web/wp-content/uploads/2025/02/DADAP_Logo.webp"
+  icon: "fa-solid fa-brain"
+  abstract: >
+    DADAP transforms psychiatric diagnostics for children and adolescents by leveraging
+    AI, machine learning, and digitalization to enhance screening efficiency and throughput.
+    The European consortium project aims to modernize diagnostic assessment workflows in
+    child and adolescent psychiatry, improving access and reducing waiting times for
+    mental health evaluations.
+  status: "active"
+  tags: ["psychiatry", "AI", "machine learning", "youth mental health", "digital health", "EU project"]
+
+- title: "ECGDatasets: A Curated Catalogue of Public ECG Datasets"
+  link: "https://github.com/vlbthambawita/ECGDatasets"
+  icon: "fa-solid fa-wave-square"
+  abstract: >
+    ECGDatasets is a community-maintained catalogue of 64+ publicly available ECG datasets
+    from clinical hospitals, challenge competitions, and research institutions. It consolidates
+    metadata scattered across PhysioNet, Zenodo, and Figshare into a single searchable reference,
+    covering 12-lead, 2-lead, and 1-lead configurations. Includes Python analysis scripts
+    and interactive D3.js visualisations for supported datasets.
+  status: "active"
+  tags: ["ECG", "dataset", "cardiology", "open data", "PhysioNet"]

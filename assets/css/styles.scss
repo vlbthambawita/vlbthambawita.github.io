@@ -987,6 +987,14 @@ body {
   gap: 0.35rem;
 }
 
+.plc-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+  padding: 0.15rem;
+}
+
 @media (max-width: 600px) {
   .project-link-card {
     flex-direction: column;

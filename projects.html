@@ -16,7 +16,11 @@ title: Projects
     {% for project in site.data.project_links %}
       <article class="project-link-card">
         <div class="plc-icon-wrap">
-          <i class="{{ project.icon }}" aria-hidden="true"></i>
+          {% if project.logo %}
+            <img src="{{ project.logo }}" alt="{{ project.title }} logo" class="plc-logo">
+          {% else %}
+            <i class="{{ project.icon }}" aria-hidden="true"></i>
+          {% endif %}
         </div>
         <div class="plc-body">
           <div class="plc-header">
