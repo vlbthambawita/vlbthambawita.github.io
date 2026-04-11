@@ -1,35 +1,47 @@
+---
 layout: default
 title: Projects
 ---
-{% assign sorted_projects = site.projects | sort: "display_position" %}
-{% assign showcase_projects = sorted_projects | where_exp: "item", "item.show" %}
 
 <section class="section card">
   <div class="section-header">
-    <p class="eyebrow">Projects</p>
-    <h1 class="section-heading">Living labs & deployments</h1>
-    <p class="text-muted">A snapshot of multi-institutional efforts spanning synthetic data, clinical AI trials, and human performance analytics.</p>
+    <p class="eyebrow">Research &amp; Engineering</p>
+    <h1 class="section-heading">Projects</h1>
+    <p class="text-muted">A collection of datasets, tools, and research initiatives spanning medical AI, synthetic data, and clinical decision support.</p>
   </div>
 </section>
 
 <section class="section card">
-  <div class="project-grid">
-    {% for project in showcase_projects %}
-      {% assign project_title = project.project_title | default: project.title %}
-      {% assign project_summary = project.description | default: project.content | strip_html | truncate: 180 %}
-      <article class="project-showcase">
-        {% if project.display_image %}
-          <div class="project-thumb" style="background-image: url('{{ project.display_image }}');"></div>
-        {% endif %}
-        <div class="project-body">
-          <div class="project-meta">
+  <div class="project-links-grid">
+    {% for project in site.data.project_links %}
+      <article class="project-link-card">
+        <div class="plc-icon-wrap">
+          {% if project.logo %}
+            <img src="{{ project.logo }}" alt="{{ project.title }} logo" class="plc-logo">
+          {% else %}
+            <i class="{{ project.icon }}" aria-hidden="true"></i>
+          {% endif %}
+        </div>
+        <div class="plc-body">
+          <div class="plc-header">
+            <h2 class="plc-title">
+              <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+            </h2>
             {% if project.status %}
-              <span class="badge-soft">{{ project.status | capitalize }}</span>
+              <span class="plc-badge plc-badge--{{ project.status | downcase | replace: ' ', '-' }}">{{ project.status | capitalize }}</span>
             {% endif %}
           </div>
-          <h2>{{ project_title }}</h2>
-          <p>{{ project_summary }}</p>
-          <a class="text-link" href="{{ project.url | relative_url }}">Deep dive →</a>
+          <p class="plc-abstract">{{ project.abstract }}</p>
+          {% if project.tags %}
+            <div class="plc-tags">
+              {% for tag in project.tags %}
+                <span class="plc-tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+          <a class="text-link plc-cta" href="{{ project.link }}" target="_blank" rel="noopener noreferrer">
+            View project <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
         </div>
       </article>
     {% endfor %}

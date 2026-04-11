@@ -1,37 +1,317 @@
-layout: default
-title: Projects
----
-{% assign sorted_projects = site.projects | sort: "display_position" %}
-{% assign showcase_projects = sorted_projects | where_exp: "item", "item.show" %}
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8M1Y5FRR92"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<section class="section card">
+  gtag('config', 'G-8M1Y5FRR92');
+</script>
+    <meta charset="utf-8">
+    <title>Vajira Lasantha Thambawita · Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/images/dalle_me.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body class="site-shell">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div id="particles-js"></div>
+
+<script src="/assets/js/particles.min.js"></script>
+<script>
+  particlesJS.load('particles-js', '/assets/js/particles.json', function() {
+    console.log('particles.js loaded - callback');
+  });
+</script>
+
+
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+  <div class="nav-brand">
+    <a href="/" class="brand-link">
+      <img src="/assets/images/dalle_me.png" alt="Vajira Lasantha Thambawita logo" width="56" height="56" class="brand-mark">
+      <div class="brand-text">
+        <span class="brand-name">Vajira Lasantha Thambawita</span>
+        <span class="brand-role">PhD · AI Academic Researcher</span>
+      </div>
+    </a>
+  </div>
+
+  <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+    <span></span><span></span><span></span>
+  </button>
+
+  <div class="nav-links" data-nav-menu>
+    
+      
+      <a class="nav-link is-active"
+         href="/">
+        Home
+      </a>
+    
+      
+      <a class="nav-link is-active"
+         href="/projects.html">
+        Projects
+      </a>
+    
+  </div>
+</nav>
+    </header>
+
+    <main id="main-content" class="site-main">
+      <section class="section card">
   <div class="section-header">
-    <p class="eyebrow">Projects</p>
-    <h1 class="section-heading">Living labs & deployments</h1>
-    <p class="text-muted">A snapshot of multi-institutional efforts spanning synthetic data, clinical AI trials, and human performance analytics.</p>
+    <p class="eyebrow">Research &amp; Engineering</p>
+    <h1 class="section-heading">Projects</h1>
+    <p class="text-muted">A collection of datasets, tools, and research initiatives spanning medical AI, synthetic data, and clinical decision support.</p>
   </div>
 </section>
 
 <section class="section card">
-  <div class="project-grid">
-    {% for project in showcase_projects %}
-      {% assign project_title = project.project_title | default: project.title %}
-      {% assign project_summary = project.description | default: project.content | strip_html | truncate: 180 %}
-      <article class="project-showcase">
-        {% if project.display_image %}
-          <div class="project-thumb" style="background-image: url('{{ project.display_image }}');"></div>
-        {% endif %}
-        <div class="project-body">
-          <div class="project-meta">
-            {% if project.status %}
-              <span class="badge-soft">{{ project.status | capitalize }}</span>
-            {% endif %}
+  <div class="project-links-grid">
+    
+      <article class="project-link-card">
+        <div class="plc-icon-wrap">
+          
+            <i class="fa-solid fa-heart-pulse" aria-hidden="true"></i>
+          
+        </div>
+        <div class="plc-body">
+          <div class="plc-header">
+            <h2 class="plc-title">
+              <a href="https://github.com/vlbthambawita/deepfake-ecg" target="_blank" rel="noopener noreferrer">DeepFake ECG: Synthetic Electrocardiogram Generation</a>
+            </h2>
+            
+              <span class="plc-badge plc-badge--completed">Completed</span>
+            
           </div>
-          <h2>{{ project_title }}</h2>
-          <p>{{ project_summary }}</p>
-          <a class="text-link" href="{{ project.url | relative_url }}">Deep dive →</a>
+          <p class="plc-abstract">DeepFake ECG introduces a GAN-based framework for generating realistic synthetic electrocardiogram signals. The project demonstrates that synthetic ECGs can augment training data for arrhythmia classifiers while preserving patient privacy, achieving performance on par with models trained on real clinical ECGs.
+</p>
+          
+            <div class="plc-tags">
+              
+                <span class="plc-tag">ECG</span>
+              
+                <span class="plc-tag">synthetic data</span>
+              
+                <span class="plc-tag">GAN</span>
+              
+                <span class="plc-tag">cardiology</span>
+              
+            </div>
+          
+          <a class="text-link plc-cta" href="https://github.com/vlbthambawita/deepfake-ecg" target="_blank" rel="noopener noreferrer">
+            View project <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
         </div>
       </article>
-    {% endfor %}
+    
+      <article class="project-link-card">
+        <div class="plc-icon-wrap">
+          
+            <img src="https://ihi-search.eu/wp-content/themes/wr/search_files/logo.png" alt="SEARCH: Synthetic hEalthcare dAta goveRnanCe Hub logo" class="plc-logo">
+          
+        </div>
+        <div class="plc-body">
+          <div class="plc-header">
+            <h2 class="plc-title">
+              <a href="https://ihi-search.eu/" target="_blank" rel="noopener noreferrer">SEARCH: Synthetic hEalthcare dAta goveRnanCe Hub</a>
+            </h2>
+            
+              <span class="plc-badge plc-badge--active">Active</span>
+            
+          </div>
+          <p class="plc-abstract">SEARCH pioneers healthcare innovation by combining synthetic data generation with federated learning to create a secure, privacy-preserving ecosystem for healthcare data sharing. The project addresses GDPR compliance and enables AI-driven clinical decision support across cardiovascular, gastrointestinal, and gynecological diseases, contributing to the European Health Data Space.
+</p>
+          
+            <div class="plc-tags">
+              
+                <span class="plc-tag">synthetic data</span>
+              
+                <span class="plc-tag">federated learning</span>
+              
+                <span class="plc-tag">healthcare</span>
+              
+                <span class="plc-tag">privacy</span>
+              
+                <span class="plc-tag">GDPR</span>
+              
+                <span class="plc-tag">EU project</span>
+              
+            </div>
+          
+          <a class="text-link plc-cta" href="https://ihi-search.eu/" target="_blank" rel="noopener noreferrer">
+            View project <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
+        </div>
+      </article>
+    
+      <article class="project-link-card">
+        <div class="plc-icon-wrap">
+          
+            <img src="https://dadap-project.eu/web/wp-content/uploads/2025/02/DADAP_Logo.webp" alt="DADAP: Digitizing and Automating the Diagnostic Psychiatric Assessment Process logo" class="plc-logo">
+          
+        </div>
+        <div class="plc-body">
+          <div class="plc-header">
+            <h2 class="plc-title">
+              <a href="https://dadap-project.eu/" target="_blank" rel="noopener noreferrer">DADAP: Digitizing and Automating the Diagnostic Psychiatric Assessment Process</a>
+            </h2>
+            
+              <span class="plc-badge plc-badge--active">Active</span>
+            
+          </div>
+          <p class="plc-abstract">DADAP transforms psychiatric diagnostics for children and adolescents by leveraging AI, machine learning, and digitalization to enhance screening efficiency and throughput. The European consortium project aims to modernize diagnostic assessment workflows in child and adolescent psychiatry, improving access and reducing waiting times for mental health evaluations.
+</p>
+          
+            <div class="plc-tags">
+              
+                <span class="plc-tag">psychiatry</span>
+              
+                <span class="plc-tag">AI</span>
+              
+                <span class="plc-tag">machine learning</span>
+              
+                <span class="plc-tag">youth mental health</span>
+              
+                <span class="plc-tag">digital health</span>
+              
+                <span class="plc-tag">EU project</span>
+              
+            </div>
+          
+          <a class="text-link plc-cta" href="https://dadap-project.eu/" target="_blank" rel="noopener noreferrer">
+            View project <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
+        </div>
+      </article>
+    
+      <article class="project-link-card">
+        <div class="plc-icon-wrap">
+          
+            <i class="fa-solid fa-wave-square" aria-hidden="true"></i>
+          
+        </div>
+        <div class="plc-body">
+          <div class="plc-header">
+            <h2 class="plc-title">
+              <a href="https://github.com/vlbthambawita/ECGDatasets" target="_blank" rel="noopener noreferrer">ECGDatasets: A Curated Catalogue of Public ECG Datasets</a>
+            </h2>
+            
+              <span class="plc-badge plc-badge--active">Active</span>
+            
+          </div>
+          <p class="plc-abstract">ECGDatasets is a community-maintained catalogue of 64+ publicly available ECG datasets from clinical hospitals, challenge competitions, and research institutions. It consolidates metadata scattered across PhysioNet, Zenodo, and Figshare into a single searchable reference, covering 12-lead, 2-lead, and 1-lead configurations. Includes Python analysis scripts and interactive D3.js visualisations for supported datasets.
+</p>
+          
+            <div class="plc-tags">
+              
+                <span class="plc-tag">ECG</span>
+              
+                <span class="plc-tag">dataset</span>
+              
+                <span class="plc-tag">cardiology</span>
+              
+                <span class="plc-tag">open data</span>
+              
+                <span class="plc-tag">PhysioNet</span>
+              
+            </div>
+          
+          <a class="text-link plc-cta" href="https://github.com/vlbthambawita/ECGDatasets" target="_blank" rel="noopener noreferrer">
+            View project <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
+        </div>
+      </article>
+    
   </div>
 </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-meta">
+        <p>&copy; 2026 Vajira Lasantha Thambawita. Built with Jekyll.</p>
+        <p>Last updated Apr 2026.</p>
+        
+
+
+
+<div class="social-grid social-grid--compact">
+  
+    <a class="social-link" href="https://no.linkedin.com/in/vlbthambawita" target="_blank" rel="noopener">
+      <i class="fa-brands fa-linkedin socialicon fa-4x"></i>
+      
+        <span class="sr-only">Linkedin</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://scholar.google.com/citations?user=hSe42z0AAAAJ&hl=en&authuser=1" target="_blank" rel="noopener">
+      <i class="fa-solid fa-graduation-cap socialicon fa-4x"></i>
+      
+        <span class="sr-only">Googlescholar</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://www.simula.no/people/vajira" target="_blank" rel="noopener">
+      <i class="fa-solid fa-briefcase socialicon fa-4x"></i>
+      
+        <span class="sr-only">Office</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://github.com/vlbthambawita" target="_blank" rel="noopener">
+      <i class="fa-brands fa-github socialicon fa-4x"></i>
+      
+        <span class="sr-only">GitHub</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://twitter.com/vlbthambawita" target="_blank" rel="noopener">
+      <i class="fa-brands fa-square-twitter socialicon fa-4x"></i>
+      
+        <span class="sr-only">twitter</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://huggingface.co/vlbthambawita" target="_blank" rel="noopener">
+      <i class="fa-solid fa-flask socialicon fa-4x"></i>
+      
+        <span class="sr-only">hugging-face</span>
+      
+    </a>
+  
+    <a class="social-link" href="https://www.facebook.com/vajira.thambawita" target="_blank" rel="noopener">
+      <i class="fa-brands fa-facebook socialicon fa-4x"></i>
+      
+        <span class="sr-only">Facebook</span>
+      
+    </a>
+  
+</div>
+
+
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/0e077cfed6.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script>
+      const navToggle = document.querySelector('[data-nav-toggle]');
+      const navMenu = document.querySelector('[data-nav-menu]');
+      if (navToggle && navMenu) {
+        navToggle.addEventListener('click', () => {
+          navMenu.classList.toggle('is-open');
+          navToggle.setAttribute('aria-expanded', navMenu.classList.contains('is-open'));
+        });
+      }
+    </script>
+  </body>
+</html>

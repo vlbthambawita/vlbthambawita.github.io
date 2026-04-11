@@ -1,0 +1,59 @@
+# Project links — add new projects here.
+# Each entry supports:
+#   title       : Project name (required)
+#   link        : URL to the project page or repo (required)
+#   icon        : FontAwesome class, e.g. "fa-solid fa-brain" (required)
+#   abstract    : Short description / abstract (required)
+#   status      : "active" | "completed" | "ongoing" | "archived" (optional)
+#   tags        : list of keyword tags (optional)
+
+
+- title: "DeepFake ECG: Synthetic Electrocardiogram Generation"
+  link: "https://github.com/vlbthambawita/deepfake-ecg"
+  icon: "fa-solid fa-heart-pulse"
+  abstract: >
+    DeepFake ECG introduces a GAN-based framework for generating realistic synthetic
+    electrocardiogram signals. The project demonstrates that synthetic ECGs can augment
+    training data for arrhythmia classifiers while preserving patient privacy, achieving
+    performance on par with models trained on real clinical ECGs.
+  status: "completed"
+  tags: ["ECG", "synthetic data", "GAN", "cardiology"]
+
+
+- title: "SEARCH: Synthetic hEalthcare dAta goveRnanCe Hub"
+  link: "https://ihi-search.eu/"
+  logo: "https://ihi-search.eu/wp-content/themes/wr/search_files/logo.png"
+  icon: "fa-solid fa-shield-halved"
+  abstract: >
+    SEARCH pioneers healthcare innovation by combining synthetic data generation with
+    federated learning to create a secure, privacy-preserving ecosystem for healthcare
+    data sharing. The project addresses GDPR compliance and enables AI-driven clinical
+    decision support across cardiovascular, gastrointestinal, and gynecological diseases,
+    contributing to the European Health Data Space.
+  status: "active"
+  tags: ["synthetic data", "federated learning", "healthcare", "privacy", "GDPR", "EU project"]
+
+- title: "DADAP: Digitizing and Automating the Diagnostic Psychiatric Assessment Process"
+  link: "https://dadap-project.eu/"
+  logo: "https://dadap-project.eu/web/wp-content/uploads/2025/02/DADAP_Logo.webp"
+  icon: "fa-solid fa-brain"
+  abstract: >
+    DADAP transforms psychiatric diagnostics for children and adolescents by leveraging
+    AI, machine learning, and digitalization to enhance screening efficiency and throughput.
+    The European consortium project aims to modernize diagnostic assessment workflows in
+    child and adolescent psychiatry, improving access and reducing waiting times for
+    mental health evaluations.
+  status: "active"
+  tags: ["psychiatry", "AI", "machine learning", "youth mental health", "digital health", "EU project"]
+
+- title: "ECGDatasets: A Curated Catalogue of Public ECG Datasets"
+  link: "https://github.com/vlbthambawita/ECGDatasets"
+  icon: "fa-solid fa-wave-square"
+  abstract: >
+    ECGDatasets is a community-maintained catalogue of 64+ publicly available ECG datasets
+    from clinical hospitals, challenge competitions, and research institutions. It consolidates
+    metadata scattered across PhysioNet, Zenodo, and Figshare into a single searchable reference,
+    covering 12-lead, 2-lead, and 1-lead configurations. Includes Python analysis scripts
+    and interactive D3.js visualisations for supported datasets.
+  status: "active"
+  tags: ["ECG", "dataset", "cardiology", "open data", "PhysioNet"]
