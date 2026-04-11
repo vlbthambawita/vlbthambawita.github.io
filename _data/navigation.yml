@@ -1,12 +1,7 @@
 - name: Home
   link: /
-<<<<<<< HEAD
-- name: Publications
-  link: /publications.html
-=======
 - name: Projects
   link: /projects.html
->>>>>>> feature/projects-tab
 #- name: About
 #  link: /about.html
 #- name: Blog
