@@ -2,7 +2,11 @@
 layout: default
 title: about
 ---
-{% assign reverse_exps = site.data.my_experience.exps | reverse %}
+{% comment %} Same ordering as index.html: current roles first, then past, each newest first. {% endcomment %}
+{% assign exps_desc = site.data.my_experience.exps | reverse %}
+{% assign active_exps = exps_desc | where_exp: "item", "item.present" %}
+{% assign past_exps = exps_desc | where_exp: "item", "item.present != true" %}
+{% assign reverse_exps = active_exps | concat: past_exps %}
 
 <section class="section card">
   <h1 class="section-heading">{{ site.data.myself.name }}</h1>

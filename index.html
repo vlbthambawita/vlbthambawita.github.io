@@ -3,7 +3,15 @@ layout: default
 title: home
 ---
 
-{% assign all_exps = site.data.my_experience.exps | reverse %}
+{% comment %}
+  Newest first (the data file is in chronological order), with currently-held
+  roles pinned above past ones. `where_exp` keeps entries that omit `present`
+  in the past bucket rather than dropping them.
+{% endcomment %}
+{% assign exps_desc = site.data.my_experience.exps | reverse %}
+{% assign active_exps = exps_desc | where_exp: "item", "item.present" %}
+{% assign past_exps = exps_desc | where_exp: "item", "item.present != true" %}
+{% assign all_exps = active_exps | concat: past_exps %}
 
 <div class="home-grid">
 
