@@ -8,18 +8,6 @@
 #   tags        : list of keyword tags (optional)
 
 
-- title: "DeepFake ECG: Synthetic Electrocardiogram Generation"
-  link: "https://github.com/vlbthambawita/deepfake-ecg"
-  icon: "fa-solid fa-heart-pulse"
-  abstract: >
-    DeepFake ECG introduces a GAN-based framework for generating realistic synthetic
-    electrocardiogram signals. The project demonstrates that synthetic ECGs can augment
-    training data for arrhythmia classifiers while preserving patient privacy, achieving
-    performance on par with models trained on real clinical ECGs.
-  status: "completed"
-  tags: ["ECG", "synthetic data", "GAN", "cardiology"]
-
-
 - title: "SEARCH: Synthetic hEalthcare dAta goveRnanCe Hub"
   link: "https://ihi-search.eu/"
   logo: "https://ihi-search.eu/wp-content/themes/wr/search_files/logo.png"
@@ -46,14 +34,15 @@
   status: "active"
   tags: ["psychiatry", "AI", "machine learning", "youth mental health", "digital health", "EU project"]
 
-- title: "ECGDatasets: A Curated Catalogue of Public ECG Datasets"
-  link: "https://github.com/vlbthambawita/ECGDatasets"
-  icon: "fa-solid fa-wave-square"
+- title: "PREMAL: Practical Encrypted Machine Learning"
+  link: "https://www.simulamet.no/research/projects/practical-encrypted-machine-learning-premal"
+  icon: "fa-solid fa-lock"
   abstract: >
-    ECGDatasets is a community-maintained catalogue of 64+ publicly available ECG datasets
-    from clinical hospitals, challenge competitions, and research institutions. It consolidates
-    metadata scattered across PhysioNet, Zenodo, and Figshare into a single searchable reference,
-    covering 12-lead, 2-lead, and 1-lead configurations. Includes Python analysis scripts
-    and interactive D3.js visualisations for supported datasets.
+    PREMAL uses homomorphic encryption to let data owners use external AI services on
+    confidential data without giving up control of it. The decryption key is never
+    shared, so the AI provider learns nothing about the data. The project works on
+    reducing the computational cost of encrypted training and inference without
+    sacrificing model quality, mapping the cost–accuracy trade-off for practical use
+    cases. Funded by the Research Council of Norway (2026–2029), with OsloMet and Simula.
   status: "active"
-  tags: ["ECG", "dataset", "cardiology", "open data", "PhysioNet"]
+  tags: ["homomorphic encryption", "privacy", "machine learning", "secure AI", "Research Council of Norway"]
