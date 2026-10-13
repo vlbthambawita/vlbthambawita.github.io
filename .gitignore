@@ -30,3 +30,4 @@ Gemfile.lock
 
 # dotenv environment variables
 .env
+.claude/settings.local.json
