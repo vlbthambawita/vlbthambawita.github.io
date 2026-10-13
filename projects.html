@@ -39,6 +39,30 @@ title: Projects
               {% endfor %}
             </div>
           {% endif %}
+          {% if project.subprojects %}
+            <div class="plc-subs">
+              <p class="plc-subs-label">
+                <span class="plc-subs-pulse" aria-hidden="true"></span>
+                Sub-projects <span class="plc-subs-count">{{ project.subprojects | size }}</span>
+              </p>
+              <ul class="plc-subs-list">
+                {% for sub in project.subprojects %}
+                  <li class="plc-sub">
+                    <a class="plc-sub-link" href="{{ sub.link }}" target="_blank" rel="noopener noreferrer">
+                      <span class="plc-sub-index" aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+                      <span class="plc-sub-icon" aria-hidden="true"><i class="{{ sub.icon | default: 'fa-solid fa-cube' }}"></i></span>
+                      <span class="plc-sub-body">
+                        {% if sub.kind %}<span class="plc-sub-kind">{{ sub.kind }}</span>{% endif %}
+                        <span class="plc-sub-title">{{ sub.title }}</span>
+                        {% if sub.description %}<span class="plc-sub-desc">{{ sub.description }}</span>{% endif %}
+                      </span>
+                      <i class="fa-solid fa-arrow-right plc-sub-arrow" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
           <a class="text-link plc-cta" href="{{ project.link }}" target="_blank" rel="noopener noreferrer">
             View project <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
           </a>

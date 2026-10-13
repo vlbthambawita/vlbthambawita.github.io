@@ -6,6 +6,10 @@
 #   abstract    : Short description / abstract (required)
 #   status      : "active" | "completed" | "ongoing" | "archived" (optional)
 #   tags        : list of keyword tags (optional)
+#   logo        : image URL shown instead of the icon (optional)
+#   subprojects : list of sub-projects/outputs shown inside the card (optional).
+#                 Each item supports title, link, icon, kind (short label such
+#                 as "Paper map" or "Benchmark"), and description.
 
 
 - title: "SEARCH: Synthetic hEalthcare dAta goveRnanCe Hub"
@@ -46,3 +50,20 @@
     cases. Funded by the Research Council of Norway (2026–2029), with OsloMet and Simula.
   status: "active"
   tags: ["homomorphic encryption", "privacy", "machine learning", "secure AI", "Research Council of Norway"]
+  subprojects:
+    - title: "PREMAL Paper Map"
+      link: "https://vajira.info/PREMAL/"
+      icon: "fa-solid fa-diagram-project"
+      kind: "Literature map"
+      description: >
+        A curated map of papers on machine learning under fully homomorphic encryption,
+        covering inference, training, and federated aggregation, with a summary page,
+        threat model, and results for each paper.
+    - title: "CKKS Alternatives Atlas"
+      link: "https://vajira.info/PREMAL_Bench/index.html"
+      icon: "fa-solid fa-atom"
+      kind: "Scheme atlas"
+      description: >
+        Encryption schemes that can replace or extend CKKS for private LLM inference,
+        compared by hardness assumption, SIMD support, bootstrapping, libraries, and
+        post-quantum status, with a visual lesson for each scheme.
