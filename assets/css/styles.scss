@@ -418,6 +418,19 @@ body {
   min-height: 48px;
 }
 
+/* Google's scheduling popup: its iframe (.mmGMM) uses
+   background-color: var(--gm3-sys-color-surface), which is only defined on
+   Google's own pages. Undefined here, the iframe turns transparent and the
+   dark site shows through behind the calendar's dark text. */
+.hur54b {
+  --gm3-sys-color-surface: #ffffff;
+}
+
+.hur54b .mmGMM {
+  background-color: #ffffff;
+  color-scheme: light;
+}
+
 .social-link {
   display: flex;
   align-items: center;
