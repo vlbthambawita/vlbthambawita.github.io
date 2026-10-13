@@ -47,18 +47,7 @@ title: Projects
               </p>
               <ul class="plc-subs-list">
                 {% for sub in project.subprojects %}
-                  <li class="plc-sub">
-                    <a class="plc-sub-link" href="{{ sub.link }}" target="_blank" rel="noopener noreferrer">
-                      <span class="plc-sub-index" aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
-                      <span class="plc-sub-icon" aria-hidden="true"><i class="{{ sub.icon | default: 'fa-solid fa-cube' }}"></i></span>
-                      <span class="plc-sub-body">
-                        {% if sub.kind %}<span class="plc-sub-kind">{{ sub.kind }}</span>{% endif %}
-                        <span class="plc-sub-title">{{ sub.title }}</span>
-                        {% if sub.description %}<span class="plc-sub-desc">{{ sub.description }}</span>{% endif %}
-                      </span>
-                      <i class="fa-solid fa-arrow-right plc-sub-arrow" aria-hidden="true"></i>
-                    </a>
-                  </li>
+                  {% include sub-tile.html item=sub index=forloop.index %}
                 {% endfor %}
               </ul>
             </div>
@@ -71,3 +60,20 @@ title: Projects
     {% endfor %}
   </div>
 </section>
+
+{% if site.data.contributions %}
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Beyond projects</p>
+    <h2 class="section-heading">Additional contributions</h2>
+    <p class="text-muted">Teaching material and other work not tied to a specific project.</p>
+  </div>
+  <div class="plc-subs">
+    <ul class="plc-subs-list">
+      {% for item in site.data.contributions %}
+        {% include sub-tile.html item=item index=forloop.index %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}

@@ -1,0 +1,17 @@
+# Additional contributions — work not tied to any project in project_links.yml.
+# Rendered on projects.html below the project cards, in the same tile style as
+# project sub-projects. Each entry supports:
+#   title       : Name (required)
+#   link        : URL (required)
+#   icon        : FontAwesome class, e.g. "fa-solid fa-chalkboard-user" (optional)
+#   kind        : Short label such as "Course" or "Tool" (optional)
+#   description : One or two sentences (optional)
+
+- title: "Deep Learning 2026 (PGR207)"
+  link: "https://vajira.info/DeepLearning/"
+  icon: "fa-solid fa-chalkboard-user"
+  kind: "Course slides"
+  description: >
+    Animated, interactive lecture slides that run in the browser with no installation
+    or account. Seven lectures cover deep learning fundamentals, neural networks,
+    PyTorch, CNNs, RNNs, transformers, and generative models such as GANs.

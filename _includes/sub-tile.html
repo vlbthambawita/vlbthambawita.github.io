@@ -1,0 +1,17 @@
+{% comment %}
+  Linked tile used for project sub-projects and additional contributions.
+  Params: item (title, link, icon, kind, description), index (1-based number).
+{% endcomment %}
+{% assign item = include.item %}
+<li class="plc-sub">
+  <a class="plc-sub-link" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+    <span class="plc-sub-index" aria-hidden="true">{% if include.index < 10 %}0{% endif %}{{ include.index }}</span>
+    <span class="plc-sub-icon" aria-hidden="true"><i class="{{ item.icon | default: 'fa-solid fa-cube' }}"></i></span>
+    <span class="plc-sub-body">
+      {% if item.kind %}<span class="plc-sub-kind">{{ item.kind }}</span>{% endif %}
+      <span class="plc-sub-title">{{ item.title }}</span>
+      {% if item.description %}<span class="plc-sub-desc">{{ item.description }}</span>{% endif %}
+    </span>
+    <i class="fa-solid fa-arrow-right plc-sub-arrow" aria-hidden="true"></i>
+  </a>
+</li>
