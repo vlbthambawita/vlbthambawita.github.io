@@ -15,3 +15,12 @@
     Animated, interactive lecture slides that run in the browser with no installation
     or account. Seven lectures cover deep learning fundamentals, neural networks,
     PyTorch, CNNs, RNNs, transformers, and generative models such as GANs.
+
+- title: "Learning AI, Visually"
+  link: "https://vajira.info/my_notes/"
+  icon: "fa-solid fa-book-open"
+  kind: "Notes"
+  description: >
+    A personal notebook for learning AI step by step. Each lesson explains one idea in
+    plain language with diagrams, animations, and interactive widgets, alongside
+    walkthroughs of research papers and a glossary of terms.
