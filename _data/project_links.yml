@@ -24,6 +24,15 @@
     contributing to the European Health Data Space.
   status: "active"
   tags: ["synthetic data", "federated learning", "healthcare", "privacy", "GDPR", "EU project"]
+  subprojects:
+    - title: "ECGBench"
+      link: "https://vajira.info/ECGBench/"
+      icon: "fa-solid fa-heart-pulse"
+      kind: "Benchmark library"
+      description: >
+        A PyTorch-native library for reproducible ECG benchmarks on open PhysioNet data,
+        with standardised fold splits, quality-checked metadata, and a curated index of
+        64 publicly available ECG datasets.
 
 - title: "DADAP: Digitizing and Automating the Diagnostic Psychiatric Assessment Process"
   link: "https://dadap-project.eu/"
