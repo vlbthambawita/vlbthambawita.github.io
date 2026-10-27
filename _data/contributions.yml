@@ -24,3 +24,12 @@
     A personal notebook for learning AI step by step. Each lesson explains one idea in
     plain language with diagrams, animations, and interactive widgets, alongside
     walkthroughs of research papers and a glossary of terms.
+
+- title: "torchtsetlin"
+  link: "https://vajira.info/torchtsetlin/"
+  icon: "fa-solid fa-code"
+  kind: "Python library"
+  description: >
+    A PyTorch library for Tsetlin machines, which learn readable logical rules instead
+    of using gradients. Models are standard torch.nn.Module objects that run on CPU or
+    GPU, with tools for Booleanization, rule extraction, and feature importance.
