@@ -1,0 +1,4242 @@
+[
+ {
+  "url": "https://publicdomainvectors.org/",
+  "title": "Public domain vectors | Download free vector clip art and images free for commercial use.",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Diagrams, graphics & illustration"
+ },
+ {
+  "url": "https://developers.google.com/machine-learning/guides/rules-of-ml",
+  "title": "Rules of Machine Learning: | Google for Developers",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "ML engineering best practices"
+ },
+ {
+  "url": "https://khrono.no",
+  "title": "Khrono - nyheter om universiteter, høgskoler og forskning",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk?hl=en",
+  "title": "Notion Web Clipper",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "link",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Productivity"
+ },
+ {
+  "url": "https://reusabledata.org/criteria",
+  "title": "(Re)usable Data Project",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Research & reviewing"
+ },
+ {
+  "url": "https://metrics-reloaded.dkfz.de/metric-library",
+  "title": "Metrics Reloaded",
+  "topic": "Reading List",
+  "subsection": "Really useful resources to evaluate metrics",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Metric guidelines"
+ },
+ {
+  "url": "https://uvadlc-notebooks.readthedocs.io/en/latest/index.html",
+  "title": "Welcome to the UvA Deep Learning Tutorials! — UvA DL Notebooks v1.2 documentation",
+  "topic": "Reading List",
+  "subsection": "This has many course in one place",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "ML & deep learning foundations"
+ },
+ {
+  "url": "https://github.com/dair-ai/ML-YouTube-Courses",
+  "title": "dair-ai/ML-YouTube-Courses: 📺 Discover the latest machine learning / AI courses on YouTube.",
+  "topic": "Reading List",
+  "subsection": "This has many course in one place",
+  "kind": "bookmark",
+  "note": "",
+  "category": "collection",
+  "subcategory": "Course lists"
+ },
+ {
+  "url": "https://aiindex.stanford.edu/wp-content/uploads/2024/04/HAI_AI-Index-Report-2024.pdf",
+  "title": "Stanford HAI — AI Index Report 2024",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "pdf",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.tripod-statement.org/wp-content/uploads/2019/12/TRIPODAI_checklist.pdf",
+  "title": "TRIPOD-AI reporting checklist",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "pdf",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.v7labs.com/blog/confusion-matrix-guide",
+  "title": "Confusion matrix guide",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "ML concepts & metrics"
+ },
+ {
+  "url": "https://towardsdatascience.com/perceptual-losses-for-image-restoration-dd3c9de4113",
+  "title": "Perceptual losses for image restoration",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://www.onurtunali.com/ml/2019/03/08/maximum-mean-discrepancy-in-machine-learning.html",
+  "title": "Maximum Mean Discrepancy (MMD) in Machine Learning - Mixed Random Variables",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "ML concepts & metrics"
+ },
+ {
+  "url": "https://deepai.org/publication/generative-adversarial-network-in-medical-imaging-a-review",
+  "title": "Generative Adversarial Network in Medical Imaging: A Review",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "survey",
+  "subcategory": "Generative models"
+ },
+ {
+  "url": "https://you.com/search?q=how%20to%20write%20well",
+  "title": "You.com | Search and inference for AI",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=u-X_nZRsn5M",
+  "title": "Contrastive Learning in PyTorch - Part 1: Introduction",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Other topics"
+ },
+ {
+  "url": "https://www.pnas.org/doi/10.1073/pnas.2107151119",
+  "title": "",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2104.05642",
+  "title": "Common Limitations of Image Processing Metrics: A Picture Story",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Metric guidelines"
+ },
+ {
+  "url": "https://github.com/paperswithcode/releasing-research-code",
+  "title": "paperswithcode/releasing-research-code: Tips for releasing research code in Machine Learning (with official NeurIPS 2020 recommendations)",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "ML engineering best practices"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=wSQJZHfAg18&ab_channel=EdanMeyer",
+  "title": "Is Gato Really the Future of AI?",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Other topics"
+ },
+ {
+  "url": "https://mlu-explain.github.io",
+  "title": "MLU-Explain — visual explanations of core ML concepts",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "ML concepts & metrics"
+ },
+ {
+  "url": "https://www.mmm2023.no/author-information/reviewer-guidelines",
+  "title": "MMM 2023 reviewer guidelines",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Research & reviewing"
+ },
+ {
+  "url": "https://github.com/black0017/MedicalZooPytorch",
+  "title": "black0017/MedicalZooPytorch: A pytorch-based deep learning framework for multi-modal 2D/3D medical image segmentation",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Medical imaging"
+ },
+ {
+  "url": "https://distill.pub/2020/communicating-with-interactive-articles/",
+  "title": "Communicating with Interactive Articles",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Data science & communication"
+ },
+ {
+  "url": "https://www.personicle.org/",
+  "title": "Personicle — personal health data platform",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Dataset & data management"
+ },
+ {
+  "url": "https://www.camntech.com",
+  "title": "",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43",
+  "title": "Pandas illustrated the definitive visual guide to pandas",
+  "topic": "Reading List",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Data science & communication"
+ },
+ {
+  "url": "https://www.theatlantic.com/entertainment/archive/2016/03/how-jane-eyre-created-the-modern-self/460461/",
+  "title": "Jane Eyre and the Invention of Self",
+  "topic": "Media",
+  "subsection": "Essay Resource",
+  "kind": "database",
+  "note": "Status: Reading; Publisher: The Atlantic; Author: Karen Swallow Prior; Score: 2/5; Published 2016-10-03",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.emeraldinsight.com/doi/abs/10.1108/00251740410518534",
+  "title": "The contribution of neural networks and genetic algorithms to business decision support",
+  "topic": "Media",
+  "subsection": "Academic Journal",
+  "kind": "database",
+  "note": "Status: Finished; Publisher: Emerald Group; Score: 4/5; Published 2004-10-01",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.generalmagicthemovie.com/",
+  "title": "General Magic the Movie",
+  "topic": "Media",
+  "subsection": "Film",
+  "kind": "database",
+  "note": "Status: Finished; Publisher: Indie; Score: 5/5",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/qubvel/segmentation_models.pytorch",
+  "title": "segmentation_models.pytorch: Segmentation models with pretrained backbones. PyTorch.",
+  "topic": "Media",
+  "subsection": "github",
+  "kind": "database",
+  "note": "High level API; 9 architectures for binary and multi-class segmentation (incl. Unet); 113 encoders with pre-trained weights.",
+  "category": "library",
+  "subcategory": "Deep learning models & layers"
+ },
+ {
+  "url": "https://distill.pub/2016/deconv-checkerboard/",
+  "title": "Deconvolution and Checkerboard Artifacts",
+  "topic": "Media",
+  "subsection": "",
+  "kind": "database",
+  "note": "Why images generated by neural networks show checkerboard artifacts.",
+  "category": "article",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://humanaigc.github.io/emote-portrait-alive-2/",
+  "title": "EMO2",
+  "topic": "My Generative Model Readings",
+  "subsection": "Audio Driven Avatar",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://paperswithcode.com/paper/generative-ai-for-synthetic-data-across",
+  "title": "Paper page - Generative AI for Synthetic Data Across Multiple Medical Modalities: A Systematic Review of Recent Developments and Challenges",
+  "topic": "My Generative Model Readings",
+  "subsection": "Review papers",
+  "kind": "bookmark",
+  "note": "",
+  "category": "survey",
+  "subcategory": "Generative models"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2410.06940",
+  "title": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://developer.nvidia.com/blog/enhance-text-to-image-fine-tuning-with-draft-now-part-of-nvidia-nemo/?ncid=so-nvsh-461730-vt33&dysig_tid=f5bf6b4f85e84004a8d5d4cea6f95a85",
+  "title": "Enhance Text-to-Image Fine-Tuning with DRaFT+, Now Part of NVIDIA NeMo | NVIDIA Technical Blog",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://www.microsoft.com/en-us/research/project/vasa-1/",
+  "title": "VASA-1 - Microsoft Research",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.assemblyai.com/blog/how-physics-advanced-generative-ai/#generative-ai-with-thermodynamics",
+  "title": "How physics advanced generative ai",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2206.00364.pdf",
+  "title": "Elucidating the Design Space of Diffusion-Based Generative Models",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://diffusion-planning.github.io/mobile.html",
+  "title": "Planning with Diffusion",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://wandb.ai/capecape/train_sd/reports/How-To-Train-a-Conditional-Diffusion-Model-From-Scratch--VmlldzoyNzIzNTQ1",
+  "title": "How To Train a Conditional Diffusion Model From Scratch",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=a4Yfz2FxXiY",
+  "title": "Diffusion models from scratch in PyTorch",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://huggingface.co/blog/annotated-diffusion",
+  "title": "The Annotated Diffusion Model",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://github.com/huggingface/diffusers",
+  "title": "huggingface/diffusers: 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Generative models & synthetic data"
+ },
+ {
+  "url": "https://ommer-lab.com/research/latent-diffusion-models/",
+  "title": "High-Resolution Image Synthesis with Latent Diffusion Models - Computer Vision & Learning Group",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/CompVis/latent-diffusion",
+  "title": "CompVis/latent-diffusion: High-Resolution Image Synthesis with Latent Diffusion Models",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://github.com/CompVis/stable-diffusion",
+  "title": "CompVis/stable-diffusion: A latent text-to-image diffusion model",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://github.com/heejkoo/Awesome-Diffusion-Models",
+  "title": "diff-usion/Awesome-Diffusion-Models: A collection of resources and papers on Diffusion Models",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "collection",
+  "subcategory": "Paper lists"
+ },
+ {
+  "url": "https://jalammar.github.io/illustrated-stable-diffusion/",
+  "title": "The Illustrated Stable Diffusion",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://wandb.ai/capecape/train_sd/reports/How-To-Train-a-Conditional-Diffusion-Model-From-Scratch--VmlldzoyNzIzNTQ1",
+  "title": "How To Train a Conditional Diffusion Model From Scratch",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://huggingface.co/spaces/Salesforce/BLIP2",
+  "title": "BLIP2 - a Hugging Face Space by Salesforce",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Multimodal & video LLMs"
+ },
+ {
+  "url": "https://github.com/salesforce/LAVIS",
+  "title": "salesforce/LAVIS: LAVIS - A One-stop Library for Language-Vision Intelligence",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2301.13188.pdf",
+  "title": "Extracting Training Data from Diffusion Models",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/huggingface/diffusion-models-class",
+  "title": "huggingface/diffusion-models-class: Materials for the Hugging Face Diffusion Models Course",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://www.riffusion.com/about",
+  "title": "Riffusion — music generation with diffusion",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps"
+ },
+ {
+  "url": "https://towardsdatascience.com/denoising-diffusion-generative-models-in-graph-ml-c496af5811c5",
+  "title": "Denoising diffusion generative models in graph ml",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://www.fast.ai/posts/part2-2022-preview.html",
+  "title": "fast.ai Part 2 (2022): From Deep Learning Foundations to Stable Diffusion",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "ML & deep learning foundations"
+ },
+ {
+  "url": "https://gweb-research-imagen.appspot.com",
+  "title": "",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2105.05233",
+  "title": "Diffusion Models Beat GANs on Image Synthesis",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/CompVis/latent-diffusion",
+  "title": "CompVis/latent-diffusion: High-Resolution Image Synthesis with Latent Diffusion Models",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://huggingface.co/blog/annotated-diffusion",
+  "title": "The Annotated Diffusion Model",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=y7J6sSO1k50&ab_channel=TheAIEpiphany",
+  "title": "Ultimate Guide to Diffusion Models | ML Coding Series | Denoising Diffusion Probabilistic Models",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://github.com/lucidrains/denoising-diffusion-pytorch",
+  "title": "lucidrains/denoising-diffusion-pytorch: Implementation of Denoising Diffusion Probabilistic Model in Pytorch",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Generative models & synthetic data"
+ },
+ {
+  "url": "https://arxiv.org/abs/2006.11239",
+  "title": "Denoising Diffusion Probabilistic Models",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2102.09672",
+  "title": "Improved Denoising Diffusion Probabilistic Models",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2112.10752",
+  "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=J87hffSMB60",
+  "title": "How does Stable Diffusion work? – Latent Diffusion Models EXPLAINED",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=w_sxuDMt_V0",
+  "title": "How to make: AI Animations",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion",
+  "title": "runwayml/stable-diffusion — inpainting",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://arxiv.org/abs/2105.05233",
+  "title": "Diffusion Models Beat GANs on Image Synthesis",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=HoKDTa5jHvg",
+  "title": "Diffusion Models | Paper Explanation | Math Explained",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=TBCRlnwJtZU",
+  "title": "Diffusion Models | PyTorch Implementation",
+  "topic": "My Generative Model Readings",
+  "subsection": "Diffusion model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://blog.marvik.ai/2023/11/28/an-introduction-to-diffusion-models-and-stable-diffusion/",
+  "title": "An introduction to diffusion models and stable diffusion",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://github.com/huggingface/diffusion-models-class",
+  "title": "huggingface/diffusion-models-class: Materials for the Hugging Face Diffusion Models Course",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://github.com/huggingface/diffusers",
+  "title": "huggingface/diffusers: 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Generative models & synthetic data"
+ },
+ {
+  "url": "https://colab.research.google.com/github/huggingface/diffusion-models-class/blob/main/unit1/02_diffusion_models_from_scratch.ipynb#scrollTo=6MW0xsLGNrXL",
+  "title": "02 diffusion models from scratch.ipynb",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction/",
+  "title": "Diffusion models for machine learning introduction",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://github.com/huggingface/diffusion-models-class/tree/main",
+  "title": "huggingface/diffusion-models-class: Materials for the Hugging Face Diffusion Models Course",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://github.com/huggingface/diffusion-models-class/tree/main",
+  "title": "huggingface/diffusion-models-class: Materials for the Hugging Face Diffusion Models Course",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Bhattacharyya_distance",
+  "title": "Bhattacharyya Distance",
+  "topic": "My Generative Model Readings",
+  "subsection": "Generative model evaluations",
+  "kind": "link",
+  "note": "",
+  "category": "article",
+  "subcategory": "ML concepts & metrics"
+ },
+ {
+  "url": "https://github.com/photosynthesis-team/piq",
+  "title": "photosynthesis-team/piq: Measures and metrics for image2image tasks. PyTorch.",
+  "topic": "My Generative Model Readings",
+  "subsection": "Generative model evaluations",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Image & generative metrics"
+ },
+ {
+  "url": "https://medium.com/@freskoinnovationlabs/bhattacharya-distance-similarity-measures-between-probability-distributions-d8d856a38948",
+  "title": "Bhattacharya distance similarity measures between probability distributions",
+  "topic": "My Generative Model Readings",
+  "subsection": "Generative model evaluations",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "ML concepts & metrics"
+ },
+ {
+  "url": "https://github.com/GaParmar/clean-fid",
+  "title": "GaParmar/clean-fid: PyTorch - FID calculation with proper image resizing and quantization steps [CVPR 2022]",
+  "topic": "My Generative Model Readings",
+  "subsection": "Generative model evaluations",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Image & generative metrics"
+ },
+ {
+  "url": "https://arxiv.org/abs/2103.09396",
+  "title": "Pros and Cons of GAN Evaluation Measures: New Developments",
+  "topic": "My Generative Model Readings",
+  "subsection": "Generative model evaluations",
+  "kind": "bookmark",
+  "note": "",
+  "category": "survey",
+  "subcategory": "Generative models"
+ },
+ {
+  "url": "https://petsymposium.org/2023/files/papers/issue2/popets-2023-0055.pdf",
+  "title": "",
+  "topic": "My Generative Model Readings",
+  "subsection": "Generative model evaluations",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.statice.ai/post/what-is-differential-privacy-definition-mechanisms-examples",
+  "title": "What is differential privacy definition mechanisms examples",
+  "topic": "My Generative Model Readings",
+  "subsection": "Generative model evaluations",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Privacy, data & MLOps"
+ },
+ {
+  "url": "https://github.com/sdv-dev/SDV",
+  "title": "sdv-dev/SDV: Synthetic data generation for tabular data",
+  "topic": "My Generative Model Readings",
+  "subsection": "GAN - Tabular",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Generative models & synthetic data"
+ },
+ {
+  "url": "https://sdv.dev",
+  "title": "SDV — Synthetic Data Vault",
+  "topic": "My Generative Model Readings",
+  "subsection": "GAN - Tabular",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Generative models & synthetic data"
+ },
+ {
+  "url": "https://arxiv.org/abs/1806.02920",
+  "title": "GAIN: Missing Data Imputation using Generative Adversarial Nets",
+  "topic": "My Generative Model Readings",
+  "subsection": "GAN - Tabular",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/nupurkmr9/vision-aided-gan",
+  "title": "nupurkmr9/vision-aided-gan: Ensembling Off-the-shelf Models for GAN Training (CVPR 2022 Oral)",
+  "topic": "My Generative Model Readings",
+  "subsection": "GAN architectures",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "GANs"
+ },
+ {
+  "url": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix",
+  "title": "junyanz/pytorch-CycleGAN-and-pix2pix: Image-to-Image Translation in PyTorch",
+  "topic": "My Generative Model Readings",
+  "subsection": "GAN architectures",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "GANs"
+ },
+ {
+  "url": "https://github.com/nupurkmr9/vision-aided-gan",
+  "title": "nupurkmr9/vision-aided-gan: Ensembling Off-the-shelf Models for GAN Training (CVPR 2022 Oral)",
+  "topic": "My Generative Model Readings",
+  "subsection": "GAN architectures",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "GANs"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=344w5h24-h8",
+  "title": "Diffusion models explained. How does OpenAI's GLIDE work?",
+  "topic": "My Generative Model Readings",
+  "subsection": "GAN architectures",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=FWFA4DGuzSc",
+  "title": "The Transformer neural network architecture EXPLAINED. “Attention is all you need”",
+  "topic": "My Generative Model Readings",
+  "subsection": "Transformers",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://github.com/lucidrains/vit-pytorch",
+  "title": "lucidrains/vit-pytorch: Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch",
+  "topic": "My Generative Model Readings",
+  "subsection": "Transformers",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Deep learning models & layers"
+ },
+ {
+  "url": "https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452",
+  "title": "Transformers explained visually part 1 overview of functionality",
+  "topic": "My Generative Model Readings",
+  "subsection": "Transformers",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2309.16668.pdf",
+  "title": "RealFill: Reference-Driven Generation for Authentic Image Completion",
+  "topic": "My Generative Model Readings",
+  "subsection": "Image Inapainting",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://distill.pub/2016/deconv-checkerboard/",
+  "title": "Deconvolution and Checkerboard Artifacts",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://wandb.ai/wandb/common-ml-errors/reports/How-to-avoid-checkerboard-pattern-in-your-generated-images---VmlldzozNTEzNzk",
+  "title": "How to avoid checkerboard pattern in your generated images",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Generative models & diffusion"
+ },
+ {
+  "url": "https://github.com/richzhang/PerceptualSimilarity",
+  "title": "richzhang/PerceptualSimilarity: LPIPS metric. pip install lpips",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Image & generative metrics"
+ },
+ {
+  "url": "https://news.mit.edu/2022/synthetic-datasets-ai-image-classification-0315",
+  "title": "When it comes to AI, can we ditch the datasets?",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=6zeLSANd41k",
+  "title": "Paella: Text to image FASTER than diffusion models | Paella paper explained",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2212.09748.pdf",
+  "title": "Scalable Diffusion Models with Transformers",
+  "topic": "My Generative Model Readings",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2308.07037",
+  "title": "Bayesian Flow Networks",
+  "topic": "My Generative Model Readings",
+  "subsection": "New Generative architectures",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.statice.ai/post/what-is-differential-privacy-definition-mechanisms-examples",
+  "title": "What is differential privacy definition mechanisms examples",
+  "topic": "My Generative Model Readings",
+  "subsection": "PRIVACY",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Privacy, data & MLOps"
+ },
+ {
+  "url": "https://github.com/Algomancer/Bayesian-Flow-Networks",
+  "title": "Algomancer/Bayesian-Flow-Networks: A simple implimentation of Bayesian Flow Networks (BFN)",
+  "topic": "My Generative Model Readings",
+  "subsection": "New Generative architectures",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://ma-lab-berkeley.github.io/CRATE/",
+  "title": "White-Box Transformers via Sparse Rate Reduction",
+  "topic": "Alternative to transformers",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=ouF-H35atOY",
+  "title": "Mamba - a replacement for Transformers?",
+  "topic": "Alternative to transformers",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://srush.github.io/annotated-s4/",
+  "title": "The Annotated S4",
+  "topic": "Alternative to transformers",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://arxiv.org/ftp/arxiv/papers/2312/2312.00752.pdf",
+  "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+  "topic": "Alternative to transformers",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://huggingface.co/state-spaces",
+  "title": "state-spaces (State Space Models)",
+  "topic": "Alternative to transformers",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models"
+ },
+ {
+  "url": "https://arxiv.org/abs/2012.12877",
+  "title": "Training data-efficient image transformers & distillation through attention",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/swz30/Restormer",
+  "title": "swz30/Restormer: [CVPR 2022--Oral] Restormer: Efficient Transformer for High-Resolution Image Restoration. SOTA for motion deblurring, image deraining, denoising (Gaussian/real data), and def",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Vision: detection, tracking & depth"
+ },
+ {
+  "url": "https://github.com/NielsRogge/Transformers-Tutorials/tree/master",
+  "title": "NielsRogge/Transformers-Tutorials: This repository contains demos I made with the Transformers library by HuggingFace.",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://github.com/NielsRogge/Transformers-Tutorials/blob/master/OWLv2/Zero_and_one_shot_object_detection_with_OWLv2.ipynb",
+  "title": "NielsRogge/Transformers-Tutorials — Zero and one shot object detection with OWLv2",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Computer vision"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=XfpMkf4rD6E",
+  "title": "YouTube video (Transformers)",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2304.02643.pdf",
+  "title": "Segment Anything",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://weaviate.io/blog/vector-embeddings-explained",
+  "title": "Vector Embeddings Explained | Weaviate",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://syncedreview.com/2023/04/24/look-again-yolo-baidus-rt-detr-detection-transformer-achieves-sota-results-on-real-time-object-detection/",
+  "title": "Look Again, YOLO: Baidu’s RT-DETR Detection Transformer Achieves SOTA Results on Real-Time Object Detection | Synced",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/pdf/2107.04589.pdf",
+  "title": "ViTGAN: Training GANs with Vision Transformers",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/wilile26811249/ViTGAN",
+  "title": "wilile26811249/ViTGAN: A PyTorch implementation of ViTGAN based on paper ViTGAN: Training GANs with Vision Transformers.",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "GANs"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2209.12152.pdf",
+  "title": "All are Worth Words: A ViT Backbone for Diffusion Models",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/lucidrains/vit-pytorch#vision-transformer---pytorch",
+  "title": "lucidrains/vit-pytorch: Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Deep learning models & layers"
+ },
+ {
+  "url": "https://peterbloem.nl/blog/transformers",
+  "title": "Transformers from scratch",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "MSUT READ",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "http://jalammar.github.io/illustrated-transformer/",
+  "title": "The Illustrated Transformer",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://nlp.seas.harvard.edu/2018/04/03/attention.html",
+  "title": "The Annotated Transformer",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://medium.com/mlearning-ai/vision-transformers-from-scratch-pytorch-a-step-by-step-guide-96c3313c2e0c",
+  "title": "Vision transformers from scratch pytorch a step by step guide",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "ViT",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://arxiv.org/abs/2005.12872",
+  "title": "End-to-End Object Detection with Transformers",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://ai.facebook.com/research/publications/segment-anything/",
+  "title": "",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2209.12152",
+  "title": "All are Worth Words: A ViT Backbone for Diffusion Models",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=ma3NYVo8Im0",
+  "title": "All Things ViTs || CVPR 2023 Tutorial || Hila Chefer and Sayak Paul",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://monai.io",
+  "title": "MONAI — medical imaging AI framework",
+  "topic": "Alternative to transformers",
+  "subsection": "Transformer based",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Medical imaging"
+ },
+ {
+  "url": "https://docs.humansignal.com/guide/",
+  "title": "Label Studio Enterprise Documentation",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Data annotation & labeling"
+ },
+ {
+  "url": "https://github.com/ocbe-uio/imml/tree/main",
+  "title": "ocbe-uio/imml: A Python package for integrating, processing, and analyzing incomplete multi-modal datasets.",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Data processing & tabular ML"
+ },
+ {
+  "url": "https://www.statsmodels.org/stable/index.html",
+  "title": "statsmodels documentation — statsmodels 0.15.0",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Data processing & tabular ML"
+ },
+ {
+  "url": "https://elicit.com/",
+  "title": "Elicit: AI for research & decision-making",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "AI Literature review:",
+  "category": "tool",
+  "subcategory": "Literature review & writing"
+ },
+ {
+  "url": "https://www.datacamp.com/blog/top-mlops-tools",
+  "title": "Top mlops tools",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "MLOPs:",
+  "category": "collection",
+  "subcategory": "Tool lists"
+ },
+ {
+  "url": "https://docs.profiling.ydata.ai/latest/",
+  "title": "Welcome - YData Profiling",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Data processing & tabular ML"
+ },
+ {
+  "url": "https://excalidraw.com/",
+  "title": "Excalidraw — Collaborative whiteboarding made easy",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Diagrams, graphics & illustration"
+ },
+ {
+  "url": "https://genesis-world.readthedocs.io/en/latest/",
+  "title": "Genesis World — Genesis World",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Scientific ML & simulation"
+ },
+ {
+  "url": "https://github.com/Project-MONAI/MONAILabel/tree/main",
+  "title": "Project-MONAI/MONAILabel: MONAI Label is an intelligent open source image labeling and learning tool.",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Data annotation & labeling"
+ },
+ {
+  "url": "https://www.kaggle.com/discussions/getting-started/253300",
+  "title": "Kaggle discussion (getting started)",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Blogs & discussions"
+ },
+ {
+  "url": "https://github.com/zauberzeug/nicegui",
+  "title": "zauberzeug/nicegui: Create web-based user interfaces with Python. The nice way.",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Web apps & UI"
+ },
+ {
+  "url": "https://lakefs.io/blog/the-state-of-data-engineering-2024/",
+  "title": "The State of Data Engineering 2024",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "survey",
+  "subcategory": "Data engineering"
+ },
+ {
+  "url": "https://mermaid.js.org/",
+  "title": "Mermaid — diagrams from text",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Diagrams, graphics & illustration"
+ },
+ {
+  "url": "https://www.datacamp.com/blog/top-mlops-tools",
+  "title": "Top mlops tools",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "collection",
+  "subcategory": "Tool lists"
+ },
+ {
+  "url": "https://github.com/napari/napari",
+  "title": "napari/napari: napari: a fast, interactive, multi-dimensional image viewer for python",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Visualization & 3D"
+ },
+ {
+  "url": "https://github.com/OHIF/Viewers?tab=readme-ov-file",
+  "title": "OHIF/Viewers: OHIF zero-footprint DICOM viewer and oncology specific Lesion Tracker, plus shared extension packages",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "Medical tools",
+  "category": "tool",
+  "subcategory": "Visualization & 3D"
+ },
+ {
+  "url": "https://mlcontests.com/competition-platforms-2023/#:~:text=Kaggle%20has%20the%20biggest%20community,and%20data%20scientists%20in%20Africa",
+  "title": "ML Contests | Top Machine Learning Competition Platforms",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "ML competions platforms:",
+  "category": "collection",
+  "subcategory": "Tool lists"
+ },
+ {
+  "url": "https://publicdomainvectors.org/en/open-source-clip-art-svg",
+  "title": "open source clip art svg | Public domain vectors",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Diagrams, graphics & illustration"
+ },
+ {
+  "url": "https://remix.run",
+  "title": "Remix - The Fully-Stacked Web Framework",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Web apps & UI"
+ },
+ {
+  "url": "https://whimsical.com/pricing",
+  "title": "Whimsical Pricing - Free & Paid Plans",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Diagrams, graphics & illustration"
+ },
+ {
+  "url": "https://lambdalabs.com",
+  "title": "AI compute in the cloud | Lambda",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Cloud compute & GPUs"
+ },
+ {
+  "url": "https://github.com/pytorch/captum?tab=readme-ov-file",
+  "title": "meta-pytorch/captum: Model interpretability and understanding for PyTorch",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Explainability"
+ },
+ {
+  "url": "https://fmcheatsheet.org",
+  "title": "Foundation Model Development Cheatsheet",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "ML engineering best practices"
+ },
+ {
+  "url": "https://github.com/minio/minio",
+  "title": "minio/minio: MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Dataset & data management"
+ },
+ {
+  "url": "https://omegaconf.readthedocs.io/en/2.3_branch/#",
+  "title": "OmegaConf — OmegaConf 2.3.1 documentation",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Developer utilities"
+ },
+ {
+  "url": "https://opensource.googleblog.com/2024/02/magika-ai-powered-fast-and-efficient-file-type-identification.html",
+  "title": "Magika: AI powered fast and efficient file type identification",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Developer utilities"
+ },
+ {
+  "url": "https://www.rayyan.ai/",
+  "title": "AI-Powered Systematic Review & Literature Review Platform",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing"
+ },
+ {
+  "url": "https://typeset.io/",
+  "title": "SciSpace | AI for Scientific Research",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing"
+ },
+ {
+  "url": "https://www.superannotate.com/blog/one-shot-annotation?utm_source=linkedin&utm_medium=paid_social&utm_campaign=one_shot_video_b_a_brml_blog&utm_content=oneshot&hsa_acc=508452736&hsa_cam=652301086&hsa_grp=264229456&hsa_ad=344892836&hsa_net=linkedin&hsa_ver=3&li_fat_id=f083e936-f634-48c8-9f53-a857360f563a",
+  "title": "Manual annotation is dead: One-shot is the future",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://voxel51.com/",
+  "title": "Voxel51: Find Where Physical AI Models Fail, Fix the Data",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Dataset & data management"
+ },
+ {
+  "url": "https://lightning.ai/docs/torchmetrics/stable/",
+  "title": "Welcome to TorchMetrics - TorchMetrics",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Metric libraries"
+ },
+ {
+  "url": "https://docs.voxel51.com/user_guide/index.html",
+  "title": "FiftyOne Concepts",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Dataset & data management"
+ },
+ {
+  "url": "https://umap-learn.readthedocs.io/en/latest/basic_usage.html",
+  "title": "How to Use UMAP — umap 0.6.0 documentation",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Data processing & tabular ML"
+ },
+ {
+  "url": "https://einops.rocks",
+  "title": "Einops — readable tensor operations",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Developer utilities"
+ },
+ {
+  "url": "https://github.com/Giskard-AI/giskard",
+  "title": "Giskard-AI/giskard-oss: 🐢 Open-Source Evaluation & Testing library for LLM Agents",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "LLM evaluation & leaderboards"
+ },
+ {
+  "url": "https://librosa.org/doc/latest/index.html",
+  "title": "librosa — librosa 1.0.0 documentation",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Time series & audio"
+ },
+ {
+  "url": "https://github.com/xiaohk/stickyland",
+  "title": "xiaohk/stickyland: Break the linear presentation of Jupyter Notebooks with sticky cells!",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Productivity"
+ },
+ {
+  "url": "https://flamingtempura.github.io/bibtex-tidy/index.html?opt=%7B%22modify%22%3Atrue%2C%22curly%22%3Atrue%2C%22numeric%22%3Atrue%2C%22months%22%3Afalse%2C%22space%22%3A2%2C%22tab%22%3Atrue%2C%22align%22%3A13%2C%22duplicates%22%3A%5B%22key%22%5D%2C%22stripEnclosingBraces%22%3Afalse%2C%22dropAllCaps%22%3Afalse%2C%22escape%22%3Afalse%2C%22sortFields%22%3A%5B%22title%22%2C%22shorttitle%22%2C%22author%22%2C%22year%22%2C%22month%22%2C%22day%22%2C%22journal%22%2C%22booktitle%22%2C%22location%22%2C%22on%22%2C%22publisher%22%2C%22address%22%2C%22series%22%2C%22volume%22%2C%22number%22%2C%22pages%22%2C%22doi%22%2C%22isbn%22%2C%22issn%22%2C%22url%22%2C%22urldate%22%2C%22copyright%22%2C%22category%22%2C%22note%22%2C%22metadata%22%5D%2C%22stripComments%22%3Afalse%2C%22trailingCommas%22%3Afalse%2C%22encodeUrls%22%3Afalse%2C%22tidyComments%22%3Atrue%2C%22removeEmptyFields%22%3Afalse%2C%22removeDuplicateFields%22%3Afalse%2C%22lowercase%22%3Atrue%2C%22backup%22%3Atrue%7D",
+  "title": "Online BibTeX Tidy - Clean up BibTeX files",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing"
+ },
+ {
+  "url": "https://monai.io/",
+  "title": "MONAI — medical imaging AI framework",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Medical imaging"
+ },
+ {
+  "url": "https://pub.towardsai.net/meet-alpaca-stanford-universitys-instruction-following-language-model-that-matches-gpt-3-5-490a38114a7e",
+  "title": "Meet alpaca stanford universitys instruction following language model that matches gpt 3 5",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://omegaconf.readthedocs.io/en/2.3_branch/index.html",
+  "title": "OmegaConf — OmegaConf 2.3.1 documentation",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Developer utilities"
+ },
+ {
+  "url": "https://gradio.app/",
+  "title": "Gradio — build ML demo apps",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Web apps & UI"
+ },
+ {
+  "url": "https://streamlit.io/",
+  "title": "Streamlit • A faster way to build and share data apps",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Web apps & UI"
+ },
+ {
+  "url": "https://zenodo.org/",
+  "title": "Zenodo — open research data repository",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "data",
+  "subcategory": "Data repositories"
+ },
+ {
+  "url": "https://neptune.ai/blog/best-ml-experiment-tracking-tools",
+  "title": "Best ml experiment tracking tools",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "collection",
+  "subcategory": "Tool lists"
+ },
+ {
+  "url": "https://lilianweng.github.io/",
+  "title": "Lil'Log — Lilian Weng's ML blog",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Blogs & discussions"
+ },
+ {
+  "url": "https://cgarciae.github.io/einops/1-einops-basics/",
+  "title": "Einops basics tutorial",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Data science & programming"
+ },
+ {
+  "url": "https://github.com/rwightman/pytorch-image-models",
+  "title": "huggingface/pytorch-image-models: The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, Ef",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Deep learning models & layers"
+ },
+ {
+  "url": "https://rich.readthedocs.io/en/stable/index.html",
+  "title": "Welcome to Rich’s documentation! — Rich 14.1.0 documentation",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Developer utilities"
+ },
+ {
+  "url": "https://docs.openvino.ai/latest/index.html#",
+  "title": "OpenVINO documentation",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Model deployment"
+ },
+ {
+  "url": "https://lets-unify.ai",
+  "title": "Unify — LLM routing platform",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps"
+ },
+ {
+  "url": "https://zenodo.org/record/7213964#.Y0_vzy8Ro60",
+  "title": "A large-scale COVID-19 Twitter chatter dataset for open scientific research - an international collaboration",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "data",
+  "subcategory": "Data repositories"
+ },
+ {
+  "url": "https://developer.nvidia.com/isaac-sim",
+  "title": "NVIDIA Isaac Sim — robotics simulation",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Simulation & game engines"
+ },
+ {
+  "url": "https://huggingface.co/spaces/stabilityai/stable-diffusion",
+  "title": "Stable Diffusion demo · Hugging Face Space",
+  "topic": "Tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Diffusion & generative models"
+ },
+ {
+  "url": "https://github.com/JonathonLuiten/TrackEval",
+  "title": "JonathonLuiten/TrackEval: HOTA (and other) evaluation metrics for Multi-Object Tracking (MOT).",
+  "topic": "Tools",
+  "subsection": "Tracking evaluations",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Tracking evaluation"
+ },
+ {
+  "url": "https://www.graphcore.ai/resources/model-garden",
+  "title": "Graphcore Model Garden",
+  "topic": "Tools",
+  "subsection": "Graphcore",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Model hubs"
+ },
+ {
+  "url": "https://mdbootstrap.com/docs/standard/",
+  "title": "Bootstrap 5 & Vanilla JavaScript - Free Material Design UI KIT",
+  "topic": "Tools",
+  "subsection": "Web-development",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Web apps & UI"
+ },
+ {
+  "url": "https://einops.rocks/",
+  "title": "Einops — readable tensor operations",
+  "topic": "Tools",
+  "subsection": "Cloud computing platforms",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Developer utilities"
+ },
+ {
+  "url": "https://www.paperspace.com",
+  "title": "Paperspace — cloud GPUs",
+  "topic": "Tools",
+  "subsection": "Cloud computing platforms",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Cloud compute & GPUs"
+ },
+ {
+  "url": "https://codecarbon.io/",
+  "title": "CodeCarbon — measure compute emissions",
+  "topic": "Tools",
+  "subsection": "Cloud computing platforms",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Developer utilities"
+ },
+ {
+  "url": "https://docs.taichi-lang.org/",
+  "title": "Taichi — parallel programming in Python",
+  "topic": "Tools",
+  "subsection": "Cloud computing platforms",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Scientific ML & simulation"
+ },
+ {
+  "url": "https://github.com/roboflow/trackers",
+  "title": "roboflow/trackers: Trackers gives you clean, modular re-implementations of leading multi-object tracking algorithms released under the permissive Apache 2.0 license. You combine them with any",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Deep learning models & layers"
+ },
+ {
+  "url": "https://huggingface.co/collections/ustc-community/d-fine-68109b427cbe6ee36b4e7352",
+  "title": "D-FINE - a ustc-community Collection",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Vision: detection, tracking & depth"
+ },
+ {
+  "url": "https://dino-wm.github.io/",
+  "title": "DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/pdf/2409.02104",
+  "title": "DynOMo: Online Point Tracking by Dynamic Online Monocular Gaussian Reconstruction",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/dvl-tum/DynOMo",
+  "title": "dvl-tum/DynOMo: Official code of DynOMo: Online Point Tracking by Dynamic Online Monocular Gaussian Reconstruction (3DV 2025))",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Vision: detection, tracking & depth"
+ },
+ {
+  "url": "https://arxiv.org/abs/2203.16527",
+  "title": "Exploring Plain Vision Transformer Backbones for Object Detection",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://cotracker3.github.io/",
+  "title": "CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Vision: detection, tracking & depth"
+ },
+ {
+  "url": "https://docs.monai.io/en/latest/metrics.html",
+  "title": "MONAI metrics (incl. Normalized Surface Distance)",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "Evaluation: The Normalized Surface Distance (NSD)",
+  "category": "eval",
+  "subcategory": "Metric libraries"
+ },
+ {
+  "url": "https://www.nature.com/articles/s41467-024-44824-z#citeas",
+  "title": "Segment anything in medical images - Nature Communications",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://jonathonluiten.medium.com/how-to-evaluate-tracking-with-the-hota-metrics-754036d183e1",
+  "title": "How to evaluate tracking with the hota metrics",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Tracking evaluation"
+ },
+ {
+  "url": "https://github.com/JonathonLuiten/TrackEval?tab=readme-ov-file",
+  "title": "JonathonLuiten/TrackEval: HOTA (and other) evaluation metrics for Multi-Object Tracking (MOT).",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Tracking evaluation"
+ },
+ {
+  "url": "https://github.com/ifzhang/ByteTrack",
+  "title": "FoundationVision/ByteTrack: [ECCV 2022] ByteTrack: Multi-Object Tracking by Associating Every Detection Box",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Vision: detection, tracking & depth"
+ },
+ {
+  "url": "https://www.superannotate.com/blog/one-shot-annotation?utm_source=linkedin&utm_medium=paid_social&utm_campaign=one_shot_video_b_a_brml_blog&utm_content=oneshot&hsa_acc=508452736&hsa_cam=652301086&hsa_grp=264229456&hsa_ad=344892836&hsa_net=linkedin&hsa_ver=3&li_fat_id=f083e936-f634-48c8-9f53-a857360f563a",
+  "title": "Manual annotation is dead: One-shot is the future",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/rwightman/efficientdet-pytorch",
+  "title": "rwightman/efficientdet-pytorch: A PyTorch impl of EfficientDet faithful to the original Google impl w/ ported weights",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Vision: detection, tracking & depth"
+ },
+ {
+  "url": "https://github.com/JonathonLuiten/TrackEval",
+  "title": "JonathonLuiten/TrackEval: HOTA (and other) evaluation metrics for Multi-Object Tracking (MOT).",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Tracking evaluation"
+ },
+ {
+  "url": "https://medium.com/visionwizard/object-tracking-675d7a33e687",
+  "title": "Object tracking",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Computer vision & tracking"
+ },
+ {
+  "url": "https://viso.ai/deep-learning/object-tracking/",
+  "title": "Explore Advanced Object Tracking in Computer Vision",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Computer vision & tracking"
+ },
+ {
+  "url": "https://diffusionfeatures.github.io",
+  "title": "DiffusionFeatures",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://monai.io",
+  "title": "MONAI — medical imaging AI framework",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Medical imaging"
+ },
+ {
+  "url": "https://docs.ultralytics.com/guides/sahi-tiled-inference/",
+  "title": "Ultralytics — SAHI tiled inference guide",
+  "topic": "Object Detection and Tracking, Segmentation",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Computer vision"
+ },
+ {
+  "url": "https://github.com/EpistasisLab/KRAGEN",
+  "title": "EpistasisLab/KRAGEN: Software to implement GoT with a weviate vectorized database",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Graph ML"
+ },
+ {
+  "url": "https://www.graphcore.ai/posts/graphcore-users-can-now-build-and-run-gnns-with-pytorch-geometric?utm_campaign=PyG%20campaign&utm_medium=email&_hsmi=253164702&_hsenc=p2ANqtz-_FSvv08u2JTQ1Lmr58pYbnMAW2gfTRWoTeCLDZWk6mWfRoLRCUD5GRKtEexJRO3fCkhmXUn9Wo9XarXSxVA4T20d-xag&utm_content=253164700&utm_source=hs_email",
+  "title": "Graphcore users can now build and run GNNs with PyTorch Geometric",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://pytorch-lightning.readthedocs.io/en/stable/notebooks/course_UvA-DL/06-graph-neural-networks.html",
+  "title": "UvA DL tutorial 6 — Graph Neural Networks",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://pytorch-geometric.readthedocs.io/en/latest/notes/introduction.html",
+  "title": "Introduction by Example — pytorch_geometric documentation",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://www.dgl.ai/",
+  "title": "DGL — Deep Graph Library",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Graph ML"
+ },
+ {
+  "url": "https://mlabonne.github.io/blog/gat/",
+  "title": "Graph Attention Networks: self-attention for GNNs",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://mlabonne.github.io/blog/intrognn/",
+  "title": "Introduction to Graph Neural Networks",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://wandb.ai/syllogismos/machine-learning-with-graphs/reports/10-Deep-Generative-Models-for-Graphs--VmlldzozNzcwMTI",
+  "title": "10 Deep Generative Models for Graphs",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://wandb.ai/syllogismos/machine-learning-with-graphs/reports/1-Introduction-Structure-of-Graphs---VmlldzozNzU1NDU",
+  "title": "1 Introduction Structure of Graphs",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://pytorch-geometric.readthedocs.io/en/latest/notes/colabs.html",
+  "title": "Colab Notebooks and Video Tutorials — pytorch_geometric documentation",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://github.com/pyg-team/pytorch_geometric",
+  "title": "pyg-team/pytorch_geometric: Graph Neural Network Library for PyTorch",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Graph ML"
+ },
+ {
+  "url": "https://towardsdatascience.com/a-beginners-guide-to-graph-neural-networks-using-pytorch-geometric-part-1-d98dc93e7742",
+  "title": "A beginners guide to graph neural networks using pytorch geometric part 1",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://www.datacamp.com/tutorial/comprehensive-introduction-graph-neural-networks-gnns-tutorial",
+  "title": "Comprehensive introduction graph neural networks gnns tutorial",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://towardsdatascience.com/graph-neural-networks-in-python-c310c7c18c83",
+  "title": "Graph neural networks in python",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://distill.pub/2021/gnn-intro/",
+  "title": "A Gentle Introduction to Graph Neural Networks",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://distill.pub/2021/understanding-gnns/",
+  "title": "Understanding Convolutions on Graphs",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://medium.com/@BorisAKnyazev/tutorial-on-graph-neural-networks-for-computer-vision-and-beyond-part-1-3d9fada3b80d",
+  "title": "Tutorial on graph neural networks for computer vision and beyond part 1",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://arxiv.org/abs/1812.08434",
+  "title": "Graph Neural Networks: A Review of Methods and Applications",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "survey",
+  "subcategory": "Graph learning"
+ },
+ {
+  "url": "https://github.com/dmlc/dgl",
+  "title": "dmlc/dgl: Python package built to ease deep learning on graph, on top of existing DL frameworks.",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Graph ML"
+ },
+ {
+  "url": "https://github.com/pyg-team/pytorch_geometric",
+  "title": "pyg-team/pytorch_geometric: Graph Neural Network Library for PyTorch",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Graph ML"
+ },
+ {
+  "url": "https://youtu.be/zCEYiCxrL_0",
+  "title": "An Introduction to Graph Neural Networks: Models and Applications",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://theaisummer.com/graph-convolutional-networks/",
+  "title": "How Graph Neural Networks (GNN) work: introduction to graph convolutions from scratch | AI Summer",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://github.com/deepmind/educational/blob/f44b133905a96e1887f5909aedcae6811b2c37a3/colabs/summer_schools/intro_to_graph_nets_tutorial_with_jraph.ipynb",
+  "title": "DeepMind — Intro to graph nets with Jraph (Colab tutorial)",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://www.nature.com/articles/s41551-022-00942-x",
+  "title": "Graph representation learning in biomedicine and healthcare",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "survey",
+  "subcategory": "Graph learning"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=uF53xsT7mjc&t=136s",
+  "title": "Theoretical Foundations of Graph Neural Networks",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=YdGN-J322y4",
+  "title": "Think Graph Neural Networks (GNN) are hard to understand? Try this two part series..",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Graph neural networks"
+ },
+ {
+  "url": "https://github.com/lululxvi/deepxde",
+  "title": "lululxvi/deepxde: A library for scientific machine learning and physics-informed learning",
+  "topic": "Graph NN",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Scientific ML & simulation"
+ },
+ {
+  "url": "https://www.endoscopy-campus.com/en/classifications/paris-classification-early-cancer/",
+  "title": "Paris Classification Early Cancer – Endoscopy Campus",
+  "topic": "Medical related",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Medical references"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=NP8pXZdU-5U",
+  "title": "Coding Deep Q-Learning in PyTorch - Reinforcement Learning DQN Code Tutorial Series p.1",
+  "topic": "RL",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Reinforcement learning"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=tsy1mgB7hB0",
+  "title": "Train Deep Q-Learning on Atari in PyTorch - Reinforcement Learning DQN Code Tutorial Series p.2",
+  "topic": "RL",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Reinforcement learning"
+ },
+ {
+  "url": "https://andrew-gordienko.medium.com/reinforcement-learning-dqn-w-pytorch-7c6faad3d1e",
+  "title": "Reinforcement learning dqn w pytorch",
+  "topic": "RL",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Reinforcement learning"
+ },
+ {
+  "url": "https://blog.floydhub.com/an-introduction-to-q-learning-reinforcement-learning/",
+  "title": "An introduction to q learning reinforcement learning",
+  "topic": "RL",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Reinforcement learning"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=JNKvJEzuNsc",
+  "title": "OpenAI Gym: CartPole-v1 -  Q-Learning",
+  "topic": "RL",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Reinforcement learning"
+ },
+ {
+  "url": "https://blog.gofynd.com/building-a-deep-q-network-in-pytorch-fa1086aa5435",
+  "title": "Building a deep q network in pytorch",
+  "topic": "RL",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Reinforcement learning"
+ },
+ {
+  "url": "https://www.geeksforgeeks.org/q-learning-in-python/?ref=lbp",
+  "title": "Q-Learning in Reinforcement Learning - GeeksforGeeks",
+  "topic": "RL",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Reinforcement learning"
+ },
+ {
+  "url": "https://godotengine.org",
+  "title": "Godot Engine - Free and open source 2D and 3D game engine",
+  "topic": "RL",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Simulation & game engines"
+ },
+ {
+  "url": "https://huggingface.co/learn/deep-rl-course/unit0/introduction",
+  "title": "Welcome to the 🤗 Deep Reinforcement Learning Course · Hugging Face",
+  "topic": "RL",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Reinforcement learning"
+ },
+ {
+  "url": "https://resources.nvidia.com/en-us-omniverse-industrial-digital-twins/omniverse-enterprise-5-steps?lx=deNrXD",
+  "title": "",
+  "topic": "Digital-twin",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.edith-csa.eu/edith/",
+  "title": "European Virtual Human Twin",
+  "topic": "Digital-twin",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://docs.paraview.org/en/latest/ReferenceManual/parallelDataVisualization.html",
+  "title": "8. Remote and parallel visualization — ParaView Documentation 6.2.0 documentation",
+  "topic": "Digital-twin",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Visualization & 3D"
+ },
+ {
+  "url": "https://www.paraview.org/",
+  "title": "ParaView - Open-source, multi-platform data analysis and visualization application",
+  "topic": "Digital-twin",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Visualization & 3D"
+ },
+ {
+  "url": "https://www.blender.org/",
+  "title": "Blender — open-source 3D creation",
+  "topic": "Digital-twin",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Visualization & 3D"
+ },
+ {
+  "url": "https://huggingface.co/docs/hub/spaces-storage#dataset-storage",
+  "title": "Disk usage on Spaces · Hugging Face",
+  "topic": "Hugging face tutorials",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "Storing data via Huggingface space",
+  "category": "course",
+  "subcategory": "Hugging Face Hub how-tos"
+ },
+ {
+  "url": "https://huggingface.co/spaces/Wauplin/space_to_dataset_saver",
+  "title": "Space to Dataset Saver - a Hugging Face Space by Wauplin",
+  "topic": "Hugging face tutorials",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Dataset & data management"
+ },
+ {
+  "url": "https://huggingface.co/docs/huggingface_hub/main/en/guides/upload#scheduled-uploads",
+  "title": "Upload files to the Hub · Hugging Face",
+  "topic": "Hugging face tutorials",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Hugging Face Hub how-tos"
+ },
+ {
+  "url": "https://huggingface.co/docs/transformers/custom_models",
+  "title": "Customizing models · Hugging Face",
+  "topic": "Hugging face tutorials",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Hugging Face Hub how-tos"
+ },
+ {
+  "url": "https://huggingface.co/docs/transformers/pipeline_tutorial",
+  "title": "Pipeline · Hugging Face",
+  "topic": "Hugging face tutorials",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Hugging Face Hub how-tos"
+ },
+ {
+  "url": "https://huggingface.co/docs/datasets/upload_dataset#upload-from-python",
+  "title": "Share a dataset to the Hub · Hugging Face",
+  "topic": "Hugging face tutorials",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Hugging Face Hub how-tos"
+ },
+ {
+  "url": "https://huggingface.co/docs/inference-endpoints/guides/custom_handler",
+  "title": "Create custom Inference Handler · Hugging Face",
+  "topic": "Hugging face tutorials",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Hugging Face Hub how-tos"
+ },
+ {
+  "url": "https://huggingface.co/blog/moe",
+  "title": "Mixture of Experts Explained",
+  "topic": "Hugging face tutorials",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://huggingface.co/merge-crew",
+  "title": "merge-crew (Merge Crew)",
+  "topic": "Hugging face tutorials",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models"
+ },
+ {
+  "url": "https://huggingface.co/docs/hub/en/datasets-data-files-configuration",
+  "title": "Data files Configuration · Hugging Face",
+  "topic": "Hugging face tutorials",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "About dataset management:",
+  "category": "course",
+  "subcategory": "Hugging Face Hub how-tos"
+ },
+ {
+  "url": "https://arxiv.org/html/2502.07129v1#Ch1.S1",
+  "title": "Fourier-enhanced Neural Networks For Systems Biology Applications",
+  "topic": "SciML",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://towardsdatascience.com/physics-informed-neural-networks-pinns-an-intuitive-guide-fff138069563",
+  "title": "Physics informed neural networks pinns an intuitive guide",
+  "topic": "SciML",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Scientific ML"
+ },
+ {
+  "url": "https://visualpde.com",
+  "title": "VisualPDE — interactive PDE simulations in the browser",
+  "topic": "SciML",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Visualization & 3D"
+ },
+ {
+  "url": "https://github.com/lululxvi/deepxde",
+  "title": "lululxvi/deepxde: A library for scientific machine learning and physics-informed learning",
+  "topic": "SciML",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Scientific ML & simulation"
+ },
+ {
+  "url": "https://docs.nvidia.com/deeplearning/modulus/user_guide/basics/modulus_overview.html",
+  "title": "Overview — NVIDIA PhysicsNeMo Framework",
+  "topic": "SciML",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Scientific ML & simulation"
+ },
+ {
+  "url": "https://opencarp.org/",
+  "title": "Cardiac Electrophysiology Simulator | openCARP",
+  "topic": "SciML",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Simulation & game engines"
+ },
+ {
+  "url": "https://sciml.wur.nl/reviews/sciml/sciml.html",
+  "title": "Scientific Machine Learning — overview (WUR)",
+  "topic": "SciML",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "survey",
+  "subcategory": "Scientific ML"
+ },
+ {
+  "url": "https://sciml.wur.nl/resources.html",
+  "title": "SciML resources (WUR)",
+  "topic": "SciML",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "collection",
+  "subcategory": "Resource hubs"
+ },
+ {
+  "url": "https://sciml.ai/",
+  "title": "SciML: Open Source Software for Scientific Machine Learning",
+  "topic": "SciML",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Scientific ML & simulation"
+ },
+ {
+  "url": "https://physicsbaseddeeplearning.org/intro.html",
+  "title": "Welcome … — Physics-based Deep Learning",
+  "topic": "SciML",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Books"
+ },
+ {
+  "url": "https://towardsdatascience.com/solving-differential-equations-with-neural-networks-afdcf7b8bcc4",
+  "title": "Solving differential equations with neural networks",
+  "topic": "SciML",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Scientific ML"
+ },
+ {
+  "url": "https://huggingface.co/allenai/Molmo-7B-D-0924",
+  "title": "allenai/Molmo-7B-D-0924 · Hugging Face",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Multimodal & video LLMs"
+ },
+ {
+  "url": "https://arxiv.org/abs/2501.13106",
+  "title": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/facebookresearch/blt",
+  "title": "facebookresearch/blt: Code for BLT research paper",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models"
+ },
+ {
+  "url": "https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/",
+  "title": "LangGraph — agentic RAG tutorial",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://dspy-docs.vercel.app/intro/",
+  "title": "DSPy — programming LLM pipelines",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://github.com/microsoft/LLaVA-Med",
+  "title": "microsoft/LLaVA-Med: Large Language-and-Vision Assistant for Biomedicine, built towards multimodal GPT-4 level capabilities.",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Medical AI models"
+ },
+ {
+  "url": "https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html",
+  "title": "Understanding and Coding the Self-Attention Mechanism of Large Language Models From Scratch",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://atcold.github.io/NYU-DLSP21/",
+  "title": "DEEP LEARNING · Deep Learning",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "ML & deep learning foundations"
+ },
+ {
+  "url": "https://www.rungalileo.io/hallucinationindex?utm_medium=paid&utm_source=alpha_signal&utm_campaign=influencer",
+  "title": "Galileo — LLM Hallucination Index",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "LLM evaluation & leaderboards"
+ },
+ {
+  "url": "https://arxiv.org/abs/2405.17247",
+  "title": "An Introduction to Vision-Language Modeling",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "survey",
+  "subcategory": "Foundation models & LLMs"
+ },
+ {
+  "url": "https://github.com/agiresearch/OpenAGI",
+  "title": "agiresearch/OpenAGI: OpenAGI: When LLM Meets Domain Experts",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Agents"
+ },
+ {
+  "url": "https://huggingface.co/aaditya/Llama3-OpenBioLLM-70B",
+  "title": "aaditya/Llama3-OpenBioLLM-70B · Hugging Face",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Medical AI models"
+ },
+ {
+  "url": "https://huggingface.co/blog/leaderboard-medicalllm",
+  "title": "The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "LLM evaluation & leaderboards"
+ },
+ {
+  "url": "https://github.com/Nixtla/nixtla",
+  "title": "Nixtla/nixtla: TimeGPT-2.1: production ready pre-trained Time Series Foundation Model for forecasting and anomaly detection. Generative pretrained transformer for time series trained on over",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Time series & audio"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2403.13248.pdf",
+  "title": "Mora: Enabling Generalist Video Generation via A Multi-Agent Framework",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://openai.com/sora",
+  "title": "Sora",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://fmcheatsheet.org",
+  "title": "Foundation Model Development Cheatsheet",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "ML engineering best practices"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2402.17764.pdf",
+  "title": "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=E2shqsYwxck",
+  "title": "Building Corrective RAG from scratch with open-source, local LLMs",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://www.anthropic.com/research",
+  "title": "Research",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=ma3NYVo8Im0",
+  "title": "All Things ViTs || CVPR 2023 Tutorial || Hila Chefer and Sayak Paul",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://huggingface.co/blog/moe",
+  "title": "Mixture of Experts Explained",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://huggingface.co/blog/mlabonne/merge-models",
+  "title": "Merge Large Language Models with mergekit",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://publications.parliament.uk/pa/ld5804/ldselect/ldcomm/54/54.pdf",
+  "title": "UK House of Lords — Large language models and generative AI (2024)",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "pdf",
+  "subcategory": null
+ },
+ {
+  "url": "https://depth-anything.github.io",
+  "title": "Depth Anything",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Vision: detection, tracking & depth"
+ },
+ {
+  "url": "https://github.com/hustvl/Vim",
+  "title": "hustvl/Vim: [ICML 2024] Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Vision: detection, tracking & depth"
+ },
+ {
+  "url": "https://github.com/roboflow/notebooks/tree/main/notebooks",
+  "title": "roboflow/notebooks — notebooks",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Computer vision"
+ },
+ {
+  "url": "https://openai.com/research/clip",
+  "title": "Clip",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/pdf/2301.12597.pdf",
+  "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2203.12602",
+  "title": "VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.promptingguide.ai/techniques/rag",
+  "title": "Retrieval Augmented Generation (RAG) – Nextra",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Prompt engineering"
+ },
+ {
+  "url": "https://dinov2.metademolab.com/",
+  "title": "DINOv2 by Meta AI",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Vision: detection, tracking & depth"
+ },
+ {
+  "url": "https://www.nature.com/articles/s41586-023-06747-5",
+  "title": "Solving olympiad geometry without human demonstrations - Nature",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2303.15647",
+  "title": "Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "survey",
+  "subcategory": "Foundation models & LLMs"
+ },
+ {
+  "url": "https://www.promptingguide.ai/",
+  "title": "Prompt Engineering Guide – Nextra",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Prompt engineering"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=KoOlcX3XLd4",
+  "title": "EMNLP 2022 Tutorial - \"Modular and Parameter-Efficient Fine-Tuning for NLP Models\"",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/v1.10.0/starthere/intro.html",
+  "title": "NVIDIA NeMo — introduction",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/v1.10.0/core/adapters/intro.html",
+  "title": "NVIDIA NeMo — adapters",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://huggingface.co/HuggingFaceH4",
+  "title": "HuggingFaceH4 (Hugging Face H4)",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models"
+ },
+ {
+  "url": "https://huggingface.co/docs/transformers/index",
+  "title": "Hugging Face Transformers documentation",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://huggingface.co/docs/transformers/model_doc/wav2vec2",
+  "title": "Wav2Vec2 · Hugging Face",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "Check the can we use this for ECG analysis",
+  "category": "model",
+  "subcategory": "Speech & audio"
+ },
+ {
+  "url": "https://www.promptingguide.ai/",
+  "title": "Prompt Engineering Guide – Nextra",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Prompt engineering"
+ },
+ {
+  "url": "https://python.langchain.com/docs/get_started/introduction",
+  "title": "LangChain documentation",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://learn.deeplearning.ai/finetuning-large-language-models/lesson/2/why-finetune",
+  "title": "Finetuning Large Language Models - DeepLearning.AI",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/",
+  "title": "Retrieval augmented generation streamlining the creation of intelligent natural language processing models",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://docs.cohere.com/docs",
+  "title": "Cohere Documentation",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2310.09909.pdf",
+  "title": "Can GPT-4V(ision) Serve Medical Applications? Case Studies on GPT-4V for Multimodal Medical Diagnosis",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://browse.arxiv.org/pdf/2310.01714.pdf",
+  "title": "Large Language Models as Analogical Reasoners",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://openai.com/blog/chatgpt-can-now-see-hear-and-speak",
+  "title": "Chatgpt can now see hear and speak",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://youtube.com/@code4AI",
+  "title": "code_your_own_AI — YouTube channel",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2305.06500.pdf",
+  "title": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/pdf/2304.08485.pdf",
+  "title": "Visual Instruction Tuning",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://huggingface.co/blog/vision_language_pretraining",
+  "title": "A Dive into Vision-Language Models",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://huggingface.co/docs/peft/index",
+  "title": "PEFT · Hugging Face",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://github.com/microsoft/LoRA",
+  "title": "microsoft/LoRA: Code for loralib, an implementation of \"LoRA: Low-Rank Adaptation of Large Language Models\"",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://developer.nvidia.com/blog/an-introduction-to-large-language-models-prompt-engineering-and-p-tuning/",
+  "title": "An Introduction to Large Language Models: Prompt Engineering and P-Tuning | NVIDIA Technical Blog",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://huggingface.co/docs/peft/task_guides/clm-prompt-tuning",
+  "title": "PEFT — prompt tuning for causal LMs",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://colab.research.google.com/drive/1tLjOg2ZQuIClfuWrAC2LdiZHCov8oUbs?usp=sharing&trk=feed_main-feed-card_feed-article-content",
+  "title": "1tLjOg2ZQuIClfuWrAC2LdiZHCov8oUbs",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://github.com/iryna-kondr/scikit-llm",
+  "title": "fnnx-ai/scikit-llm: Seamlessly integrate LLMs into scikit-learn.",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://blog.abacus.ai/blog/2023/08/22/giraffe-long-context-llms/?trk=feed_main-feed-card_feed-article-content",
+  "title": "Giraffe long context llms",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/Lightning-AI/lit-llama",
+  "title": "Lightning-AI/lit-llama: Implementation of the LLaMA language model based on nanoGPT. Supports flash attention, Int8 and GPTQ 4bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-trainin",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models"
+ },
+ {
+  "url": "https://github.com/bpiyush/TestOfTime",
+  "title": "bpiyush/TestOfTime: Official code for our CVPR 2023 paper: Test of Time: Instilling Video-Language Models with a Sense of Time",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Multimodal & video LLMs"
+ },
+ {
+  "url": "https://github.com/lightaime/camel",
+  "title": "camel-ai/camel: 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://github.com/hwchase17/langchain",
+  "title": "langchain-ai/langchain: The agent engineering platform.",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://github.com/Stability-AI/StableLM/",
+  "title": "Stability-AI/StableLM: StableLM: Stability AI Language Models",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models"
+ },
+ {
+  "url": "https://weaviate.io/blog/vector-embeddings-explained",
+  "title": "Vector Embeddings Explained | Weaviate",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting",
+  "title": "Prompt Engineering vs. Blind Prompting",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://arxiv.org/abs/2112.11446",
+  "title": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2201.11990",
+  "title": "Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2204.02311",
+  "title": "PaLM: Scaling Language Modeling with Pathways",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://ai.googleblog.com/2022/01/lamda-towards-safe-grounded-and-high.html",
+  "title": "LaMDA: Towards Safe, Grounded, and High-Quality Dialog Models for Everything",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/yoheinakajima/babyagi",
+  "title": "yoheinakajima/babyagi",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Agents"
+ },
+ {
+  "url": "https://www.sbert.net/index.html",
+  "title": "SentenceTransformers Documentation — Sentence Transformers documentation",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://huggingface.co/docs/transformers/transformers_agents",
+  "title": "Hugging Face Transformers Agents",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=Ew3sGdX8at4",
+  "title": "Analyze Custom CSV Data with GPT-4 using Langchain",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=aywZrzNaKjs",
+  "title": "LangChain Explained in 13 Minutes | QuickStart Tutorial for Beginners",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://www.graphcore.ai/posts/fine-tuned-gpt-j-a-cost-effective-alternative-to-gpt-4-for-nlp-tasks?utm_campaign=GPT-J%20for%20NLP%20tasks&utm_medium=email&_hsmi=258094032&_hsenc=p2ANqtz-_17NjBSg5-cnJjP7sDP_-WxHHdzFFXOq7erB7T0vs-ioYgrjgYdHdgvo_mJi85hi1yVWE9GC13UsLsMFFN7PqOpKS22w&utm_content=258094032&utm_source=hs_email",
+  "title": "Fine-tune GPT-J: a cost-effective GPT-4 alternative for many NLP tasks",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "GPT-J",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=bH6gq0M9bZ0",
+  "title": "How to fine-tune a pretrained GPT-J model for NLP tasks using a text entailment example",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2306.02858.pdf",
+  "title": "Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard",
+  "title": "Open LLM Leaderboard - a Hugging Face Space by open-llm-leaderboard",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "LLM evaluation & leaderboards"
+ },
+ {
+  "url": "https://github.com/Luodian/Otter",
+  "title": "EvolvingLMMs-Lab/Otter: 🦦 Otter, a multi-modal model based on OpenFlamingo (open-sourced version of DeepMind's Flamingo), trained on MIMIC-IT and showcasing improved instruction-following and",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Multimodal & video LLMs"
+ },
+ {
+  "url": "https://github.com/DAMO-NLP-SG/Video-LLaMA",
+  "title": "DAMO-NLP-SG/Video-LLaMA: [EMNLP 2023 Demo] Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Multimodal & video LLMs"
+ },
+ {
+  "url": "https://console.paperspace.com/github/graphcore/Gradient-HuggingFace?machine=Free-IPU-POD4&container=graphcore%2Fpytorch-jupyter%3A3.2.1-ubuntu-20.04-20230531&file=dolly2-instruction-following%2FOpenAssistant-Pythia-12B-Chatbot.ipynb&utm_source=hs_email&utm_medium=email&utm_campaign=Generative+AI+-+DeBERTa+Flan+T5+Pythia&utm_content=263592096&_hsmi=263592096&_hsenc=p2ANqtz-82suGCwWtu6CoyRr8vAx5wX-sNUKkZWrzfaQIsw9Svy2KfQCGov5rBAWYZDww_wBYXsQLB1FWMtPTVTjC5pkmwEzmaAg",
+  "title": "Gradient HuggingFace",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://console.paperspace.com/github/graphcore/Gradient-HuggingFace?machine=Free-IPU-POD4&container=graphcore%2Fpytorch-jupyter%3A3.2.1-ubuntu-20.04-20230531&file=natural-language-processing%2FFlan-T5-generative-inference.ipynb&utm_source=hs_email&utm_medium=email&utm_campaign=Generative+AI+-+DeBERTa+Flan+T5+Pythia&utm_content=263592096&_hsmi=263592096&_hsenc=p2ANqtz--3mh-hpo03PKtEwEsEElf347O8n8m1seNLweb5pmJmPl2oNTeBdM_n3or6j-kRpP33LiXMr87roSB0w6sSxtUojn13aQ",
+  "title": "Gradient HuggingFace",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://arxiv.org/pdf/2302.07257.pdf",
+  "title": "ChatCAD: Interactive Computer-Aided Diagnosis on Medical Image using Large Language Models",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://medium.com/@saschametzger/what-are-tokens-vectors-and-embeddings-how-do-you-create-them-e2a3e698e037",
+  "title": "What are tokens vectors and embeddings how do you create them",
+  "topic": "Language models and Transformer",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs"
+ },
+ {
+  "url": "https://www.rayyan.ai/pricing/",
+  "title": "Rayyan Pricing | Choose the Best Plan for Your Research Team",
+  "topic": "Review paper tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://guides.library.unisa.edu.au/ScopingReviews",
+  "title": "Scoping reviews — library guide (UniSA)",
+  "topic": "Review paper tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Research & reviewing"
+ },
+ {
+  "url": "https://guides.library.unisa.edu.au/ScopingReviews/Protocol",
+  "title": "Scoping reviews — writing a protocol (UniSA)",
+  "topic": "Review paper tools",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Research & reviewing"
+ },
+ {
+  "url": "https://pypi.org/project/python-dotenv/",
+  "title": "python-dotenv",
+  "topic": "Useful coding libraries",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Developer utilities"
+ },
+ {
+  "url": "https://pypi.org/project/pinecone-client/",
+  "title": "pinecone-client — vector database client",
+  "topic": "Useful coding libraries",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents"
+ },
+ {
+  "url": "https://shap.readthedocs.io/en/latest/index.html#",
+  "title": "Welcome to the SHAP documentation — SHAP latest documentation",
+  "topic": "Explainable methods",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Explainability"
+ },
+ {
+  "url": "https://captum.ai/",
+  "title": "Captum · Model Interpretability for PyTorch",
+  "topic": "Explainable methods",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Explainability"
+ },
+ {
+  "url": "https://arxiv.org/abs/1806.02920",
+  "title": "GAIN: Missing Data Imputation using Generative Adversarial Nets",
+  "topic": "Tabular data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/Baukebrenninkmeijer/table-evaluator",
+  "title": "Baukebrenninkmeijer/table-evaluator: Evaluate real and synthetic datasets against each other",
+  "topic": "Tabular data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Synthetic data evaluation"
+ },
+ {
+  "url": "https://github.com/autogluon/autogluon?tab=readme-ov-file",
+  "title": "autogluon/autogluon: Fast and Accurate ML in 3 Lines of Code",
+  "topic": "Tabular data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Data processing & tabular ML"
+ },
+ {
+  "url": "https://imbalanced-learn.org/stable/",
+  "title": "imbalanced-learn documentation — Version 0.14.2",
+  "topic": "Tabular data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Data processing & tabular ML"
+ },
+ {
+  "url": "https://www.isynth.io/approach",
+  "title": "The approach — iSynth - The pure synthetic data solution",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://encord.com/blog/dataops-vs-mlops-whats-the-difference/",
+  "title": "DataOps Vs MLOps: What's the Difference?",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Privacy, data & MLOps"
+ },
+ {
+  "url": "https://docs.open-metadata.org/latest",
+  "title": "OpenMetadata — data catalog & governance",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Dataset & data management"
+ },
+ {
+  "url": "https://github.com/mlcommons/croissant",
+  "title": "mlcommons/croissant: Croissant is a high-level format for machine learning datasets that brings together four rich layers.",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Data processing & tabular ML"
+ },
+ {
+  "url": "https://www.ohdsi.org/data-standardization/",
+  "title": "Data Standardization – OHDSI",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "data",
+  "subcategory": "Data standards"
+ },
+ {
+  "url": "https://github.com/activeloopai/deeplake",
+  "title": "activeloopai/deeplake: Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Data processing & tabular ML"
+ },
+ {
+  "url": "https://sleepdata.org/",
+  "title": "Sleep Data - National Sleep Research Resource - NSRR",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "data",
+  "subcategory": "Biomedical & health datasets"
+ },
+ {
+  "url": "https://physionet.org",
+  "title": "PhysioNet — physiological signal datasets",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "data",
+  "subcategory": "Biomedical & health datasets"
+ },
+ {
+  "url": "https://ega-archive.org/datasets/",
+  "title": "Browse Datasets - EGA European Genome-phenome Archive",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "data",
+  "subcategory": "Biomedical & health datasets"
+ },
+ {
+  "url": "https://rna.sysu.edu.cn/tsRFun/index.php",
+  "title": "tsRFun — tRNA-derived small RNA database",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "data",
+  "subcategory": "Biomedical & health datasets"
+ },
+ {
+  "url": "https://portal.gdc.cancer.gov/",
+  "title": "NCI Genomic Data Commons portal",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "data",
+  "subcategory": "Biomedical & health datasets"
+ },
+ {
+  "url": "https://dvc.org/",
+  "title": "DVC — data version control",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Dataset & data management"
+ },
+ {
+  "url": "https://beam.apache.org/",
+  "title": "Apache Beam®",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Data processing & tabular ML"
+ },
+ {
+  "url": "https://huggingface.co/docs/datasets/en/index",
+  "title": "Datasets · Hugging Face",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Data processing & tabular ML"
+ },
+ {
+  "url": "https://huggingface.co/blog/xethub-joins-hf",
+  "title": "XetHub is joining Hugging Face!",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/voxel51/fiftyone",
+  "title": "voxel51/fiftyone: Refine high-quality datasets and visual AI models",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Dataset & data management"
+ },
+ {
+  "url": "https://ecl.informationbuilders.com/wf/index.jsp?topic=%2Fshell_7702%2Fvisdis%2FDevStudio_VisualDiscovery%2Fsource%2Ftopic34.htm",
+  "title": "",
+  "topic": "Data",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/pdf/2403.08629.pdf",
+  "title": "Scaling Up Dynamic Human-Scene Interaction Modeling",
+  "topic": "Human poses etc",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.nature.com/collections/qghhqm",
+  "title": "Statistics for Biologists",
+  "topic": "Statistics",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Books"
+ },
+ {
+  "url": "https://www.statlearning.com",
+  "title": "An Introduction to Statistical Learning (book)",
+  "topic": "Statistics",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "Books",
+  "category": "guide",
+  "subcategory": "Books"
+ },
+ {
+  "url": "https://github.com/Nixtla/nixtla",
+  "title": "Nixtla/nixtla: TimeGPT-2.1: production ready pre-trained Time Series Foundation Model for forecasting and anomaly detection. Generative pretrained transformer for time series trained on over",
+  "topic": "Time-series analysis",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Time series & audio"
+ },
+ {
+  "url": "https://www.sktime.net/en/stable/examples/03b_forecasting_transformers_pipelines_tuning.html",
+  "title": "Forecasting Pipelines, Tuning, and AutoML",
+  "topic": "Time-series analysis",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Time series"
+ },
+ {
+  "url": "https://github.com/timeseriesAI/tsai",
+  "title": "timeseriesAI/tsai: Time series Timeseries Deep Learning Machine Learning Python Pytorch fastai | State-of-the-art Deep Learning library for Time Series and Sequences in Pytorch / fastai",
+  "topic": "Time-series analysis",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Time series & audio"
+ },
+ {
+  "url": "https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/establish-novelty-four-moves.pdf",
+  "title": "Establishing novelty: four moves (CMU handout)",
+  "topic": "Academic writing",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "pdf",
+  "subcategory": null
+ },
+ {
+  "url": "https://github.com/KindXiaoming/pykan",
+  "title": "KindXiaoming/pykan: Kolmogorov Arnold Networks",
+  "topic": "NEW Model architectures",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Deep learning models & layers"
+ },
+ {
+  "url": "https://github.com/SkalskiP/top-cvpr-2024-papers",
+  "title": "SkalskiP/top-cvpr-2024-papers: This repository is a curated collection of the most exciting and influential CVPR 2024 papers. 🔥 [Paper + Code + Demo]",
+  "topic": "Paper collection",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "collection",
+  "subcategory": "Paper lists"
+ },
+ {
+  "url": "https://github.com/PennyLaneAI/pennylane",
+  "title": "PennyLaneAI/pennylane: PennyLane is an open-source quantum software platform for quantum computing, quantum machine learning, and quantum chemistry. Create meaningful quantum algorithms, from",
+  "topic": "Quantum ML",
+  "subsection": "Tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Quantum ML"
+ },
+ {
+  "url": "https://pennylane.ai/",
+  "title": "Quantum Programming Software — PennyLane",
+  "topic": "Quantum ML",
+  "subsection": "Reading",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Quantum ML"
+ },
+ {
+  "url": "https://research.ibm.com/topics/quantum-machine-learning",
+  "title": "Quantum Machine Learning",
+  "topic": "Quantum ML",
+  "subsection": "Reading",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Quantum ML"
+ },
+ {
+  "url": "https://www.stratejai.com/our-ai-journeys/",
+  "title": "Our AI Journeys",
+  "topic": "AI and Data In HealthCare",
+  "subsection": "",
+  "kind": "link",
+  "note": "Speakers are from",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://healthdatainnovation.eu/",
+  "title": "Data for a better Healthcare - Healthcare Data Innovation Council",
+  "topic": "AI and Data In HealthCare",
+  "subsection": "",
+  "kind": "link",
+  "note": "HDIC",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2108.07258",
+  "title": "On the Opportunities and Risks of Foundation Models",
+  "topic": "AI and Data In HealthCare",
+  "subsection": "",
+  "kind": "link",
+  "note": "Some papers: On the Opportunities and Risks of Foundation Models",
+  "category": "survey",
+  "subcategory": "Foundation models & LLMs"
+ },
+ {
+  "url": "https://arxiv.org/abs/2403.10131",
+  "title": "RAFT: Adapting Language Model to Domain Specific RAG",
+  "topic": "AI and Data In HealthCare",
+  "subsection": "",
+  "kind": "link",
+  "note": "RAFT",
+  "category": "paper",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.european-health-data-space.com/",
+  "title": "The European Health Data Space (EHDS)",
+  "topic": "AI and Data In HealthCare",
+  "subsection": "",
+  "kind": "link",
+  "note": "EHDS",
+  "category": "other",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.egi.eu/project/eucaim/",
+  "title": "EUCAIM — European Cancer Imaging Initiative",
+  "topic": "AI and Data In HealthCare",
+  "subsection": "",
+  "kind": "link",
+  "note": "EUCAIM",
+  "category": "data",
+  "subcategory": "Medical imaging infrastructure"
+ },
+ {
+  "url": "https://cancerimage.eu/",
+  "title": "Cancer Image Europe",
+  "topic": "AI and Data In HealthCare",
+  "subsection": "",
+  "kind": "link",
+  "note": "",
+  "category": "data",
+  "subcategory": "Medical imaging infrastructure"
+ },
+ {
+  "url": "https://news.microsoft.com/2024/06/16/trustworthy-and-responsible-ai-network-expands-to-help-european-healthcare-organizations-enhance-the-quality-safety-and-trustworthiness-of-ai-in-health/",
+  "title": "Trustworthy and Responsible AI Network expands to help European healthcare organizations enhance the quality, safety and trustworthiness of AI in health - Stories",
+  "topic": "AI and Data In HealthCare",
+  "subsection": "",
+  "kind": "link",
+  "note": "Trustworthy & Responsible AI Network (TRAIN)",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://news.microsoft.com/2024/03/11/new-consortium-of-healthcare-leaders-announces-formation-of-trustworthy-responsible-ai-network-train-making-safe-and-fair-ai-accessible-to-every-healthcare-organization/",
+  "title": "New consortium of healthcare leaders announces formation of Trustworthy & Responsible AI Network (TRAIN), making safe and fair AI accessible to every healthcare organization - Stories",
+  "topic": "AI and Data In HealthCare",
+  "subsection": "",
+  "kind": "link",
+  "note": "Trustworthy & Responsible AI Network (TRAIN)",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.themis-trust.eu/post/themis-5-0-paving-the-way-for-trustworthy-ai-systems",
+  "title": "THEMIS 5.0 Paving the Way for Trustworthy AI Systems",
+  "topic": "AI and Data In HealthCare",
+  "subsection": "",
+  "kind": "link",
+  "note": "Something found randomly (Not relevant to any talk)",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "https://www.datatilsynet.no/en/news/aktuelle-nyheter-2023/time-for-generative-ai-in-the-sandbox/",
+  "title": "Time for generative AI in the sandbox",
+  "topic": "AI and Data In HealthCare",
+  "subsection": "",
+  "kind": "link",
+  "note": "Something found randomly (Not relevant to any talk)",
+  "category": "news",
+  "subcategory": null
+ },
+ {
+  "url": "http://microsoft.github.io/AI-For-Beginners",
+  "title": "Microsoft — AI for Beginners",
+  "topic": "General ml",
+  "subsection": "",
+  "kind": "link",
+  "note": "FREE courses from Microsoft and Google",
+  "category": "course",
+  "subcategory": "ML & deep learning foundations"
+ },
+ {
+  "url": "https://microsoft.github.io/IoT-For-Beginners/#/",
+  "title": "Microsoft — IoT for Beginners",
+  "topic": "General ml",
+  "subsection": "",
+  "kind": "link",
+  "note": "FREE courses from Microsoft and Google",
+  "category": "course",
+  "subcategory": "Data science & programming"
+ },
+ {
+  "url": "http://microsoft.github.io/ML-For-Beginners/#/",
+  "title": "Microsoft — ML for Beginners",
+  "topic": "General ml",
+  "subsection": "",
+  "kind": "link",
+  "note": "FREE courses from Microsoft and Google",
+  "category": "course",
+  "subcategory": "ML & deep learning foundations"
+ },
+ {
+  "url": "http://microsoft.github.io/Data-Science-For-Beginners/#/",
+  "title": "Microsoft — Data Science for Beginners",
+  "topic": "General ml",
+  "subsection": "",
+  "kind": "link",
+  "note": "FREE courses from Microsoft and Google",
+  "category": "course",
+  "subcategory": "Data science & programming"
+ },
+ {
+  "url": "https://learndigital.withgoogle.com/digitalunlocked/course/learn-python-basics-for-data-analysis",
+  "title": "Google — Python Basics for Data Analysis",
+  "topic": "General ml",
+  "subsection": "",
+  "kind": "link",
+  "note": "FREE courses from Microsoft and Google",
+  "category": "course",
+  "subcategory": "Data science & programming"
+ },
+ {
+  "url": "https://learndigital.withgoogle.com/digitalunlocked/course/learn-python-basics-for-data-analysis",
+  "title": "Google — Python Basics for Data Analysis",
+  "topic": "General ml",
+  "subsection": "",
+  "kind": "link",
+  "note": "FREE courses from Microsoft and Google",
+  "category": "course",
+  "subcategory": "Data science & programming"
+ },
+ {
+  "url": "https://learndigital.withgoogle.com/digitalunlocked/course/learn-python-basics-for-data-analysis",
+  "title": "Google — Python Basics for Data Analysis",
+  "topic": "General ml",
+  "subsection": "",
+  "kind": "link",
+  "note": "FREE courses from Microsoft and Google",
+  "category": "course",
+  "subcategory": "Data science & programming"
+ },
+ {
+  "url": "https://learndigital.withgoogle.com/digitalunlocked/course/machine-learning-crash-course",
+  "title": "Google — Machine Learning Crash Course",
+  "topic": "General ml",
+  "subsection": "",
+  "kind": "link",
+  "note": "FREE courses from Microsoft and Google",
+  "category": "course",
+  "subcategory": "ML & deep learning foundations"
+ },
+ {
+  "url": "https://learndigital.withgoogle.com/digitalunlocked/course/machine-learning-crash-course",
+  "title": "Google — Machine Learning Crash Course",
+  "topic": "General ml",
+  "subsection": "",
+  "kind": "link",
+  "note": "FREE courses from Microsoft and Google",
+  "category": "course",
+  "subcategory": "ML & deep learning foundations"
+ },
+ {
+  "url": "https://github.com/zama-ai/concrete-ml/tree/main",
+  "title": "zama-ai/concrete-ml: Concrete ML: Privacy Preserving ML framework using Fully Homomorphic Encryption (FHE), built on top of Concrete, with bindings to traditional ML frameworks.",
+  "topic": "Privacy preserving AI",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Privacy-preserving ML"
+ },
+ {
+  "url": "https://huggingface.co/microsoft/Mage-Flow",
+  "title": "microsoft/Mage-Flow · Hugging Face",
+  "topic": "For CALM-ECG",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Diffusion & generative models"
+ }
+]

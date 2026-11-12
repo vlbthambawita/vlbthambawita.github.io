@@ -1,0 +1,290 @@
+---
+layout: default
+title: Important Resources
+permalink: /reading-list/
+---
+
+<style>
+  .rl-layout { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 1.25rem; align-items: start; }
+  .rl-side { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow-y: auto; padding: 1.1rem; }
+  .rl-side h2 { font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted);
+    margin: 1.1rem 0 0.5rem; font-weight: 600; }
+  .rl-side h2:first-of-type { margin-top: 0.9rem; }
+  .rl-side input, .rl-side select, .rl-sql textarea {
+    width: 100%; box-sizing: border-box; background: var(--bg-elevated); color: var(--text-primary);
+    border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.55rem 0.8rem; font: inherit;
+  }
+  .rl-side input:focus, .rl-side select:focus, .rl-sql textarea:focus { outline: 2px solid var(--brand); outline-offset: 1px; }
+  .rl-tree, .rl-tree ul { list-style: none; margin: 0; padding: 0; }
+  .rl-tree ul { margin: 0.15rem 0 0.4rem 0.9rem; padding-left: 0.6rem; border-left: 1px solid var(--border); }
+  .rl-node { display: flex; width: 100%; align-items: baseline; gap: 0.5rem; background: transparent; border: 0;
+    color: var(--text-primary); font: inherit; font-size: 0.92rem; text-align: left; padding: 0.32rem 0.55rem;
+    border-radius: 8px; cursor: pointer; }
+  .rl-node.sub { font-size: 0.85rem; color: var(--text-muted); }
+  .rl-node:hover { background: rgba(148,163,184,0.1); color: var(--text-primary); }
+  .rl-node[aria-current="true"] { background: var(--brand-soft); color: var(--brand); font-weight: 600; }
+  .rl-node .lbl { flex: 1; }
+  .rl-node .n { font-size: 0.78rem; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+  .rl-node[aria-current="true"] .n { color: var(--brand); }
+  .rl-node[disabled] { opacity: 0.4; cursor: default; }
+  .rl-clear { margin-top: 1rem; width: 100%; }
+  .rl-filter-toggle { display: none; }
+
+  .rl-main { min-width: 0; }
+  .rl-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem; font-size: 0.9rem; margin-bottom: 0.75rem; }
+  .rl-meta a { color: var(--brand); }
+  .rl-cat-h { font-size: 1.15rem; margin: 1.6rem 0 0.2rem; }
+  .rl-cat-h:first-child { margin-top: 0; }
+  .rl-cat-d { color: var(--text-muted); font-size: 0.88rem; margin: 0 0 0.6rem; }
+  .rl-sub-h { font-size: 0.95rem; color: var(--text-muted); font-weight: 600; margin: 1rem 0 0.5rem; }
+  .rl-sub-h small { font-weight: 400; margin-left: 0.35rem; }
+  .rl-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.55rem; }
+  .rl-item { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.7rem 0.95rem;
+    background: var(--bg-card); overflow-wrap: anywhere; }
+  .rl-item a.rl-link { color: var(--text-primary); font-weight: 600; text-decoration: none; }
+  .rl-item a.rl-link:hover { color: var(--brand); text-decoration: underline; }
+  .rl-url { color: var(--text-muted); font-size: 0.8rem; margin-top: 0.15rem; }
+  .rl-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.4rem; font-size: 0.76rem; }
+  .rl-tag { background: rgba(148,163,184,0.12); color: var(--text-muted); border-radius: 999px; padding: 0.1rem 0.6rem; }
+  .rl-note { margin-top: 0.35rem; font-size: 0.86rem; color: var(--text-muted); font-style: italic; }
+  .rl-more { margin-top: 1rem; }
+
+  .rl-sql summary { cursor: pointer; font-weight: 600; }
+  .rl-sql textarea { min-height: 7rem; margin-top: 0.75rem; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.86rem; }
+  .rl-examples { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
+  .rl-examples button { background: transparent; color: var(--text-muted); border: 1px solid var(--border);
+    border-radius: 999px; padding: 0.15rem 0.7rem; font: inherit; font-size: 0.8rem; cursor: pointer; }
+  .rl-examples button:hover { color: var(--brand); border-color: var(--brand); }
+  .rl-table-wrap { overflow-x: auto; margin-top: 0.9rem; }
+  .rl-table { border-collapse: collapse; width: 100%; font-size: 0.84rem; }
+  .rl-table th, .rl-table td { border-bottom: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+  .rl-table th { color: var(--text-muted); font-weight: 600; white-space: nowrap; }
+  .rl-table td { overflow-wrap: anywhere; }
+  .rl-error { color: #f87171; margin-top: 0.75rem; white-space: pre-wrap; }
+
+  @media (max-width: 880px) {
+    .rl-layout { grid-template-columns: minmax(0, 1fr); }
+    .rl-side { position: static; max-height: none; }
+    .rl-filter-toggle { display: inline-flex; width: 100%; justify-content: center; }
+    .rl-side-body[data-open="false"] { display: none; }
+  }
+</style>
+
+<section class="section card">
+  <div class="section-header">
+    <p class="eyebrow">Resources</p>
+    <h1 class="section-heading">Important Resources</h1>
+    <p class="text-muted">A curated list of courses, tutorials, libraries, tools, models and datasets for machine learning
+      and medical AI that I keep coming back to. Filter by category and subcategory, or query the underlying SQLite database directly.</p>
+  </div>
+</section>
+
+<div class="rl-layout">
+  <aside class="rl-side card" aria-label="Filters">
+    <button type="button" class="btn ghost rl-filter-toggle" id="rl-toggle" aria-expanded="false" aria-controls="rl-side-body">Show filters</button>
+    <div class="rl-side-body" id="rl-side-body" data-open="false">
+      <h2>Search</h2>
+      <input id="rl-q" type="search" placeholder="Title, URL, note…" aria-label="Search resources">
+      <h2>Categories</h2>
+      <ul class="rl-tree" id="rl-tree"></ul>
+      <h2>Notion topic</h2>
+      <select id="rl-topic" aria-label="Filter by topic"><option value="">All topics</option></select>
+      <button type="button" class="btn ghost rl-clear" id="rl-clear">Clear filters</button>
+    </div>
+  </aside>
+
+  <div class="rl-main">
+    <section class="section card">
+      <div class="rl-meta text-muted"><span id="rl-count">Loading database…</span><span id="rl-dl"></span></div>
+      <div id="rl-list"></div>
+      <button class="btn ghost rl-more" id="rl-more" hidden>Show more</button>
+    </section>
+
+    <section class="section card">
+      <details class="rl-sql">
+        <summary>Query with SQL</summary>
+        <p class="text-muted" style="margin-top:0.6rem">Tables: <code>categories(id, key, name, description)</code>,
+          <code>subcategories(id, category_id, name)</code>, <code>topics(id, name)</code>,
+          <code>links(id, url, domain, title, category_id, subcategory_id, topic_id, subsection, note)</code>,
+          and the view <code>reading_list</code> joining them.</p>
+        <div class="rl-examples" id="rl-examples"></div>
+        <textarea id="rl-sql" spellcheck="false" aria-label="SQL query">SELECT category, subcategory, COUNT(*) AS n FROM reading_list GROUP BY category, subcategory ORDER BY category, n DESC;</textarea>
+        <button class="btn brand" id="rl-run" style="margin-top:0.6rem">Run</button>
+        <div class="rl-error" id="rl-err"></div>
+        <div class="rl-table-wrap" id="rl-out"></div>
+      </details>
+    </section>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
+<script>
+(() => {
+  const DB_URL = '{{ "/assets/data/reading_list.sqlite" | relative_url }}';
+  const PAGE = 80;
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const safeHref = (u) => /^https?:\/\//i.test(u) ? u : '#';
+  const label = (r) => r.title || r.domain || r.url;
+
+  let db, shown = PAGE;
+  const state = { cat: '', sub: '', topic: '', q: '' };
+  let cats = [], subs = [];
+
+  const rows = (sql, params = []) => {
+    const st = db.prepare(sql); st.bind(params);
+    const out = []; while (st.step()) out.push(st.getAsObject()); st.free();
+    return out;
+  };
+
+  const BASE = `SELECT l.id, l.title, l.url, l.domain, l.note, l.subsection, l.category_id, l.subcategory_id,
+                       c.key AS cat_key, c.name AS category, c.description AS cat_desc, s.name AS subcategory, t.name AS topic
+                FROM links l JOIN categories c ON c.id = l.category_id
+                JOIN subcategories s ON s.id = l.subcategory_id JOIN topics t ON t.id = l.topic_id`;
+
+  // Search + topic filters (shared by the list and the tree counts).
+  function baseWhere() {
+    const w = [], p = [];
+    if (state.topic) { w.push('t.name = ?'); p.push(state.topic); }
+    if (state.q) {
+      w.push('(l.title LIKE ? OR l.url LIKE ? OR l.note LIKE ? OR s.name LIKE ? OR c.name LIKE ? OR t.name LIKE ?)');
+      const like = `%${state.q}%`; p.push(like, like, like, like, like, like);
+    }
+    return { w, p };
+  }
+
+  function renderTree() {
+    const { w, p } = baseWhere();
+    const counts = rows(`SELECT l.category_id AS c, l.subcategory_id AS s, COUNT(*) AS n FROM links l
+      JOIN categories c ON c.id = l.category_id JOIN subcategories s ON s.id = l.subcategory_id JOIN topics t ON t.id = l.topic_id
+      ${w.length ? 'WHERE ' + w.join(' AND ') : ''} GROUP BY 1, 2`, p);
+    const nCat = {}, nSub = {}; let total = 0;
+    for (const x of counts) { nCat[x.c] = (nCat[x.c] || 0) + x.n; nSub[x.s] = x.n; total += x.n; }
+    const node = (attrs, text, n, cls = '') =>
+      `<button type="button" class="rl-node ${cls}" ${attrs} ${n ? '' : 'disabled'}><span class="lbl">${esc(text)}</span><span class="n">${n || 0}</span></button>`;
+    let html = `<li>${node(`data-cat="" aria-current="${!state.cat}"`, 'All resources', total)}</li>`;
+    for (const c of cats) {
+      const open = state.cat === c.key;
+      html += `<li>${node(`data-cat="${esc(c.key)}" aria-expanded="${open}" aria-current="${open && !state.sub}" title="${esc(c.description)}"`, c.name, nCat[c.id])}`;
+      if (open) {
+        html += '<ul>' + subs.filter((s) => s.category_id === c.id)
+          .map((s) => `<li>${node(`data-cat="${esc(c.key)}" data-sub="${s.id}" aria-current="${String(state.sub) === String(s.id)}"`, s.name, nSub[s.id], 'sub')}</li>`)
+          .join('') + '</ul>';
+      }
+      html += '</li>';
+    }
+    $('rl-tree').innerHTML = html;
+  }
+
+  function render() {
+    renderTree();
+    const { w, p } = baseWhere();
+    if (state.cat) { w.push('c.key = ?'); p.push(state.cat); }
+    if (state.sub) { w.push('s.id = ?'); p.push(Number(state.sub)); }
+    const all = rows(`${BASE} ${w.length ? 'WHERE ' + w.join(' AND ') : ''}
+      ORDER BY c.id, s.name, l.title COLLATE NOCASE`, p);
+    $('rl-count').textContent = `${all.length} resource${all.length === 1 ? '' : 's'}`;
+
+    const subCount = {}; for (const r of all) subCount[r.subcategory_id] = (subCount[r.subcategory_id] || 0) + 1;
+    let html = '', curCat = null, curSub = null, openList = false;
+    for (const r of all.slice(0, shown)) {
+      if (r.category_id !== curCat) {
+        if (openList) { html += '</ul>'; openList = false; }
+        curCat = r.category_id; curSub = null;
+        html += `<h2 class="rl-cat-h">${esc(r.category)}</h2><p class="rl-cat-d">${esc(r.cat_desc)}</p>`;
+      }
+      if (r.subcategory_id !== curSub) {
+        if (openList) html += '</ul>';
+        curSub = r.subcategory_id;
+        html += `<h3 class="rl-sub-h">${esc(r.subcategory)}<small>${subCount[curSub]}</small></h3><ul class="rl-list">`;
+        openList = true;
+      }
+      html += `<li class="rl-item">
+        <a class="rl-link" href="${esc(safeHref(r.url))}" target="_blank" rel="noopener noreferrer">${esc(label(r))}</a>
+        <div class="rl-url">${esc(r.domain)}</div>
+        <div class="rl-tags"><span class="rl-tag">${esc(r.topic)}</span>${r.subsection ? `<span class="rl-tag">${esc(r.subsection)}</span>` : ''}</div>
+        ${r.note ? `<div class="rl-note">${esc(r.note)}</div>` : ''}
+      </li>`;
+    }
+    if (openList) html += '</ul>';
+    $('rl-list').innerHTML = html || '<p class="text-muted">No resources match these filters.</p>';
+    $('rl-more').hidden = all.length <= shown;
+
+    const qs = new URLSearchParams();
+    if (state.cat) qs.set('category', state.cat);
+    if (state.sub) qs.set('sub', state.sub);
+    if (state.topic) qs.set('topic', state.topic);
+    if (state.q) qs.set('q', state.q);
+    history.replaceState(null, '', location.pathname + (qs.toString() ? '?' + qs : ''));
+  }
+
+  function runSql() {
+    $('rl-err').textContent = ''; $('rl-out').innerHTML = '';
+    try {
+      const res = db.exec($('rl-sql').value);
+      if (!res.length) { $('rl-out').innerHTML = '<p class="text-muted">No rows.</p>'; return; }
+      const { columns, values } = res[res.length - 1];
+      $('rl-out').innerHTML = `<table class="rl-table"><thead><tr>${columns.map((c) => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>` +
+        values.map((v) => `<tr>${v.map((x) => `<td>${esc(x)}</td>`).join('')}</tr>`).join('') + '</tbody></table>';
+    } catch (e) { $('rl-err').textContent = e.message; }
+  }
+
+  const EXAMPLES = {
+    'Category × subcategory': 'SELECT category, subcategory, COUNT(*) AS n FROM reading_list GROUP BY category, subcategory ORDER BY category, n DESC;',
+    'All tools': "SELECT subcategory, title, url FROM reading_list WHERE category = 'Tools & Platforms' ORDER BY subcategory, title;",
+    'Top domains': 'SELECT domain, COUNT(*) AS n FROM links GROUP BY domain ORDER BY n DESC LIMIT 20;',
+    'LLM courses': "SELECT title, url FROM reading_list WHERE category = 'Courses & Tutorials' AND subcategory = 'Transformers & LLMs';",
+    'Links with notes': 'SELECT category, title, note, url FROM reading_list WHERE note IS NOT NULL;',
+  };
+  $('rl-examples').innerHTML = Object.keys(EXAMPLES).map((k) => `<button type="button" data-k="${esc(k)}">${esc(k)}</button>`).join('');
+  $('rl-examples').addEventListener('click', (e) => {
+    const k = e.target.dataset?.k; if (!k) return;
+    $('rl-sql').value = EXAMPLES[k]; runSql();
+  });
+
+  $('rl-toggle').addEventListener('click', () => {
+    const body = $('rl-side-body'); const open = body.dataset.open !== 'true';
+    body.dataset.open = String(open);
+    $('rl-toggle').setAttribute('aria-expanded', String(open));
+    $('rl-toggle').textContent = open ? 'Hide filters' : 'Show filters';
+  });
+
+  initSqlJs({ locateFile: (f) => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/${f}` })
+    .then((SQL) => fetch(DB_URL).then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.arrayBuffer(); })
+      .then((buf) => { db = new SQL.Database(new Uint8Array(buf)); }))
+    .then(() => {
+      cats = rows('SELECT id, key, name, description FROM categories ORDER BY id');
+      subs = rows(`SELECT s.id, s.category_id, s.name, COUNT(l.id) AS n FROM subcategories s
+                   LEFT JOIN links l ON l.subcategory_id = s.id GROUP BY s.id ORDER BY s.category_id, n DESC, s.name`);
+      for (const t of rows('SELECT name FROM topics ORDER BY name')) {
+        const o = document.createElement('option'); o.value = o.textContent = t.name; $('rl-topic').appendChild(o);
+      }
+      $('rl-dl').innerHTML = `<a href="${DB_URL}" download>Download SQLite database</a>`;
+
+      const params = new URLSearchParams(location.search);
+      if (cats.some((c) => c.key === params.get('category'))) state.cat = params.get('category');
+      if (state.cat && subs.some((s) => String(s.id) === params.get('sub'))) state.sub = params.get('sub');
+      if (params.get('topic')) { $('rl-topic').value = params.get('topic'); state.topic = $('rl-topic').value; }
+      if (params.get('q')) { state.q = params.get('q'); $('rl-q').value = state.q; }
+      render();
+
+      let timer;
+      $('rl-q').addEventListener('input', () => {
+        clearTimeout(timer);
+        timer = setTimeout(() => { state.q = $('rl-q').value.trim(); shown = PAGE; render(); }, 120);
+      });
+      $('rl-topic').addEventListener('change', () => { state.topic = $('rl-topic').value; shown = PAGE; render(); });
+      $('rl-tree').addEventListener('click', (e) => {
+        const b = e.target.closest('.rl-node'); if (!b || b.disabled) return;
+        state.cat = b.dataset.cat; state.sub = b.dataset.sub || ''; shown = PAGE; render();
+      });
+      $('rl-clear').addEventListener('click', () => {
+        Object.assign(state, { cat: '', sub: '', topic: '', q: '' });
+        $('rl-q').value = ''; $('rl-topic').value = ''; shown = PAGE; render();
+      });
+      $('rl-more').addEventListener('click', () => { shown += PAGE; render(); });
+      $('rl-run').addEventListener('click', runSql);
+    })
+    .catch((e) => { $('rl-count').textContent = `Could not load the database: ${e.message}`; });
+})();
+</script>
