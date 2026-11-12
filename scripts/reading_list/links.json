@@ -5821,5 +5821,1766 @@
   "note": "",
   "category": "other",
   "subcategory": null
+ },
+ {
+  "url": "https://huggingface.co/baidu/Unlimited-OCR",
+  "title": "baidu/Unlimited-OCR",
+  "topic": "LLMs for me",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Multimodal & video LLMs",
+  "description": "Baidu's 3B-parameter image-text-to-text model for OCR on long, dense documents.",
+  "image": {
+   "kind": "cover",
+   "file": "1cf885d36957a581.webp"
+  }
+ },
+ {
+  "url": "https://lmstudio.ai/",
+  "title": "LM Studio",
+  "topic": "LLMs for me",
+  "subsection": "Local LLM tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps",
+  "description": "Desktop app for downloading and running open LLMs locally, with a chat UI, an OpenAI-compatible server and an agent for work and code.",
+  "image": {
+   "kind": "cover",
+   "file": "07af0c5a5d180ff7.webp"
+  }
+ },
+ {
+  "url": "https://docs.liquid.ai/lfm/models/decision-models",
+  "title": "Decision Models - Liquid AI Docs",
+  "topic": "LLMs for me",
+  "subsection": "Local LLM tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models",
+  "description": "Liquid AI's small models for structured decisions — classification, routing and scoring in one call without free-text generation.",
+  "image": {
+   "kind": "cover",
+   "file": "285b69174479f862.webp"
+  }
+ },
+ {
+  "url": "https://persimmon.humansand.ai/blog/",
+  "title": "Introducing Persimmon | humans&",
+  "topic": "LLMs for me",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "Introduces Persimmon, a model of human behaviour, and new ways to measure how faithfully AI can simulate people.",
+  "image": {
+   "kind": "cover",
+   "file": "78a30a8708263594.webp"
+  }
+ },
+ {
+  "url": "https://www.neuronpedia.org/",
+  "title": "Neuronpedia",
+  "topic": "LLMs for me",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps",
+  "description": "Open-source interpretability platform for exploring sparse-autoencoder features, circuits and steering inside language models.",
+  "image": {
+   "kind": "icon",
+   "file": "48a7d52ba57c356b.webp"
+  }
+ },
+ {
+  "url": "https://epoch.ai/blog/what-will-ai-look-like-in-2030",
+  "title": "What will AI look like in 2030?",
+  "topic": "LLMs for me",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "survey",
+  "subcategory": "Foundation models & LLMs",
+  "description": "Epoch AI's forecast of compute, investment, power and capabilities if AI scaling continues to 2030.",
+  "image": {
+   "kind": "cover",
+   "file": "4e9f66a1ddefe24a.webp"
+  }
+ },
+ {
+  "url": "https://www.linkedin.com/posts/huggingface_so-happy-to-see-google-release-gemma-4-today-activity-7445518953755389952-3oI4",
+  "title": "Google Releases Gemma 4 for Local AI Development | Hugging Face posted on the topic | LinkedIn",
+  "topic": "LLMs for me",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "news",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://neurips.cc/media/neurips-2025/Slides/109593.pdf",
+  "title": "NeurIPS 2025 slides",
+  "topic": "LLMs for me",
+  "subsection": "",
+  "kind": "bookmark",
+  "note": "",
+  "category": "pdf",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://llm.extractum.io/list/",
+  "title": "LLM Explorer — list of open-source LLMs",
+  "topic": "LLMs for me",
+  "subsection": "List",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "LLM evaluation & leaderboards",
+  "description": "Searchable catalogue of open-source LLMs with size, licence, context length and benchmark scores.",
+  "image": null
+ },
+ {
+  "url": "https://crfm.stanford.edu/",
+  "title": "Stanford CRFM",
+  "topic": "LLMs for me",
+  "subsection": "List",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Research & reviewing",
+  "description": "Stanford's Center for Research on Foundation Models — home of HELM, Alpaca and foundation-model transparency research.",
+  "image": {
+   "kind": "icon",
+   "file": "124dad8f74e2ed34.webp"
+  }
+ },
+ {
+  "url": "https://www.ibm.com/think/topics/llm-benchmarks",
+  "title": "What Are LLM Benchmarks?",
+  "topic": "LLMs for me",
+  "subsection": "LLM Benchmarks",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "Explainer on what LLM benchmarks are, how they are scored, and the common benchmarks and their limitations.",
+  "image": {
+   "kind": "cover",
+   "file": "39b0d90ab1ef3dc6.webp"
+  }
+ },
+ {
+  "url": "https://www.anthropic.com/research/statistical-approach-to-model-evals",
+  "title": "A statistical approach to model evaluations",
+  "topic": "LLMs for me",
+  "subsection": "LLM Benchmarks",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "Metric guidelines",
+  "description": "Recommendations for statistical rigour in AI evals: standard errors, clustering and paired-difference tests when comparing models.",
+  "image": {
+   "kind": "cover",
+   "file": "5e6fffedd477a833.webp"
+  }
+ },
+ {
+  "url": "https://openai.com/index/deliberative-alignment/",
+  "title": "Deliberative Alignment: Reasoning Enables Safer Language Models",
+  "topic": "LLMs for me",
+  "subsection": "LLM Benchmarks",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "OpenAI's method that teaches reasoning models to read and reason over safety specifications before answering.",
+  "image": {
+   "kind": "icon",
+   "file": "ef7d2b07113932c2.webp"
+  }
+ },
+ {
+  "url": "https://eqbench.com/creative_writing.html",
+  "title": "EQ-Bench Creative Writing v3 Leaderboard",
+  "topic": "LLMs for me",
+  "subsection": "LLM Benchmarks",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "LLM evaluation & leaderboards",
+  "description": "Leaderboard ranking LLMs on creative-writing quality, judged by an LLM against a detailed rubric.",
+  "image": {
+   "kind": "icon",
+   "file": "27196d1591587e80.webp"
+  }
+ },
+ {
+  "url": "https://github.com/Meirtz/Awesome-Context-Engineering",
+  "title": "Meirtz/Awesome-Context-Engineering: 🔥 Comprehensive survey on Context Engineering: from prompt engineering to production-grade AI systems. hundreds of papers, frameworks, and implementation guides for LLMs and AI agents.",
+  "topic": "LLMs for me",
+  "subsection": "LLM Benchmarks",
+  "kind": "bookmark",
+  "note": "",
+  "category": "collection",
+  "subcategory": "Paper lists",
+  "description": "Survey and curated list of papers on context engineering, from prompt design to retrieval, memory and agent systems.",
+  "image": {
+   "kind": "cover",
+   "file": "904ef458a2bb8f0d.webp"
+  }
+ },
+ {
+  "url": "https://prismml.com/",
+  "title": "PrismML — Concentrating intelligence",
+  "topic": "LLMs for me",
+  "subsection": "1-Bit Model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models",
+  "description": "PrismML's 1-bit and ternary Bonsai models that bring reasoning and tool use to phones and laptops.",
+  "image": {
+   "kind": "cover",
+   "file": "a99d0f54f798039a.webp"
+  }
+ },
+ {
+  "url": "https://colab.research.google.com/drive/1EzyAaQ2nwDv_1X0jaC5XiVC3ZREg9bdG?usp=sharing",
+  "title": "Google Colab notebook (1-bit model)",
+  "topic": "LLMs for me",
+  "subsection": "1-Bit Model",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://www.apertus-ai.org/",
+  "title": "Apertus",
+  "topic": "LLMs for me",
+  "subsection": "Open access Models",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models",
+  "description": "Swiss fully open multilingual LLM, released with open weights, data and training recipes.",
+  "image": {
+   "kind": "icon",
+   "file": "a03f4122ad065d42.webp"
+  }
+ },
+ {
+  "url": "https://docs.lakefs.io/integrations/huggingface_datasets.html",
+  "title": "lakeFS + Hugging Face Datasets",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Dataset & data management",
+  "description": "How to version Hugging Face datasets with lakeFS branches and commits.",
+  "image": {
+   "kind": "icon",
+   "file": "e33f3a1cc70eaa61.webp"
+  }
+ },
+ {
+  "url": "https://lakefs.io/",
+  "title": "The Control Plane for AI-Ready Data - lakeFS",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Dataset & data management",
+  "description": "Git-like version control for data lakes, making datasets for training and agents reproducible and governed.",
+  "image": {
+   "kind": "cover",
+   "file": "c7e0e8e53e0b9976.webp"
+  }
+ },
+ {
+  "url": "https://mlflow.org/docs/latest/index.html",
+  "title": "MLflow Documentation | MLflow AI Platform",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "MLOps & orchestration",
+  "description": "Documentation for MLflow, the open-source platform for experiment tracking, model registry, deployment and LLM tracing.",
+  "image": {
+   "kind": "icon",
+   "file": "b00c29612d48a1f3.webp"
+  }
+ },
+ {
+  "url": "https://ml-ops.org/content/mlops-principles",
+  "title": "MLOps Principles",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "ML engineering best practices",
+  "description": "Core MLOps principles — automation, continuous training, versioning, testing, monitoring and reproducibility.",
+  "image": {
+   "kind": "icon",
+   "file": "c5e16856eed99816.webp"
+  }
+ },
+ {
+  "url": "https://www.kubeflow.org/",
+  "title": "Kubeflow",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "MLOps & orchestration",
+  "description": "Toolkit for running ML workflows — pipelines, training and serving — on Kubernetes.",
+  "image": {
+   "kind": "cover",
+   "file": "8aa906571286ed55.webp"
+  }
+ },
+ {
+  "url": "https://kedro.org/",
+  "title": "Kedro",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "MLOps & orchestration",
+  "description": "Open-source Python framework for structuring reproducible, modular data-science and data-engineering pipelines.",
+  "image": {
+   "kind": "cover",
+   "file": "7509824766f6c0c4.webp"
+  }
+ },
+ {
+  "url": "https://github.com/flyteorg/flyte",
+  "title": "flyteorg/flyte: Type-safe, distributed orchestration of agents, ML pipelines, and real-time inference on your k8s — in pure Python with async/await, also other languages (rust, go and ts)",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "MLOps & orchestration",
+  "description": "Type-safe, distributed orchestration of ML pipelines, agents and inference on Kubernetes, in pure Python.",
+  "image": {
+   "kind": "cover",
+   "file": "9776739c8e2ea91d.webp"
+  }
+ },
+ {
+  "url": "https://metaflow.org/",
+  "title": "Metaflow - a framework for real-life ML, AI, and data science",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "MLOps & orchestration",
+  "description": "Netflix's framework for building and scaling real-world ML and data-science projects from laptop to cloud.",
+  "image": {
+   "kind": "cover",
+   "file": "6ced15729dfad7ce.webp"
+  }
+ },
+ {
+  "url": "https://kubernetes.io/",
+  "title": "Kubernetes",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Cloud compute & GPUs",
+  "description": "Open-source system for deploying, scaling and managing containerised applications.",
+  "image": {
+   "kind": "cover",
+   "file": "f3a52c0d250f6037.webp"
+  }
+ },
+ {
+  "url": "https://compl-ai.org/",
+  "title": "COMPL-AI",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "LLM evaluation & leaderboards",
+  "description": "Compliance-centred evaluation framework that maps EU AI Act requirements to technical benchmarks for generative models.",
+  "image": {
+   "kind": "cover",
+   "file": "4e5aa812a87f972c.webp"
+  }
+ },
+ {
+  "url": "https://circleci.com/blog/mlops-trigger-inbound-webhooks/",
+  "title": "Optimize your MLOps pipelines with inbound webhooks - CircleCI",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Privacy, data & MLOps",
+  "description": "Using CircleCI inbound webhooks to trigger MLOps pipelines from model-registry or dataset changes.",
+  "image": {
+   "kind": "cover",
+   "file": "e3b9c6afd8dfebe6.webp"
+  }
+ },
+ {
+  "url": "https://www.deeplearning.ai/courses/automated-testing-llmops",
+  "title": "Automated Testing for LLMOps - DeepLearning.AI",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs",
+  "description": "Short course on building CI pipelines that automatically evaluate LLM applications with rule-based and model-graded tests.",
+  "image": {
+   "kind": "cover",
+   "file": "cbec9d91d35a8d4f.webp"
+  }
+ },
+ {
+  "url": "https://www2.circleci.com/cicd-ai-enabled-apps",
+  "title": "Join Our Newsletter!",
+  "topic": "LLMs for me",
+  "subsection": "MLOps / DataOps /DevOps",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://blog.apify.com/langchain-alternatives/",
+  "title": "12 LangChain alternatives",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "Roundup of 12 alternatives to LangChain for building LLM apps and agents, with pros and cons.",
+  "image": {
+   "kind": "cover",
+   "file": "34005589b486c36f.webp"
+  }
+ },
+ {
+  "url": "https://www.e2enetworks.com/blog/top-5-open-source-langchain-alternatives-to-use-in-2024",
+  "title": "Top 5 Open-Source LangChain Alternatives to Use in 2024",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "Five open-source LangChain alternatives with step-by-step implementation examples.",
+  "image": {
+   "kind": "cover",
+   "file": "2eaa8cfa45ba0535.webp"
+  }
+ },
+ {
+  "url": "https://denser.ai/blog/langchain-alternatives/",
+  "title": "5 Best LangChain Alternatives in 2025 (Complete Review)",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "Review comparing simpler, customisable LangChain alternatives for building chatbots and RAG apps.",
+  "image": {
+   "kind": "cover",
+   "file": "5d18ebaf44bbe814.webp"
+  }
+ },
+ {
+  "url": "https://blog.n8n.io/langchain-alternatives/",
+  "title": "Top 15 LangChain alternatives for AI development in 2024",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "n8n's comparison of 15 LangChain alternatives for production AI apps, from low-code builders to code frameworks.",
+  "image": {
+   "kind": "cover",
+   "file": "20b19f8b9d07e49e.webp"
+  }
+ },
+ {
+  "url": "https://www.ibm.com/think/insights/agentic-ai",
+  "title": "Agentic AI: 4 reasons why it’s the next big thing in AI research",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "IBM's take on why agentic AI is a major research direction and how agents differ from plain LLMs.",
+  "image": {
+   "kind": "cover",
+   "file": "4dcab43012f4aa8e.webp"
+  }
+ },
+ {
+  "url": "https://docs.trychroma.com/docs/overview/getting-started",
+  "title": "Chroma Docs — Getting Started",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Vector databases & retrieval",
+  "description": "Getting-started guide for Chroma, the open-source embedding database for retrieval and RAG.",
+  "image": {
+   "kind": "cover",
+   "file": "df5ebc3fbff71758.webp"
+  }
+ },
+ {
+  "url": "https://github.com/warpdotdev/warp",
+  "title": "warpdotdev/warp: Warp is an agentic development environment, born out of the terminal.",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Productivity",
+  "description": "Warp, an agentic development environment built from a modern terminal.",
+  "image": {
+   "kind": "cover",
+   "file": "95ae361f3deba13e.webp"
+  }
+ },
+ {
+  "url": "https://github.com/Chainlit/chainlit",
+  "title": "Chainlit/chainlit: Build Conversational AI in minutes ⚡️",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Web apps & UI",
+  "description": "Python framework for quickly building chat UIs for LLM apps and agents.",
+  "image": {
+   "kind": "cover",
+   "file": "278fe81d3d4501d7.webp"
+  }
+ },
+ {
+  "url": "https://github.com/google/langextract",
+  "title": "google/langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents",
+  "description": "Google's library for extracting structured information from text with LLMs, with precise source grounding and visualisation.",
+  "image": {
+   "kind": "cover",
+   "file": "3bc32fdc778d8c27.webp"
+  }
+ },
+ {
+  "url": "https://microsoft.github.io/agent-lightning/stable/",
+  "title": "Agent Lightning",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents",
+  "description": "Microsoft framework for training any AI agent with reinforcement learning, with almost no code changes.",
+  "image": {
+   "kind": "icon",
+   "file": "926b380fbc64c4cd.webp"
+  }
+ },
+ {
+  "url": "https://github.com/sarwarbeing-ai/Agentic_Design_Patterns/blob/main/Agentic_Design_Patterns.pdf",
+  "title": "Agentic Design Patterns (PDF)",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "pdf",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=fqvbxkgU6vE",
+  "title": "Choosing the Right Multi-Agent Architecture",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs",
+  "description": "When you actually need a multi-agent system, and how to pick between common multi-agent architectures.",
+  "image": {
+   "kind": "cover",
+   "file": "d11e30b11b5e7828.webp"
+  }
+ },
+ {
+  "url": "https://huggingface.co/blog/zilliz/zilliz-semantic-highlight-model",
+  "title": "How We Built a Semantic Highlight Model To Save Token Cost for RAG",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "How Zilliz built a semantic-highlight model that trims retrieved context to cut RAG token cost.",
+  "image": {
+   "kind": "cover",
+   "file": "3fd6cabbeaa2d174.webp"
+  }
+ },
+ {
+  "url": "https://www.liquid.ai/blog/lfm2-5-1-2b-thinking-on-device-reasoning-under-1gb",
+  "title": "LFM2.5-1.2B-Thinking: On-Device Reasoning Under 1GB",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models",
+  "description": "LFM2.5-1.2B-Thinking, a reasoning model that runs fully on-device in under 1 GB of memory.",
+  "image": {
+   "kind": "cover",
+   "file": "23be72bc4f85177f.webp"
+  }
+ },
+ {
+  "url": "https://github.com/Lightning-AI/litgpt",
+  "title": "Lightning-AI/litgpt: 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents",
+  "description": "20+ high-performance LLM implementations with recipes to pretrain, fine-tune and deploy at scale.",
+  "image": {
+   "kind": "cover",
+   "file": "fb55fdfdc6a341e4.webp"
+  }
+ },
+ {
+  "url": "https://weaviate.io/blog/what-is-agentic-rag",
+  "title": "What Is Agentic RAG? From LLM RAG to AI Agents",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "Explains agentic RAG: agents that plan, use tools and validate across multi-step retrieval.",
+  "image": {
+   "kind": "cover",
+   "file": "86d58e637e5763cb.webp"
+  }
+ },
+ {
+  "url": "https://github.com/huggingface/smolagents",
+  "title": "huggingface/smolagents: 🤗 smolagents: a barebones library for agents that think in code.",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents",
+  "description": "Hugging Face's minimal library for agents that write and run code as their actions.",
+  "image": {
+   "kind": "cover",
+   "file": "04163b208f371d47.webp"
+  }
+ },
+ {
+  "url": "https://allenai.org/tulu",
+  "title": "Tülu",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models",
+  "description": "Ai2's fully open post-training recipe and instruction-tuned models, with data, code and evaluations.",
+  "image": {
+   "kind": "cover",
+   "file": "3ec96f77d5fc4139.webp"
+  }
+ },
+ {
+  "url": "https://github.com/ollama/ollama",
+  "title": "ollama/ollama: Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Model deployment",
+  "description": "Run open LLMs such as Llama, Qwen, Gemma and DeepSeek locally with a single command and a local API.",
+  "image": {
+   "kind": "cover",
+   "file": "6af93ea43beb7b95.webp"
+  }
+ },
+ {
+  "url": "https://www.mlflow.org/docs/latest/llms/langchain/notebooks/langchain-retriever.html",
+  "title": "MLflow LangChain Retriever tutorial",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs",
+  "description": "Notebook on logging, loading and serving a LangChain retriever with MLflow.",
+  "image": {
+   "kind": "icon",
+   "file": "9f9e94479ac0431d.webp"
+  }
+ },
+ {
+  "url": "https://python.langchain.com/docs/tutorials/rag/",
+  "title": "LangChain RAG tutorial",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs",
+  "description": "LangChain's tutorial for building a retrieval-augmented question-answering app over your own documents.",
+  "image": {
+   "kind": "icon",
+   "file": "adff4c4a09eb68ca.webp"
+  }
+ },
+ {
+  "url": "https://pypi.org/project/llama-index/",
+  "title": "llama-index (PyPI)",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents",
+  "description": "PyPI package for LlamaIndex, the framework connecting LLMs to your data for RAG and agents.",
+  "image": {
+   "kind": "cover",
+   "file": "fe3896744605f9fe.webp"
+  }
+ },
+ {
+  "url": "https://github.com/geekan/MetaGPT",
+  "title": "FoundationAgents/MetaGPT: 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents",
+  "description": "Multi-agent framework that assigns software-company roles (PM, architect, engineer) to LLM agents.",
+  "image": {
+   "kind": "cover",
+   "file": "38aa1bfe3c945e28.webp"
+  }
+ },
+ {
+  "url": "https://github.com/openai/swarm",
+  "title": "openai/swarm: Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents",
+  "description": "OpenAI's educational framework for lightweight multi-agent orchestration with handoffs.",
+  "image": {
+   "kind": "cover",
+   "file": "6d1a298b79160521.webp"
+  }
+ },
+ {
+  "url": "https://github.com/FlowiseAI/Flowise",
+  "title": "FlowiseAI/Flowise: Build AI Agents, Visually",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps",
+  "description": "Open-source drag-and-drop builder for LLM agents and RAG workflows.",
+  "image": {
+   "kind": "cover",
+   "file": "03d820d32d981506.webp"
+  }
+ },
+ {
+  "url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "title": "Significant-Gravitas/AutoGPT: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps",
+  "description": "Platform for building, deploying and running autonomous AI agents.",
+  "image": {
+   "kind": "cover",
+   "file": "991cb8c748347ed2.webp"
+  }
+ },
+ {
+  "url": "https://github.com/deepset-ai/haystack",
+  "title": "deepset-ai/haystack: Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents",
+  "description": "Open-source orchestration framework for production RAG pipelines and LLM agents.",
+  "image": {
+   "kind": "cover",
+   "file": "4d49979d8c8f4445.webp"
+  }
+ },
+ {
+  "url": "https://docs.llamaindex.ai/en/latest/",
+  "title": "LlamaIndex documentation",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents",
+  "description": "Docs for LlamaIndex, the framework for building LLM agents and RAG over your own documents.",
+  "image": {
+   "kind": "cover",
+   "file": "a9bebd0087317ae3.webp"
+  }
+ },
+ {
+  "url": "https://crewai.com/open-source",
+  "title": "CrewAI",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents",
+  "description": "Open-source Python framework for orchestrating role-playing, collaborating AI agent crews.",
+  "image": {
+   "kind": "cover",
+   "file": "3a381fdfbbd6b7f9.webp"
+  }
+ },
+ {
+  "url": "https://github.com/mshumer/OpenDeepResearcher",
+  "title": "mshumer/OpenDeepResearcher",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Agents",
+  "description": "Open-source deep-research agent that iteratively searches, reads and summarises the web into a report.",
+  "image": {
+   "kind": "cover",
+   "file": "dae45a78c1586f02.webp"
+  }
+ },
+ {
+  "url": "https://modelcontextprotocol.io/",
+  "title": "Model Context Protocol",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Prompt engineering",
+  "description": "Docs for MCP, the open protocol for connecting LLM apps to external tools and data sources.",
+  "image": {
+   "kind": "icon",
+   "file": "6b32292c416658ee.webp"
+  }
+ },
+ {
+  "url": "https://github.com/bRAGAI/bRAG-langchain/",
+  "title": "bragai/bRAG-langchain: Everything you need to know to build your own RAG application",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs",
+  "description": "Notebook series covering everything needed to build your own RAG application, from basics to advanced retrieval.",
+  "image": {
+   "kind": "cover",
+   "file": "2e530d969b93d449.webp"
+  }
+ },
+ {
+  "url": "https://github.com/n8n-io/n8n",
+  "title": "n8n-io/n8n: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps",
+  "description": "Fair-code workflow automation platform with native AI agents, combining visual building and custom code.",
+  "image": {
+   "kind": "cover",
+   "file": "f791d596ac0483f5.webp"
+  }
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=HdafI0t3sEY",
+  "title": "RAG vs. CAG: Solving Knowledge Gaps in AI Models",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs",
+  "description": "IBM explainer comparing retrieval-augmented generation (RAG) with cache-augmented generation (CAG).",
+  "image": {
+   "kind": "cover",
+   "file": "6a8cf4858027f09c.webp"
+  }
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=gl1r1XV0SLw",
+  "title": "What is a Vector Database? Powering Semantic Search & AI Applications",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs",
+  "description": "IBM explainer on vector databases and how embeddings power semantic search and RAG.",
+  "image": {
+   "kind": "cover",
+   "file": "667d3ebdfe7aa3d3.webp"
+  }
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=r0Dciuq0knU",
+  "title": "Top 3 RAG Retrieval Strategies: Sparse, Dense, & Hybrid Explained",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs",
+  "description": "Sparse, dense and hybrid retrieval strategies for RAG explained.",
+  "image": {
+   "kind": "cover",
+   "file": "750a2bf9897ac52f.webp"
+  }
+ },
+ {
+  "url": "https://github.com/ggml-org/llama.cpp",
+  "title": "ggml-org/llama.cpp: LLM inference in C/C++",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Model deployment",
+  "description": "LLM inference in C/C++ with quantisation, running efficiently on CPUs, Apple Silicon and GPUs.",
+  "image": {
+   "kind": "cover",
+   "file": "7d8321c30b48b6e4.webp"
+  }
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=F2jd5WuT-zg",
+  "title": "Steering LLM Behavior Without Fine-Tuning",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs",
+  "description": "Steering an LLM's behaviour or personality at inference time with activation steering, no fine-tuning.",
+  "image": {
+   "kind": "cover",
+   "file": "0877c8054f83fcb5.webp"
+  }
+ },
+ {
+  "url": "https://www.langflow.org/",
+  "title": "Langflow | Low-code AI builder for agentic and RAG applications",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps",
+  "description": "Low-code visual builder for agentic and RAG applications, extensible in Python.",
+  "image": {
+   "kind": "cover",
+   "file": "1caa10a634ae676a.webp"
+  }
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=HbZD0XoN5fc",
+  "title": "What are State Space Models? Redefining AI & Machine Learning with Data",
+  "topic": "LLMs for me",
+  "subsection": "Agent building tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs",
+  "description": "IBM explainer on state space models (Mamba and friends) as an alternative to transformers.",
+  "image": {
+   "kind": "cover",
+   "file": "704b9ce8902eb84b.webp"
+  }
+ },
+ {
+  "url": "https://github.com/facebookresearch/drzero",
+  "title": "facebookresearch/drzero: Dr. Zero Self-Evolving Search Agents without Training Data",
+  "topic": "LLMs for me",
+  "subsection": "RAGs: Corrective RAG, Self-RAG, Adaptive RAG",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Agents",
+  "description": "Meta's Dr. Zero: self-evolving search agents trained without human-labelled data.",
+  "image": {
+   "kind": "cover",
+   "file": "b29b99e3439fecc3.webp"
+  }
+ },
+ {
+  "url": "https://github.com/docling-project/docling",
+  "title": "docling-project/docling: Get your documents ready for gen AI",
+  "topic": "LLMs for me",
+  "subsection": "RAGs: Corrective RAG, Self-RAG, Adaptive RAG",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Data processing & tabular ML",
+  "description": "Converts PDFs, Office files and more into structured Markdown/JSON ready for RAG and gen AI.",
+  "image": {
+   "kind": "cover",
+   "file": "9f316614a1ca908e.webp"
+  }
+ },
+ {
+  "url": "https://www.trychroma.com/",
+  "title": "Chroma",
+  "topic": "LLMs for me",
+  "subsection": "RAGs: Corrective RAG, Self-RAG, Adaptive RAG",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Vector databases & retrieval",
+  "description": "Open-source embedding database and search infrastructure for AI apps and RAG.",
+  "image": {
+   "kind": "cover",
+   "file": "12e6a8d67566f5b5.webp"
+  }
+ },
+ {
+  "url": "https://thebluescrubs.ai/",
+  "title": "BlueScrubs",
+  "topic": "LLMs for me",
+  "subsection": "Medical LLMs/VLMs/MLLMs",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Medical AI models",
+  "description": "Medical LLM project and dataset for clinical text understanding.",
+  "image": null
+ },
+ {
+  "url": "https://research.google/blog/amie-a-research-ai-system-for-diagnostic-medical-reasoning-and-conversations/",
+  "title": "AMIE: A research AI system for diagnostic medical reasoning and conversations",
+  "topic": "LLMs for me",
+  "subsection": "Medical LLMs/VLMs/MLLMs",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "Google's AMIE, an LLM research system optimised for diagnostic reasoning and doctor-patient conversations.",
+  "image": {
+   "kind": "cover",
+   "file": "5935c32224749d42.webp"
+  }
+ },
+ {
+  "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/healthcare-ai/healthcare-ai-models",
+  "title": "Healthcare AI foundation models (classic) - Microsoft Foundry (classic) portal",
+  "topic": "LLMs for me",
+  "subsection": "Medical LLMs/VLMs/MLLMs",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Medical AI models",
+  "description": "Microsoft's catalogue of healthcare foundation models for medical imaging, genomics and clinical data.",
+  "image": {
+   "kind": "cover",
+   "file": "dbe206fb183275d8.webp"
+  }
+ },
+ {
+  "url": "https://www.nature.com/articles/s41591-024-03425-5",
+  "title": "The TRIPOD-LLM reporting guideline for studies using large language models - Nature Medicine",
+  "topic": "LLMs for me",
+  "subsection": "Medical LLMs/VLMs/MLLMs",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Research & reviewing",
+  "description": "TRIPOD-LLM: reporting guideline for studies that develop or evaluate LLMs in healthcare.",
+  "image": {
+   "kind": "cover",
+   "file": "8214714b9f6d5416.webp"
+  }
+ },
+ {
+  "url": "https://www.microsoft.com/en-us/health-solutions/clinical-workflow/dragon-copilot",
+  "title": "Microsoft Dragon Copilot | Microsoft for Healthcare",
+  "topic": "LLMs for me",
+  "subsection": "Medical LLMs/VLMs/MLLMs",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps",
+  "description": "Microsoft's AI clinical assistant for ambient note-taking, documentation and workflow automation.",
+  "image": {
+   "kind": "icon",
+   "file": "d0b90cf97b86976c.webp"
+  }
+ },
+ {
+  "url": "https://huggingface.co/nvidia/nemotron-3-8b-base-4k",
+  "title": "nvidia/nemotron-3-8b-base-4k",
+  "topic": "LLMs for me",
+  "subsection": "Medical LLMs/VLMs/MLLMs",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models",
+  "description": "NVIDIA's Nemotron-3 8B base foundation model with a 4k context, for enterprise fine-tuning.",
+  "image": {
+   "kind": "cover",
+   "file": "0d6a30315f3475b4.webp"
+  }
+ },
+ {
+  "url": "https://genmilab.github.io/MedMO-Page/",
+  "title": "MedMO: Medical Foundation Model",
+  "topic": "LLMs for me",
+  "subsection": "Medical LLMs/VLMs/MLLMs",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Medical AI models",
+  "description": "MedMO, a multimodal medical foundation model for understanding and grounding across imaging modalities.",
+  "image": {
+   "kind": "icon",
+   "file": "00335e086354af10.webp"
+  }
+ },
+ {
+  "url": "https://medium.com/technology-hits/autogpt-langchain-deep-lake-metagpt-a-revolutionary-framework-for-building-advanced-ai-e2c579d86494",
+  "title": "AutoGPT + LangChain + Deep Lake + MetaGPT",
+  "topic": "LLMs for me",
+  "subsection": "Blogpost / Videos",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "Blog post on combining AutoGPT, LangChain, Deep Lake and MetaGPT to build advanced AI agents.",
+  "image": {
+   "kind": "icon",
+   "file": "031562a87ccc13ca.webp"
+  }
+ },
+ {
+  "url": "https://hkust-nlp.notion.site/simplerl-reason",
+  "title": "SimpleRL-Reason",
+  "topic": "LLMs for me",
+  "subsection": "Blogpost / Videos",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "HKUST's write-up reproducing DeepSeek-R1-style reasoning in small models with simple RL on limited data.",
+  "image": {
+   "kind": "cover",
+   "file": "ce5a1f75122b43fe.webp"
+  }
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=N_RLQ56d3Z4",
+  "title": "What is Superalignment?",
+  "topic": "LLMs for me",
+  "subsection": "Blogpost / Videos",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs",
+  "description": "IBM explainer on superalignment: keeping AI systems smarter than humans aligned with human values.",
+  "image": {
+   "kind": "cover",
+   "file": "e1fb5f2ed57b4a3f.webp"
+  }
+ },
+ {
+  "url": "https://arxiv.org/abs/2412.06484",
+  "title": "Small Languages, Big Models: A Study of Continual Training on Languages of Norway",
+  "topic": "LLMs for me",
+  "subsection": "Norwegian LLMs and TTS models",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://huggingface.co/canopylabs/orpheus-3b-0.1-ft",
+  "title": "canopylabs/orpheus-3b-0.1-ft",
+  "topic": "LLMs for me",
+  "subsection": "Norwegian LLMs and TTS models",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Speech & audio",
+  "description": "Orpheus, an LLM-based text-to-speech model producing natural, emotive speech.",
+  "image": {
+   "kind": "cover",
+   "file": "3cf17bf0f655293b.webp"
+  }
+ },
+ {
+  "url": "https://github.com/explodinggradients/ragas",
+  "title": "vibrantlabsai/ragas: Supercharge Your LLM Application Evaluations 🚀",
+  "topic": "LLMs for me",
+  "subsection": "Evaluation of LLMs",
+  "kind": "bookmark",
+  "note": "",
+  "category": "eval",
+  "subcategory": "LLM evaluation & leaderboards",
+  "description": "Library for evaluating RAG and LLM applications with metrics such as faithfulness and answer relevance.",
+  "image": {
+   "kind": "cover",
+   "file": "55bdc77bee053328.webp"
+  }
+ },
+ {
+  "url": "https://github.com/hrithikkoduri/WebRover",
+  "title": "hrithikkoduri/WebRover: WebRover is an autonomous AI agent designed to interpret user input and execute actions by interacting with web elements to accomplish tasks or answer questions. It leverages advanced language models and web automation tools to navigate the web, gather information, and provide structured responses based on the user's needs.",
+  "topic": "LLMs for me",
+  "subsection": "Evaluation of LLMs",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Agents",
+  "description": "Autonomous web agent that interprets user requests and acts by interacting with web pages.",
+  "image": {
+   "kind": "cover",
+   "file": "41e8e5835da6a299.webp"
+  }
+ },
+ {
+  "url": "https://arxiv.org/html/2502.17424v2",
+  "title": "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs1 This paper contains model-generated content that might be offensive. 1",
+  "topic": "LLMs for me",
+  "subsection": "Evaluation of LLMs",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://arxiv.org/abs/2402.12593",
+  "title": "Standardize: Aligning Language Models with Expert-Defined Standards for Content Generation",
+  "topic": "LLMs for me",
+  "subsection": "Evaluation of LLMs",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://github.com/pgvector/pgvector",
+  "title": "pgvector/pgvector: Open-source vector similarity search for Postgres",
+  "topic": "LLMs for me",
+  "subsection": "Vector database",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Vector databases & retrieval",
+  "description": "Open-source vector similarity search extension for PostgreSQL.",
+  "image": {
+   "kind": "cover",
+   "file": "a864423356e181b5.webp"
+  }
+ },
+ {
+  "url": "https://arxiv.org/abs/2502.21321",
+  "title": "LLM Post-Training: A Deep Dive into Reasoning Large Language Models",
+  "topic": "LLMs for me",
+  "subsection": "Vector database",
+  "kind": "bookmark",
+  "note": "",
+  "category": "survey",
+  "subcategory": "Foundation models & LLMs",
+  "description": "Survey of LLM post-training — fine-tuning, RL and test-time scaling — for reasoning models.",
+  "image": {
+   "kind": "cover",
+   "file": "a8f6805ff70f7f29.webp"
+  }
+ },
+ {
+  "url": "https://www.perplexity.ai/",
+  "title": "Perplexity",
+  "topic": "LLMs for me",
+  "subsection": "Tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps",
+  "description": "AI answer engine that searches the web and answers with cited sources.",
+  "image": {
+   "kind": "cover",
+   "file": "73ffeaa458e6d991.webp"
+  }
+ },
+ {
+  "url": "https://chatgpt.com/",
+  "title": "ChatGPT",
+  "topic": "LLMs for me",
+  "subsection": "Tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps",
+  "description": "OpenAI's general-purpose AI assistant.",
+  "image": {
+   "kind": "icon",
+   "file": "8e5f728a9828d1b4.webp"
+  }
+ },
+ {
+  "url": "https://chatgpt.com/g/g-L2HknCZTC-scholar-ai",
+  "title": "ScholarAI (GPT)",
+  "topic": "LLMs for me",
+  "subsection": "Tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing",
+  "description": "Custom GPT that searches and reads scientific papers and patents to answer research questions.",
+  "image": {
+   "kind": "icon",
+   "file": "89119c2e1d315562.webp"
+  }
+ },
+ {
+  "url": "https://agentscope.io/",
+  "title": "AgentScope",
+  "topic": "LLMs for me",
+  "subsection": "Tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "LLMs, NLP & agents",
+  "description": "Alibaba's developer-centric framework for building and running multi-agent LLM applications.",
+  "image": {
+   "kind": "icon",
+   "file": "3ef2cbcd392b183f.webp"
+  }
+ },
+ {
+  "url": "https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt",
+  "title": "Scholar GPT",
+  "topic": "LLMs for me",
+  "subsection": "TODO literature review",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing",
+  "description": "Custom GPT for research with access to Google Scholar, PubMed, arXiv and more.",
+  "image": {
+   "kind": "icon",
+   "file": "d6f33e28a8a24f7a.webp"
+  }
+ },
+ {
+  "url": "https://chatgpt.com/g/g-bo0FiWLY7-consensus",
+  "title": "Consensus (GPT)",
+  "topic": "LLMs for me",
+  "subsection": "TODO literature review",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing",
+  "description": "Custom GPT that answers questions with evidence and citations from peer-reviewed papers.",
+  "image": {
+   "kind": "icon",
+   "file": "3c09f1bf8d3fde3c.webp"
+  }
+ },
+ {
+  "url": "https://chatgpt.com/g/g-NgAcklHd8-scispace",
+  "title": "SciSpace (GPT)",
+  "topic": "LLMs for me",
+  "subsection": "TODO literature review",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing",
+  "description": "Custom GPT for searching, reading and summarising research papers.",
+  "image": {
+   "kind": "icon",
+   "file": "b685f537c11148a4.webp"
+  }
+ },
+ {
+  "url": "https://scholarai.io/developers",
+  "title": "ScholarAI - AI Powered Research Assistant",
+  "topic": "LLMs for me",
+  "subsection": "TODO literature review",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing",
+  "description": "ScholarAI Research API for building tools over 200M+ papers and patents.",
+  "image": {
+   "kind": "cover",
+   "file": "ffd996ec2423a05d.webp"
+  }
+ },
+ {
+  "url": "https://consensus.app/",
+  "title": "Consensus",
+  "topic": "LLMs for me",
+  "subsection": "TODO literature review",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing",
+  "description": "AI academic search engine that finds and summarises evidence from peer-reviewed literature.",
+  "image": {
+   "kind": "cover",
+   "file": "6e945a17a1817e15.webp"
+  }
+ },
+ {
+  "url": "https://scite.ai/",
+  "title": "Scite",
+  "topic": "LLMs for me",
+  "subsection": "TODO literature review",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing",
+  "description": "Searches scholarly articles and shows whether citations support or contradict each claim.",
+  "image": {
+   "kind": "cover",
+   "file": "b15ededce92c68f8.webp"
+  }
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=BvCOZrqGyNU",
+  "title": "DIY AI Infrastructure: Build Your Own Privacy-Preserving AI at Home",
+  "topic": "LLMs for me",
+  "subsection": "TODO literature review",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Transformers & LLMs",
+  "description": "IBM walkthrough of building a privacy-preserving local AI setup at home.",
+  "image": {
+   "kind": "cover",
+   "file": "db5e835c622bd5e4.webp"
+  }
+ },
+ {
+  "url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook?section=data_parallelism",
+  "title": "The Ultra-Scale Playbook",
+  "topic": "LLMs for me",
+  "subsection": "Training",
+  "kind": "bookmark",
+  "note": "",
+  "category": "guide",
+  "subcategory": "Books",
+  "description": "Hugging Face's in-depth guide to training LLMs on large GPU clusters: data, tensor, pipeline and context parallelism.",
+  "image": {
+   "kind": "cover",
+   "file": "f372a5857e02562a.webp"
+  }
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=qB4HGMvrhwE",
+  "title": "2024 Twelve Best FREE AI tools for Academic Research and Researchers",
+  "topic": "LLMs for me",
+  "subsection": "Other cool tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "video",
+  "subcategory": "Other topics",
+  "description": "Tour of twelve free AI tools for academic research and literature review.",
+  "image": {
+   "kind": "cover",
+   "file": "7c7308c038474e87.webp"
+  }
+ },
+ {
+  "url": "https://www.heuristi.ca/",
+  "title": "Heuristica",
+  "topic": "LLMs for me",
+  "subsection": "Other cool tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing",
+  "description": "Learning platform that builds concept maps, flashcards and summaries from papers and videos with AI.",
+  "image": {
+   "kind": "cover",
+   "file": "aed95eba1e5f9e07.webp"
+  }
+ },
+ {
+  "url": "https://www.openread.academy/",
+  "title": "OpenRead",
+  "topic": "LLMs for me",
+  "subsection": "Other cool tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing",
+  "description": "AI research platform for searching, reading and taking notes on scientific papers.",
+  "image": {
+   "kind": "icon",
+   "file": "a087f9162c86cc91.webp"
+  }
+ },
+ {
+  "url": "https://www.explainpaper.com/",
+  "title": "Explainpaper",
+  "topic": "LLMs for me",
+  "subsection": "Other cool tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing",
+  "description": "Upload a paper and highlight confusing text to get plain-language explanations.",
+  "image": {
+   "kind": "icon",
+   "file": "2708c8ae326babb5.webp"
+  }
+ },
+ {
+  "url": "https://www.paperbrain.org/",
+  "title": "PaperBrain",
+  "topic": "LLMs for me",
+  "subsection": "Other cool tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "Literature review & writing",
+  "description": "Tool for exploring and summarising research papers.",
+  "image": {
+   "kind": "icon",
+   "file": "eb66d62c3b7e7cce.webp"
+  }
+ },
+ {
+  "url": "https://getnextnet.com/",
+  "title": "Nextnet",
+  "topic": "LLMs for me",
+  "subsection": "Other cool tools",
+  "kind": "bookmark",
+  "note": "",
+  "category": "tool",
+  "subcategory": "AI platforms & apps",
+  "description": "Platform that anchors LLM outputs to a deterministic ontology for reliable, cost-controlled operations.",
+  "image": {
+   "kind": "icon",
+   "file": "0881fef16bb5513c.webp"
+  }
+ },
+ {
+  "url": "https://arxiv.org/pdf/2410.16540",
+  "title": "https://arxiv.org/pdf/2410.16540",
+  "topic": "LLMs for me",
+  "subsection": "Random",
+  "kind": "bookmark",
+  "note": "",
+  "category": "pdf",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://github.com/Oxen-AI/GRPO-With-Cargo-Feedback",
+  "title": "Oxen-AI/GRPO-With-Cargo-Feedback: This repository has code for fine-tuning LLMs with GRPO specifically for Rust Programming using cargo as feedback",
+  "topic": "LLMs for me",
+  "subsection": "Random",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs",
+  "description": "Code for fine-tuning an LLM with GRPO for Rust, using cargo build/test results as the reward.",
+  "image": {
+   "kind": "cover",
+   "file": "954d43877ba3a427.webp"
+  }
+ },
+ {
+  "url": "https://arxiv.org/pdf/2406.00515",
+  "title": "https://arxiv.org/pdf/2406.00515",
+  "topic": "LLMs for me",
+  "subsection": "LLMs for code generations",
+  "kind": "bookmark",
+  "note": "",
+  "category": "pdf",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://blogs.nvidia.com/blog/what-is-agentic-ai/",
+  "title": "What are AI Agents?",
+  "topic": "LLMs for me",
+  "subsection": "RAG",
+  "kind": "bookmark",
+  "note": "",
+  "category": "article",
+  "subcategory": "Transformers & LLMs",
+  "description": "NVIDIA's explainer on agentic AI: how agents perceive, reason, act and learn.",
+  "image": {
+   "kind": "cover",
+   "file": "53480ce6139a6d52.webp"
+  }
+ },
+ {
+  "url": "https://github.com/facebookresearch/faiss",
+  "title": "facebookresearch/faiss: A library for efficient similarity search and clustering of dense vectors.",
+  "topic": "LLMs for me",
+  "subsection": "RAG",
+  "kind": "bookmark",
+  "note": "",
+  "category": "library",
+  "subcategory": "Vector databases & retrieval",
+  "description": "Meta's library for efficient similarity search and clustering of dense vectors.",
+  "image": {
+   "kind": "cover",
+   "file": "78241b72404d6577.webp"
+  }
+ },
+ {
+  "url": "https://arxiv.org/abs/2501.12599",
+  "title": "Kimi k1.5: Scaling Reinforcement Learning with LLMs",
+  "topic": "LLMs for me",
+  "subsection": "LLM Training",
+  "kind": "bookmark",
+  "note": "",
+  "category": "paper",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://www.philschmid.de/mini-deepseek-r1",
+  "title": "Mini-R1: Reproduce Deepseek R1 „aha moment“ a RL tutorial",
+  "topic": "LLMs for me",
+  "subsection": "Tutorials",
+  "kind": "bookmark",
+  "note": "",
+  "category": "course",
+  "subcategory": "Transformers & LLMs",
+  "description": "Tutorial reproducing DeepSeek-R1's 'aha moment' by training an open model with GRPO reinforcement learning.",
+  "image": {
+   "kind": "cover",
+   "file": "d9939788bcdd1119.webp"
+  }
+ },
+ {
+  "url": "https://molmo.allenai.org/share/aa8506f6-5ddf-4b8a-b68e-1e212df9590e",
+  "title": "Molmo shared chat",
+  "topic": "LLMs for me",
+  "subsection": "Multimodal LLM",
+  "kind": "bookmark",
+  "note": "",
+  "category": "other",
+  "subcategory": null,
+  "description": ""
+ },
+ {
+  "url": "https://huggingface.co/collections/allenai/pixmo-674746ea613028006285687b",
+  "title": "PixMo - a allenai Collection",
+  "topic": "LLMs for me",
+  "subsection": "Multimodal LLM",
+  "kind": "bookmark",
+  "note": "",
+  "category": "data",
+  "subcategory": "Data repositories",
+  "description": "Ai2's PixMo vision-language datasets used to train the Molmo models.",
+  "image": {
+   "kind": "cover",
+   "file": "933d9297d2271ab1.webp"
+  }
+ },
+ {
+  "url": "https://openalex.org/",
+  "title": "OpenAlex: The open catalog to the global research system",
+  "topic": "LLMs for me",
+  "subsection": "To implement my own project for lit review tool",
+  "kind": "bookmark",
+  "note": "",
+  "category": "data",
+  "subcategory": "Data repositories",
+  "description": "Free, open catalogue of 250M+ scholarly works, authors and institutions, with an API.",
+  "image": {
+   "kind": "cover",
+   "file": "2d9782f95adac5af.webp"
+  }
+ },
+ {
+  "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+  "title": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+  "topic": "LLMs for me",
+  "subsection": "Some Usefull Models",
+  "kind": "bookmark",
+  "note": "",
+  "category": "model",
+  "subcategory": "Language models",
+  "description": "NVIDIA Nemotron-3 Super, a 120B mixture-of-experts model (12B active) in FP8.",
+  "image": {
+   "kind": "cover",
+   "file": "65e8c141452bb74f.webp"
+  }
  }
 ]
