@@ -78,6 +78,8 @@ CREATE TABLE links (
     domain      TEXT NOT NULL,
     title       TEXT,
     description TEXT,
+    image       TEXT,   -- file name under assets/img/resources/
+    image_kind  TEXT,   -- cover | icon
     category_id    INTEGER NOT NULL REFERENCES categories(id),
     subcategory_id INTEGER NOT NULL REFERENCES subcategories(id),
     topic_id       INTEGER NOT NULL REFERENCES topics(id),
@@ -90,7 +92,7 @@ CREATE INDEX links_topic    ON links(topic_id);
 CREATE INDEX links_domain   ON links(domain);
 CREATE VIEW reading_list AS
     SELECT l.id, c.name AS category, s.name AS subcategory, t.name AS topic,
-           l.subsection, l.title, l.description, l.url, l.domain, l.note
+           l.subsection, l.title, l.description, l.image, l.image_kind, l.url, l.domain, l.note
     FROM links l
     JOIN categories c    ON c.id = l.category_id
     JOIN subcategories s ON s.id = l.subcategory_id
@@ -134,14 +136,16 @@ def main() -> None:
         if name not in topic_ids:
             topic_ids[name] = db.execute("INSERT INTO topics(name) VALUES (?)", (name,)).lastrowid
         db.execute(
-            """INSERT INTO links(url, domain, title, description, category_id, subcategory_id,
-                                 topic_id, subsection, note)
-               VALUES (?,?,?,?,?,?,?,?,?)""",
+            """INSERT INTO links(url, domain, title, description, image, image_kind, category_id,
+                                 subcategory_id, topic_id, subsection, note)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
             (
                 r["url"],
                 urlparse(r["url"]).netloc.removeprefix("www."),
                 r.get("title") or None,
                 r.get("description") or None,
+                (r.get("image") or {}).get("file"),
+                (r.get("image") or {}).get("kind"),
                 cat_ids[r["category"]],
                 sub_ids[(r["category"], r["subcategory"])],
                 topic_ids[name],
