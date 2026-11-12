@@ -2,8 +2,8 @@
 """Build assets/data/reading_list.sqlite from scripts/reading_list/links.json.
 
 links.json is an export of the Notion "Reading List" page and its topic
-sub-pages. Each entry: url, title, topic, subsection, kind, note, category,
-subcategory. `category` is one of the keys in CATEGORIES below, or "paper" /
+sub-pages. Each entry: url, title, description, topic, subsection, kind, note,
+category, subcategory. `category` is one of the keys in CATEGORIES below, or "paper" /
 "news" / "other" / "pdf" for links kept in links.json but left out of the site.
 Only web pages are published: PDF links are always skipped.
 Re-run after editing links.json:
@@ -44,6 +44,15 @@ EXCLUDE_PREFIXES = (
     "https://docs.google.com/",
 )
 
+def norm(url: str) -> str:
+    """Key for spotting the same page linked twice (www., trailing slash, #fragment, ?tab=)."""
+    u = urlparse(url)
+    host = u.netloc.lower().removeprefix("www.")
+    path = re.sub(r"/(index\.html?)?$", "", u.path)
+    query = "&".join(q for q in u.query.split("&") if q and not q.startswith("tab="))
+    return f"{host}{path}?{query}"
+
+
 PDF = re.compile(r"\.e?pdf($|[?#])|arxiv\.org/(pdf|ftp)/", re.I)
 
 SCHEMA = """
@@ -68,6 +77,7 @@ CREATE TABLE links (
     url         TEXT NOT NULL,
     domain      TEXT NOT NULL,
     title       TEXT,
+    description TEXT,
     category_id    INTEGER NOT NULL REFERENCES categories(id),
     subcategory_id INTEGER NOT NULL REFERENCES subcategories(id),
     topic_id       INTEGER NOT NULL REFERENCES topics(id),
@@ -80,7 +90,7 @@ CREATE INDEX links_topic    ON links(topic_id);
 CREATE INDEX links_domain   ON links(domain);
 CREATE VIEW reading_list AS
     SELECT l.id, c.name AS category, s.name AS subcategory, t.name AS topic,
-           l.subsection, l.title, l.url, l.domain, l.note
+           l.subsection, l.title, l.description, l.url, l.domain, l.note
     FROM links l
     JOIN categories c    ON c.id = l.category_id
     JOIN subcategories s ON s.id = l.subcategory_id
@@ -90,10 +100,10 @@ CREATE VIEW reading_list AS
 
 def main() -> None:
     rows = json.loads(SRC.read_text(encoding="utf-8"))
-    seen: set[tuple[str, str]] = set()
+    seen: set[str] = set()
     kept = []
     for r in rows:
-        key = (r["url"], r["topic"])
+        key = norm(r["url"])
         if (r.get("category") in CATEGORIES and r.get("subcategory") and key not in seen
                 and not r["url"].startswith(EXCLUDE_PREFIXES) and not PDF.search(r["url"])):
             seen.add(key)
@@ -124,13 +134,14 @@ def main() -> None:
         if name not in topic_ids:
             topic_ids[name] = db.execute("INSERT INTO topics(name) VALUES (?)", (name,)).lastrowid
         db.execute(
-            """INSERT INTO links(url, domain, title, category_id, subcategory_id, topic_id,
-                                 subsection, note)
-               VALUES (?,?,?,?,?,?,?,?)""",
+            """INSERT INTO links(url, domain, title, description, category_id, subcategory_id,
+                                 topic_id, subsection, note)
+               VALUES (?,?,?,?,?,?,?,?,?)""",
             (
                 r["url"],
                 urlparse(r["url"]).netloc.removeprefix("www."),
                 r.get("title") or None,
+                r.get("description") or None,
                 cat_ids[r["category"]],
                 sub_ids[(r["category"], r["subcategory"])],
                 topic_ids[name],

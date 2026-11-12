@@ -43,7 +43,8 @@ permalink: /reading-list/
     background: var(--bg-card); overflow-wrap: anywhere; }
   .rl-item a.rl-link { color: var(--text-primary); font-weight: 600; text-decoration: none; }
   .rl-item a.rl-link:hover { color: var(--brand); text-decoration: underline; }
-  .rl-url { color: var(--text-muted); font-size: 0.8rem; margin-top: 0.15rem; }
+  .rl-desc { margin: 0.3rem 0 0; font-size: 0.9rem; line-height: 1.45; color: var(--text-primary); opacity: 0.85; }
+  .rl-url { color: var(--text-muted); font-size: 0.8rem; margin-top: 0.3rem; }
   .rl-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.4rem; font-size: 0.76rem; }
   .rl-tag { background: rgba(148,163,184,0.12); color: var(--text-muted); border-radius: 999px; padding: 0.1rem 0.6rem; }
   .rl-note { margin-top: 0.35rem; font-size: 0.86rem; color: var(--text-muted); font-style: italic; }
@@ -84,7 +85,7 @@ permalink: /reading-list/
     <button type="button" class="btn ghost rl-filter-toggle" id="rl-toggle" aria-expanded="false" aria-controls="rl-side-body">Show filters</button>
     <div class="rl-side-body" id="rl-side-body" data-open="false">
       <h2>Search</h2>
-      <input id="rl-q" type="search" placeholder="Title, URL, note…" aria-label="Search resources">
+      <input id="rl-q" type="search" placeholder="Title, description, URL…" aria-label="Search resources">
       <h2>Categories</h2>
       <ul class="rl-tree" id="rl-tree"></ul>
       <h2>Notion topic</h2>
@@ -105,7 +106,7 @@ permalink: /reading-list/
         <summary>Query with SQL</summary>
         <p class="text-muted" style="margin-top:0.6rem">Tables: <code>categories(id, key, name, description)</code>,
           <code>subcategories(id, category_id, name)</code>, <code>topics(id, name)</code>,
-          <code>links(id, url, domain, title, category_id, subcategory_id, topic_id, subsection, note)</code>,
+          <code>links(id, url, domain, title, description, category_id, subcategory_id, topic_id, subsection, note)</code>,
           and the view <code>reading_list</code> joining them.</p>
         <div class="rl-examples" id="rl-examples"></div>
         <textarea id="rl-sql" spellcheck="false" aria-label="SQL query">SELECT category, subcategory, COUNT(*) AS n FROM reading_list GROUP BY category, subcategory ORDER BY category, n DESC;</textarea>
@@ -137,7 +138,7 @@ permalink: /reading-list/
     return out;
   };
 
-  const BASE = `SELECT l.id, l.title, l.url, l.domain, l.note, l.subsection, l.category_id, l.subcategory_id,
+  const BASE = `SELECT l.id, l.title, l.description, l.url, l.domain, l.note, l.subsection, l.category_id, l.subcategory_id,
                        c.key AS cat_key, c.name AS category, c.description AS cat_desc, s.name AS subcategory, t.name AS topic
                 FROM links l JOIN categories c ON c.id = l.category_id
                 JOIN subcategories s ON s.id = l.subcategory_id JOIN topics t ON t.id = l.topic_id`;
@@ -147,8 +148,8 @@ permalink: /reading-list/
     const w = [], p = [];
     if (state.topic) { w.push('t.name = ?'); p.push(state.topic); }
     if (state.q) {
-      w.push('(l.title LIKE ? OR l.url LIKE ? OR l.note LIKE ? OR s.name LIKE ? OR c.name LIKE ? OR t.name LIKE ?)');
-      const like = `%${state.q}%`; p.push(like, like, like, like, like, like);
+      w.push('(l.title LIKE ? OR l.description LIKE ? OR l.url LIKE ? OR l.note LIKE ? OR s.name LIKE ? OR c.name LIKE ? OR t.name LIKE ?)');
+      const like = `%${state.q}%`; p.push(like, like, like, like, like, like, like);
     }
     return { w, p };
   }
@@ -201,6 +202,7 @@ permalink: /reading-list/
       }
       html += `<li class="rl-item">
         <a class="rl-link" href="${esc(safeHref(r.url))}" target="_blank" rel="noopener noreferrer">${esc(label(r))}</a>
+        ${r.description ? `<p class="rl-desc">${esc(r.description)}</p>` : ''}
         <div class="rl-url">${esc(r.domain)}</div>
         <div class="rl-tags"><span class="rl-tag">${esc(r.topic)}</span>${r.subsection ? `<span class="rl-tag">${esc(r.subsection)}</span>` : ''}</div>
         ${r.note ? `<div class="rl-note">${esc(r.note)}</div>` : ''}
