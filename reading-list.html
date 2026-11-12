@@ -121,7 +121,8 @@ permalink: /reading-list/
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
 <script>
 (() => {
-  const DB_URL = '{{ "/assets/data/reading_list.sqlite" | relative_url }}';
+  // Versioned per site build so a cached older database never meets newer page code.
+  const DB_URL = '{{ "/assets/data/reading_list.sqlite" | relative_url }}?v={{ site.time | date: "%s" }}';
   const PAGE = 80;
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
